@@ -1,0 +1,70 @@
+areaee = createMarkerLocal ["areaee", position nukestartpos]
+"areaee" setMarkerShapeLocal "ELLIPSE"
+"areaee" setMarkerSizeLocal [500, 500]
+"areaee" setMarkerColorLocal "ColorRed"
+
+_markerobj = createMarkerLocal ["natext", position nukestartpos]
+_markerobj setMarkerShapeLocal "ICON"
+_markerobj setMarkerTypeLocal "Destroy"
+_markerobj setMarkerColorLocal "ColorRed"
+_markerobj setMarkerTextLocal "Nuclear Radiation"
+
+
+
+_cnt = 0
+_ctm = 2
+#loop
+?(_cnt == 200) : goto "loopend"
+
+_array = radarea nearObjects ["Man", (250)]
+{_x setdammage ((getdammage _x) + 0.04)} forEach _array
+
+_array = radarea nearObjects ["Tank", (250)]
+{_x setdammage ((getdammage _x) + 0.03)} forEach _array
+
+_array = radarea nearObjects ["Air", (250)]
+{_x setdammage ((getdammage _x) + 0.04)} forEach _array
+
+_array = radarea nearObjects ["Ship", (250)]
+{_x setdammage ((getdammage _x) + 0.04)} forEach _array
+
+_array = radarea nearObjects ["Car", (250)]
+{_x setdammage ((getdammage _x) + 0.05)} forEach _array
+
+~0.1
+
+_array = radarea nearObjects ["Man", (500)]
+{_x setdammage ((getdammage _x) + 0.03)} forEach _array
+
+_array = radarea nearObjects ["Tank", (500)]
+{_x setdammage ((getdammage _x) + 0.01)} forEach _array
+
+_array = radarea nearObjects ["Air", (500)]
+{_x setdammage ((getdammage _x) + 0.02)} forEach _array
+
+_array = radarea nearObjects ["Ship", (500)]
+{_x setdammage ((getdammage _x) + 0.02)} forEach _array
+
+_array = radarea nearObjects ["Car", (500)]
+{_x setdammage ((getdammage _x) + 0.02)} forEach _array
+
+?(radarea distance player  < 250) : hintsilent parseText "<t color='#ff3300' size='2.0' shadow='1' shadowColor='#000000' align='center'>RADIATION ZONE</t>"; goto "playsound"
+
+#continue
+_cnt = _cnt + 1
+~ 1.0
+goto "loop"
+
+#playsound
+_ctm = _ctm + 1
+?(_ctm == 3) : _ctm = 0
+goto "continue"
+
+
+#loopend
+deletevehicle radarea
+deletemarker "areaee"
+deletemarkerlocal "natext"
+nuke = true
+"colorCorrections" ppEffectEnable FALSE;
+exit

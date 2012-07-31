@@ -1,0 +1,1836 @@
+LANGUAGE, English, German
+
+STRM_mission_name, "Sahrani-Life:Reloaded 2.07", "Sahrani-Life:Reloaded 2.07"
+
+// MISC
+// ############################################################################001
+STRS_not_trained_terrorist_for_shop, "You can't enter this shop without being a trained terrorist", "Du kannst diesen Shop nicht benutzen da du kein trainierter terrorist bist"
+STRS_hints_vehicle_information, "VEHICLE INFORMATION:\n\nName: %7\nSpeed: %1\nVehicle Health: %2 of 100\nFuel: %3/50Ltr\nType: %4\ndirection: %5°\nHeight ASL: %6m\nDriver: %8\nFree Cargo: %9\nlength: %10m%11", "VEHIKEL INFORMATIONEN:\n\nName: %7\nGeschwindigkeit: %1\nFahrzeug Zustand: %2% von 100\nTreibstoff: %3/50Ltr\nTyp: %4\nRichtung: %5°\nHoehe ueber NN: %6m\nFahrer: %8\nFreie Plaetze: %9\nLaenge: %10m%11"
+
+// INTRO
+// ############################################################################002
+
+STRS_anfang_laden, "Loading... \nPlease Wait.", "Laden... \nBitte warten"
+STRS_anfang_sponsor, "Server forums located at NSS-gamers.forumatic.com", ""
+STRS_anfang_01, "The Sahrani-Life Community\npresent", "Die Sahrani-Life Community (zu finden unter)\npraesentiert"
+STRS_anfang_02, "Highlights in this Version:\n\n2.0, "Highlights in dieser Version:\n\n2.0"
+STRS_anfang_03, "An RPG-Mission", "Eine RPG-Mission"
+STRS_anfang_04, "Sahrani Life: Reloaded\nVersion 2.0", "Sahrani Life: Reloaded\nVersion 2.0"
+STRS_anfang_05_civ, "Welcome to Sahrani, citizen!\n\nPlease check the guide (briefing) for all you need to know!", "Willkommen in Sahrani, Buerger!\n\nBitte Checke das briefing um alles zu Erfahren was du wissen musst!"
+STRS_anfang_05_cop, "Welcome to duty, officer!\n\nPlease check the guide (briefing) for all you need to know!", "Willkommen bei der Pflicht, Officer!\n\nBitte Checke das briefing um alles zu Erfahren was du wissen musst!"
+STRS_anfang_cop_loadout, "You default loadout is a Mossberg 590 Pump-Action Shotgun with non-lethal bean-bags, aswell as a Beretta 92FS.\n\nTo get better Weapons, Equipments and Vehicles, you have to buy the approriate trainings in the base.", "Deine Standard Ausruestung besteht aus einer Mossberg 590 Pump-Action Shotgun mit nicht toedlichen Bohnen-Saeckchen (bean-bag) Munition, sowie einer Beretta 92FS.\n\nUm an bessere Waffen, Ausruestungen und Fahrzeuge zu gelangen, musst du die entsprechended Cop-Trainings in der Basis kaufen."
+STRS_anfang_06, "Have fun!\n\nAll functions are explained in the Briefing.\nPlease look it up if there are misunderstandings.\n\nPlease post suggestions and bug-reports in the Forums at www.Arma-RPG.com", "Viel Spass!\n\nSaemtliche Funktionen der Mission sind im Briefing erklaert.\nBitte schau mal darein, wenn es unklarheiten gibt.\n\nVorschlaege und Bugmeldungen bitte im Forum unter www.Arma-RPG.com melden."
+
+STRS_mission_supporter1, "Many new Pistols", "Viele neue Pistolen"
+STRS_mission_supporter2, "Sub-Machine-Guns and appropriate license", "Sub-Machine-Guns und passende Lizenz"
+STRS_mission_supporter3, "Semi-Auto Assault-Rifles to buy for civs in shops", "Semi-Auto Sturmgewehre fuer civs in shops zu kaufen"
+STRS_mission_supporter4, "Many new Assault Rifles and other Weapons for cops and civs", "Viele neue Sturmgewehre und Waffen fuer cops und Civs"
+STRS_mission_supporter5, "New Police Base and Police-cars", "Neue Polizei Basis und Polizeiwagen"
+STRS_mission_supporter6, "Many many new cars, vehicles, choppers and Planes", "Viele viele neue Autos, Fahrzeuge, Helicopter und Flugzeuge "
+STRS_mission_supporter7, "Bagagango Airport with license-shop, air-shop and air-factory", "Bagango Flughafen mit Luftlizenz-shop, Luftfahrzug-shop and Luftfahrzeug Fabrik"
+STRS_mission_supporter8, "Cop-Trainings are now required/available for certain vehicles, weapons and equipment", "Cop-Trainings sind jetzt noetig um bestimmte Fahrzuege, Waffen und Equipment zu kaufen"
+STRS_mission_supporter9, "Non-Lethal Ammo for stunning with the new Shotgun", "Nicht-toedliche Munition zum stunnen fuer die neue Shotgun "
+STRS_mission_supporter10, "Better weather", "Besseres Wetter"
+
+STRS_mission_supporter_addon1, "RobertHammer (permission) and the rest of the RH-Pistols-team", "RobertHammer (erlaubnis) und dem Rest des RH-Pistols-Team"
+
+STRS_mission_supporter_ende, "and many countless more... please look in the forums release-thread for a complete changelog", "und vieles unzaehliges mndere... schaue bitte im Forum in den release thread fuer einen kompletten changelog"
+
+//Pullout
+
+STRS_pullout, "Pull out", "Insassen Rausziehen"
+
+// INVASION
+// ############################################################################014
+
+STRS_invasion_start, "WARNING:\n\nEnemy Forces landed near Mercallilo. They're armed and will kill everybody to conquer Bagango. The one who kills their leader, general Guba, is to be highly recompensed! ","WARNUNG:\n\nFeindliche Soldaten sind in der naehe von Mercallilo gelandet. Sie sind bewaffnet und gewillt, jeden umzubringen, um Bagango einzunehmen. Derjenige, der ihren Anfuehrer, General Guba, toetet, soll hoch belohnt werden!"
+STRS_invasion_end, "General Guba is dead!","General Guba ist tot!"
+STRS_invasion_gubakilled, "Congratulation, you killed Guba. You get $%1 and you have now $%2 in your pocket.","Glueckwunsch, Du hast Guba getoetet. Du kriegst $%1 und hast nun $%2 in deiner Tasche"
+STRS_invasion_alldead, "All enemy Forces are dead. Good work!","Alle Feindlichen Soldaten sind tot. Gute Arbeit!"
+
+// PANIC MENU AND EMERGENCY MENU
+
+STRS_emergency_cop_panic_needed, "***ATTENTION ALL UNITS***\n%1 needs support!", "***ACHTUNG AN ALLE EINHEITEN***\n%1 Braucht dringend Unterstuetzung!"
+STRS_emergency_cop_panic_needed_not, "%1 no longer needs support.", "%1 Braucht keine Unterstuetzung mehr!"
+
+// CHECK
+// ############################################################################003
+
+STRS_check_civ_in_terrorbase, "You entered the Terror-Camp. You are now wanted.", "Du bist in das Terroristenlager gegangen und wirst nun polizeilich gesucht."
+
+STRS_prohibited_area, "Turn around, you are entering a prohibited area!", "Dreh um, du betritst einen gesperrten Bereich!"
+STRS_verbotene_zone_teleport, "You entered a prohibited area and have been teleported a few meters back.", "Du bist in eine verbotene Zone eingedrungen und wurdest ein paar meter zurueck teleportiert."
+
+STRS_hunger_verhungern, "You are starving.", "Du bist am Verhungern."
+STRS_arbeiter_in_copbase, "One of your Workers was too close to the Policebase, so he has been teleported to the Civhospital.", "Einer deiner Arbeiter war zu nah an der Copbasis, er wurde daher zum Civhospital teleportiert."
+STRS_arbeiter_in_terrorbase, "One of your Workers was too close to the Terror-base, so he has been teleported back to the Policebase.", "Einer deiner Arbeiter war zu nah an dem Terroristencamp, er wurde daher zur Polizeibasis teleportiert."
+
+// DEAD
+// ############################################################################004
+
+STRS_dead_player_is_dead_civ, "You are dead, you will respawn in %1 seconds. Drugs and Workers are removed if you had them. Your Inventory including your money is now empty, but you keep money stored in the bank as well as your licenses.", "Du bist tot, du wirst in %1 Sekunden wiederbelebt. Alle Drogen und Arbeiter, falls du welche hattest, wurden dir entfernt. Dein Inventar inklusive deines Geldes wurde geleert, auf der Bank gelagertes Geld bleibt aber erhalten, ausserdem behaelst du deine Lizenzen."
+STRS_dead_player_is_dead_cop, "You are dead, you will respawn in %1 seconds. Your Inventory including your money you had on you is now empty but any money you had stored in the bank is safe.", "Du bist tot, du wirst in %1 Sekunden wiederbelebt. Dein Inventar inklusive deines Geldes wurde geleert, auf der Bank gelagertes Geld bleibt aber erhalten."
+STRS_dead_player_is_dead_terrorist, "You are dead, you will respawn in %1 seconds. Drugs and Workers are removed if you had them. Your Inventory including your money is now empty, but you keep money stored in the bank as well as your licenses. As a active Terrorist you will respawn at CH - to change that again, you have to remove the Terror-training (at Cityhall, Jail or Terror-Hideout)!", "Du bist tot, du wirst in %1 Sekunden wiederbelebt. Alle Drogen und Arbeiter, falls du welche hattest, wurden dir entfernt. Dein Inventar inklusive deines Geldes wurde geleert, auf der Bank gelagertes Geld bleibt aber erhalten, ausserdem behaelst du deine Lizenzen. Als aktiver Terrorist wirst du im Gefaengnis wiederbelebt - um das wieder zu aendern musst du das Terroristen-training ablegen (am Rathaus, im Gefaengnis oder im Terror-camp)!"
+
+// ARBEITER
+// ############################################################################005
+
+STRS_arbeiter_zuviele, "You cannot buy another worker because you have already reached the limit.", "Du kannst dir nicht noch einen Arbeiter kaufen, da du schon das Limit erreicht hast."
+STRS_arbeiter_nomoney, "You cannot afford a worker. Come back later.", "Du kannst dir keinen Arbieter leisten. Komm spaeter wieder."
+STRS_arbeiter_gekauft, "%1, a new worker is on your team. You paid $%2. Bring him to a workplace in order to let him earn some money.", "%1, ein neuer Arbeiter ist nun deinem Team beigetreten. Du hast $%2 bezahlt. Bring ihn zu einem Workplace damit er Geld verdient."
+STRS_arbeiter_moneyaction, "Take money from your worker.", "Nimm deinem Arbeiter geld ab."
+STRS_arbeiter_tot, "A worker in your team died.", "Ein Arbeiter aus deinem Team ist gestorben."
+STRS_arbeiter_moneyabnahme_ja, "You got $%1 from the worker.", "Du hast $%1 von deinem Arbeiter erhalten."
+STRS_arbeiter_moneyabnahme_nein, "The worker currently does not have any money.", "Der Arbeiter hat derzeit kein geld."
+STRS_arbeiter_meister, "This worker works for %1.", "Dieser Arbeiter arbeitet fuer %1"
+STRS_arbeiter_copaction, "Who do you work for?", "Fuer wen arbeitest du?"
+
+// ADDACTION
+// ############################################################################007
+
+STRS_dead_menuentry_hints, "Stats", "Statistiken"
+STRS_dead_menuentry_inventar, "Inventory", "Inventar"
+STRS_dead_menuentry_animation, "Animations", "Animationen"
+
+STRS_addAction_copstorage1, "private Storage", "privates Lager"
+STRS_addAction_copstorage2, "public Storage", "gemeinsames Lager"
+STRS_addaction_freecam, "Satellite Cam", "Satellitenkamera"
+STRS_addaction_defuse, "Defuse bomb", "Bombe entschaerfen"
+STRS_addaction_bank_license, "Buy bank insurance $%1", "BankVersicherung kaufen $%1"
+STRS_addaction_civcammenu, "Open Civcam", "Civkamera oeffnen"
+STRS_addAction_copmenu, "Open Cop Menu", "Copmenu oeffnen"
+STRS_addaction_jailcam, "Jailcam", "Gefaengniskamera"
+STRS_addaction_buy_drugs, "Open Drug-Buy Menu", "Drogenkaufmenue oeffnen"
+STRS_addaction_sell_drugs, "Sell Drugs", "Drogen verkaufen"
+STRS_addaction_weather, "Weather Forecast", "Wetterbericht"
+STRS_addaction_shootingrange, "Shooting Range $%1", "Schiessstand $%1"
+STRS_addaction_prisonrelease, "Wanted/Prison Menu", "Gesucht/Entlassen Menue"
+STRS_addaction_bail, "Pay Bail", "Loesegeld zahlen"
+STRS_addaction_buy_worker, "Buy Worker $%1", "Arbeiter kaufen $%1"
+STRS_addaction_buy_hideout, "Hideout shopping Menu", "Hideout Kaufmenue"
+STRS_addaction_race_join, "Join Street Race $%1", "Strassenrennen beitreten $%1"
+STRS_addaction_buy_shop, "Buy %1 for $%2", "%1 fuer $%2 kaufen"
+STRS_addaction_switch_copmarker, "Switch Cop-marker on/off", "Copmarker Ein-/Ausschalten"
+STRS_addaction_radio_on, "Switch Radio On/Off", "Radio Ein/Ausschalten"
+STRS_addaction_vehicleinfo, "Vehicle Information", "Fahrzeug Informationen"
+STRS_addaction_courierjob, "Get a Courier Job!", "Lieferauftrag annehmen!"
+STRS_addaction_hideout_addon1, "Hideout: Medic Add-on $%1", "Hideout: Medic Addon $%1"
+STRS_addaction_hideout_addon2, "Hideout: Teleport Add-on $%1", "Hideout: Teleporter Addon $%1"
+STRS_addaction_hideout_addon3, "Hideout: On-line Banking Add-on $%1", "Hideout: Online Banking Addon $%1"
+STRS_addaction_hideout_addon4, "Repair Hideout $%1", "Hideout Reparieren $%1"
+STRS_addaction_hideout_addon5, "Lock Hideout", "Versteck abschliessen"
+STRS_addaction_hideout_healaddon_use, "Heal", "Heilen"
+STRS_addaction_hideout_bankaddon_use, "On-line Banking", "Online Banking"
+STRS_addaction_hideout_ablage, "Hideout Storage", "Hideout Ablage"
+STRS_addAction_bank_balance, "Account Balance", "Kontostand"
+STRS_addAction_bank_dialog, "Bank Menu", "Bank Menu"
+STRS_addaction_civmenu, "Interaction %1 (%2)", "Interaktion %1 (%2)"
+STRS_action_hideoutowner, "Show Hideout Owner", "Besitzer dieses Hideouts"
+STRS_addaction_gildenmenu, "Guild Menu", "Gilden Menue"
+STRS_addaction_removesperre, "Remove Roadblock", "Sperre entfernen"
+STRS_addaction_sirene, "Siren On/Off", "Sirene an/aus"
+STRS_addaction_lock, "Lock/Unlock", "Ab-/Aufschliessen"
+STRS_addaction_crimelog, "Crime Log", "Verbrechensverlauf"
+STRS_addaction_trunk, "Trunk", "Kofferraum"
+STRS_addaction_trunk_see, "View Trunk", "Kofferraum sehen"
+STRS_addaction_trunk_check, "Check Trunk", "Kofferraum ueberpruefen"
+STRS_addAction_copmenulite, "Cop Radio Menu", "Cop Funk Menue" //**********ADDED**********
+STRS_addAction_holsterpistol, "Holster Pistol", "Pistole Holstern" // Added
+STRS_addAction_unholsterpistol, "Pistol in Hand", "Pistole Rausholen" // Added
+STRS_addAction_removeLicense, "Remove Civilian Licenses", "Entf. Lizenzen v. Buergern"
+STRS_addAction_checkcivbanks, "Access Civilian Bank Accounts", "Zugriff auf Konten v. Buergern"
+STRS_addAction_cellphonemenu, "Telephone-Menu", "Telefon-Menue"
+
+
+// AIRPORT TRANSPORT
+STRS_airtaxi_flag, "Airtaxi", "Airtaxi"
+
+STRS_addAction_trans_to_bagango, "Airtaxi to Bagango (%1$ + %2$ tax)", "Airtaxi nach Bagango (%1$ + %2$ steuer)"
+STRS_addAction_trans_to_mercalillo, "Airtaxi to Mercalillo (%1$ + %2$ tax)", "Airtaxi nach Mercalillo (%1$ + %2$ steuer)"
+STRS_addAction_trans_to_pita, "Airtaxi to Pita (%1$ + %2$ tax)", "Airtaxi nach Pita (%1$ + %2$ steuer)"
+STRS_addAction_trans_to_paraiso, "Airtaxi to Paraiso (%1$ + %2$ tax)", "Airtaxi nach Paraiso (%1$ + %2$ steuer)"
+STRS_addAction_trans_to_rahmadi, "Airtaxi to Rahmadi (%1$ + %2$ tax)", "Airtaxi nach Rahmadi (%1$ + %2$ steuer)"
+STRS_addAction_trans_to_corazol, "Airtaxi to Corazol-City (%1$ + %2$ tax)", "Airtaxi nach Corazol-City (%1$ + %2$ steuer)"
+STRS_airtaxigesperrt, "You can't book a flight currently - wait 5 minutes after your last arrival for that", "Du kannst momentan keinen Flug buchen - warte dafuer 5 Minuten bis nach deiner letzten Ankunft"
+STRS_airtaxi_bagango_start, "You have booked a flight to Bagango, your helicopter is on its way to you - please be patient until it arrives", "Du hast einen Flug nach Bagango gebucht, dein Helikopter ist auf dem Weg, bitte habe Geduld bis er ankommt"
+STRS_airtaxi_mercalillo_start, "You have booked a flight to Mercalillo, your Helicopter is on its way to you - please be patient until it arrives", "Du hast einen Flug nach Mercalillo gebucht, dein Helikopter ist auf dem Weg, bitte habe Geduld bis er ankommt"
+STRS_airtaxi_pita_start, "You have booked a flight to Pita, your helicopter is on its way to you - please be patient until it arrives", "Du hast einen Flug nach Pita gebucht, dein Helikopter ist auf dem Weg, bitte habe Geduld bis er ankommt"
+STRS_airtaxi_paraiso_start, "You have booked a flight to Paraiso, your helicopter is on its way to you - please be patient until it arrives", "Du hast einen Flug nach Paraiso gebucht, dein Helikopter ist auf dem Weg, bitte habe Geduld bis er ankommt"
+STRS_airtaxi_rahmadi_start, "You have booked a flight to Rahmadi, your helicopter is on its way to you - please be patient until it arrives. It can take very long (10mins+)", "Du hast einen Flug nach Rahmadi gebucht, dein Helikopter ist auf dem Weg, bitte habe Geduld bis er ankommt. Das kann lange dauern (10min+)"
+STRS_airtaxi_corazol_start, "You have booked a flight to Corazol-City, your helicopter is on its way to you - please be patient until it arrives", "Du hast einen Flug nach Corazol-City gebucht, dein Helikopter ist auf dem Weg, bitte habe Geduld bis er ankommt"
+STRS_airtaxi_terrorisland_start, "You have booked a flight to the Terrorisland, your helicopter is on its way to you - please be patient until it arrives", "Du hast einen Flug zur TerrorInsel  gebucht, dein Helikopter ist auf dem Weg, bitte habe Geduld bis er ankommt"
+STRS_airtaxi_arrival, "You arrived at your choosen destination, please get off as soon as the helicopter lands", "Du bist am gewuenschten Ziel angekommen, bitte steige aus, sobald der Helikopter gelandet ist"
+STRS_airtaxi_bagango_inuse, "The Airtaxi to Bagango is already in use, please try it again in 10 minutes", "Das Airtaxi nach Bagango ist bereits in Benutzung, bitte versuche es in ca. 10 minuten nochmal"
+STRS_airtaxi_mercalillo_inuse, "The Airtaxi to Mercalillo is already in use, please try it again in 10 minutes", "Das Airtaxi nach Mercalillo ist bereits in Benutzung, bitte versuche es in ca. 10 minuten nochmal"
+STRS_airtaxi_pita_inuse, "The Airtaxi to Pita is already in use, please try it again in 10 minutes", "Das Airtaxi nach Pita ist bereits in Benutzung, bitte versuche es in ca. 10 minuten nochmal"
+STRS_airtaxi_paraiso_inuse, "The Airtaxi to Paraiso is already in use, please try it again in 10 minutes", "Das Airtaxi nach Paraiso ist bereits in Benutzung, bitte versuche es in ca. 10 minuten nochmal"
+STRS_airtaxi_rahmadi_inuse, "The Airtaxi to Rahmadi is already in use, please try it again in 10 minutes", "Das Airtaxi nach Rahmadi ist bereits in Benutzung, bitte versuche es in ca. 10 minuten nochmal"
+STRS_airtaxi_corazol_inuse, "The Airtaxi to Corazol is already in use, please try it again in 10 minutes", "Das Airtaxi nach Corazol ist bereits in Benutzung, bitte versuche es in ca. 10 minuten nochmal"
+
+STRS_airtaxi_bagango_killed, "Someone either killed the Pilot from the Airtaxi to Bagango, or heavily damaged the Helicopter!", "Jemand hat entweder den Piloten des Airtaxis nach Bagango getoetet oder den Helikopter schwer beschaedigt!"
+STRS_airtaxi_mercalillo_killed, "Someone either killed the Pilot from the Airtaxi to Mercalillo, or heavily damaged the Helicopter!", "Jemand hat entweder den Piloten des Airtaxis nach Mercalillo getoetet oder den Helikopter schwer beschaedigt!"
+STRS_airtaxi_pita_killed, "Someone either killed the Pilot from the Airtaxi to Pita, or heavily damaged the Helicopter!", "Jemand hat entweder den Piloten des Airtaxis nach Pita getoetet oder den Helikopter schwer beschaedigt!"
+STRS_airtaxi_paraiso_killed, "Someone either killed the Pilot from the Airtaxi to Paraiso, or heavily damaged the Helicopter!", "Jemand hat entweder den Piloten des Airtaxis nach Paraiso getoetet oder den Helikopter schwer beschaedigt!"
+STRS_airtaxi_rahmadi_killed, "Someone either killed the Pilot from the Airtaxi to Rahmadi, or heavily damaged the Helicopter!", "Jemand hat entweder den Piloten des Airtaxis nach Rahmadi getoetet oder den Helikopter schwer beschaedigt!"
+STRS_airtaxi_corazol_killed, "Someone either killed the Pilot from the Airtaxi to Corazol-City, or heavily damaged the Helicopter!", "Jemand hat entweder den Piloten des Airtaxis nach Corazol-City getoetet oder den Helikopter schwer beschaedigt!"
+
+
+
+
+// CAM / DEADCAM
+// ############################################################################008
+
+STRS_camciv_nomoney, "You can't afford to watch a Civ.", "Du kannst es dir nicht leisten, einen Zivilisten zu beobachten."
+STRS_civcam_notwanted, "You are watching %1. He is not wanted.", "Du beobachtest %1. Er wird nicht gesucht."
+STRS_civcam_wanted, "You are watching %1. He is wanted.", "Du beobachtest %1. Er wird gesucht."
+
+STRS_deadcam_deadwait_civ, "You have now died %1 time(s) and have to wait %2 seconds to respawn.", "Du bist jetzt %1 mal gestorben und musst %2 Sekunden auf deinen Respawn warten."
+STRS_deadcam_deadwait_cop, "Because you killed %1 players during this game,\nyou have to wait %2 seconds to respawn.\n\nTo avoid a high respawn time, you should shock or arrest them instead of killing.", "Weil du waehrend dieses Spieles %1 Spieler getoetet hast,\nmusst du %2 Sekunden auf deinen Respawn warten.\n\nUm eine hohe Respawnzeit zu verhindern, solltest du sie lieber Schocken oder verhaften, anstatt sie zu toeten."
+
+
+
+
+
+// CIVMENU / CIVMENU CHECK
+// ############################################################################009
+
+STRS_civmenu_stehlen_copzunah, "You cannot steal anything as a cop is near.", "Du kannst nichts tehlen, weil ein Cop in der naehe ist."
+STRS_civmenu_stehlen, "You are stealing money from that Civ! Please wait five seconds to get the money.", "Du klaust money von diesem Civ! Warte 5 Sekunden um es zu bekommen."
+STRS_civmenu_distance, "You are either too far away from the Civ or he is dead", "Du bist entweder von dem Civ zu weit weg oder er ist tot"
+STRS_civmenu_wantedbonus, "That was a wanted person. You get a bonus of $%1", "Dies war eine gesuchte Person. Du bekommst einen Bonus von $%1."
+STRS_civmenu_bounty, "On this person there were a bounty of $%1, which you'll get now.", "Auf diese Person war ein kopfgeld von $%1 ausgesetzt, welches du nun bekommst." 
+STRS_civmenu_hasnodrugs, "The civ does not have any drugs.", "Der Civ hat keine Drogen."
+STRS_civmenu_hasdrugs, "%1 had drugs, you removed them.", "%1 hatte Drogen, du hast sie entfernt."
+STRS_civmenu_disarm, "You disarmed %1. If the Civ had no illegal objects/weapons, nothing has been taken away from him.", "Du hast %1 entwaffnet. Wenn der Civ keine illegalen Waffen/Objekte hatte, wurde ihm nichts weggenommen."
+STRS_civmenu_buy_disarm_nomoney, "You cannot afford the removal of weapons.", "Du kannst dir das Entfernen von Waffen nicht leisten."
+STRS_civmenu_disarm_notarmed, "The player is not armed.", "Der Spieler ist nicht bewaffnet."
+STRS_civmenu_arrested, "You arrested %1.", "Du hast %1 verhaftet."
+STRS_civmenu_ticketinuse, "You made a mistake while writing the ticket, please try again.", "Du hast einen Fehler waehrend des Schreibens des Tickets gemacht, bitte versuche es noch einmal."
+STRS_civmenu_gaveticket, "You gave %1 a ticket of $%2.", "Du hast %1 einen Strafzettel ueber $%2 gegeben."
+STRS_civmenu_didpayticket, "%1 paid the ticket of $%2.", "%1 hat die Strafe in hoehe von $%2 bezahlt."
+STRS_civmenu_didpaynothing, "%1 chose not to pay the ticket.", "%1 hat sich entschieden, den Strafzettel nicht zu bezahlen."
+STRS_civmenu_ticket_globalchat, "I gave a ticket of $%2 to %1.", "Ich habe %1 einen Strafzettel ueber $%2 gegeben."
+STRS_civmenu_didnotpayticket, "%1 does not have enough money on his acount to pay the ticket of $%2, he has $%3 left to pay.", "%1 hatte nicht genug Geld auf seinem Konto, um die Strafe von $%2 zu bezahlen, er hat noch $%3 zu bezahlen."
+STRS_civmenu_youdidnotpay, "You did not pay the ticket.", "Du hast die Strafe nicht gezahlt."
+STRS_civmenu_copnotarmed, "You are not armed. You need a weapon for this action.", "Du bist nicht bewaffnet. Fuer diese Aktion ist eine Waffe noetig."
+STRS_civmenu_heal, "You healed %1.", "Du hast %1 geheilt."
+
+STRS_inventory_checknohands, "The Civ does not have his hands up and is not stunned!", "Der Civ hat die Haende nicht oben und ist nicht geschockt!"
+STRS_inventory_checkstring, "His Licenses:\n\nHandgunlicense: %1\nRiflelicense: %2\nHeavygunlicense: %3\nSniperriflelicense: %4\n\nCarlicense: %5\nPickuplicense: %6\nTrucklicense: %7\nArmoredlicense: %8\nBoatlicense: %9\nAirlicense: %10\n\nIllegal Objects - Amount:\n\n%11", "Seine Lizenzen:\n\nHandfeuerwaffenlizenz: %1\nGewehrlizenz: %2\nSchwerewaffenlizenz: %3\nScharfschuetzenlizenz: %4\n\nAutolizenz: %5\nPickuplizenz: %6\nTrucklizenz: %7\nGepanzerte-Fahrzeugelizenz: %8\nBootlizenz: %9\nLuftvehikellizenz: %10\n\nIllegale Objekte - Anzahl:\n\n%11"
+
+STRS_civmenucheck_beendisarmed, "You have been disarmed and your weapon(s) was/were confiscated. You can request your Weapon(s) back by asking at your local Policebase!", "Du wurdest entwaffnet und deine Waffe(n) wurden Konfisziert. Du kannst sie zurueckfordern indem du bei deiner naechsten Polizeidienststelle nachfragst!"
+STRS_civmenucheck_beendrugsearched, "Your drugs have been removed.", "Deine Drogen wurden dir abgenommen."
+STRS_civmenucheck_ticketrest, "You still owe the Cops $%1", "Sie schulden den Cops noch $%1"
+STRS_civmenucheck_ticketself, "You got a ticket of $%1 and paid $%2. The Money has been withdrawed from your bank acount and will be transfered to the governement with your next paycheque", "Du hast einen Strafzettel ueber $%1 bekommen und $%2 bezahlt. Das Geld wurde von deinem Konto abgebucht und wird mit dem naechsten paycheque an die Regierung Ueberwiesen."
+STRS_civmenucheck_youarehealed, "You were healed by the cop", "Du wurdest von dem Cop geheilt."
+STRS_civmenucheck_removeddrugs, "A cop found your drugs and removed them.", "Ein Cop hat deine Drogen gefunden und sie entfernt."
+STRS_civmenucheck_haddrugs, "%1 had Drugs!", "%1 hatte Drogen!"
+STRS_civmenucheck_arrested_self, "You have been arrested for %1 Minutes. After that you will be teleported out.","Du wurdest verhaftet. Du musst hier fuer %1 Minute(n) bleiben. Danach kommst du hier raus und kannst in einen Helicopter einsteigen, der dich zurueck zur Hauptinsel bringen wird." 
+STRS_civmenucheck_arrested_global, "%1 has been arrested!","%1 wurde verhaftet!" 
+STRS_civmenucheck_free_global, "%1 is free again!","%1 ist wieder frei!" 
+STRS_civmenucheck_free_self, "You are free now. Don't do anything wrong or you will be arrested again.","Du bist nun frei. Mach nichts falsches mehr oder du wirst wieder verhaftet."
+STRS_civmenucheck_breakout, "%1 has escaped from jail!","%1 ist aus dem Gefaengnis ausgebrochen!"
+STRS_civmenucheck_stolen, "You have stolen $%1 from that civ!", "Du hast $%1 von diesem Civ gestohlen!"
+STRS_civmenucheck_stolenpub, "%1 has stolen $%2 from %3!", "%1 hat $%2 von %3 gestohlen!"
+STRS_civmenucheck_stolen_fromciv, "you just got robbed by someone", "du wurdest gerade beklaut!"
+
+
+
+
+
+// DIALOG_ANDERE
+// ############################################################################010
+
+STRS_dialogcivmenu_arrest, "Arrest for %1 min(s)", "Fuer %1 Min verhaften"
+STRS_dialogcivmenu_ticket, "Ticket  $%1", "Strafzettel $%1"
+
+STRS_dialogandere_bankdialog_you, "You", "Du selber"
+
+STRS_dialogandere_gilden_keinleader, "You are not the Leader of a guild so you cannot use this menu", "Du bist nicht der Leader einer Gilde, daher kannst du nicht dieses Menue benutzen"
+
+STRS_dialogandere_itemshop, "Your current Money is $%1", "Dein aktuelles money: $%1"
+
+
+
+
+
+// money
+// ############################################################################011
+
+
+STRS_geld_countdown, "%1 Minute(s) until next Paycheque.", "%1 Minute(n) bis zum naechsten Gehaltsscheck."
+STRS_geld_paycheckdead, "You missed a Paycheque because you are dead.", "Du hast einen Gehaltsscheck verpasst, weil du tot bist."
+STRS_geld_terroristadd, "As a active Terrorist you won't receive any Paycheques! Remove the Terrorist Training to regain you normal Paycheques!", "Als aktiver Terrorist bekommst du keinen Gehaltsscheck! Entferne das Terroristen-Training um wieder welche zu bekommen!"
+
+// COP INCOME MESSAGES
+STRS_geld_CopBaseIncomemsg, "Default Income: %1$", "Grundgehalt: %1$"
+STRS_geld_undercovermsg, " Income as Undercover-Officer: %1$", " Einkommen als Undercover-Officer: %1$"
+STRS_geld_patrolmsg, ", Income as Patrol-Officer: %1$", ", Einkommen als Streifenpolizist: %1$"
+STRS_geld_cromsg, ", Income as CRO: %1$", ", Einkommen als CRO: %1$"
+STRS_geld_swatmsg, ", Income as SWAT-Officer: %1$", ", Einkommen als SWAT-Officer: %1$"
+STRS_geld_bordermsg, ", Income as Border-Patrol-Officer: %1$", ", Einkommen als Border-Patrol-Officer: %1$"
+STRS_geld_ChiefPoliceYESMoney, ", Income as Police-Chief: %1$", ", Einkommen Police-Chief: %1$"
+STRS_geld_CopBaseIncomemsgNO, "Default Income: Not enough Tax-Money available!!!", "Grundgehalt: Nicht genug Steuergelder Vorhanden!!!"
+STRS_geld_undercovermsgNO, " Income as Undercover-Officer: Not enough Tax-Money available!!!", " Einkommen als Undercover-Officer: Nicht genug Steuergelder Vorhanden!!!"
+STRS_geld_patrolmsgNO, ", Income as Patrol-Officer: Not enough Tax-Money available!!!", ", Einkommen als Streifenpolizist: Nicht genug Steuergelder Vorhanden!!!"
+STRS_geld_cromsgNO, ", Income as CRO: Not enough Tax-Money available!!!", ", Einkommen als CRO: Nicht genug Steuergelder Vorhanden!!!"
+STRS_geld_swatmsgNO, ", Income as SWAT-Officer: Not enough Tax-Money available!!!", ", Einkommen als SWAT-Officer: Nicht genug Steuergelder Vorhanden!!!"
+STRS_geld_bordermsgNO, ", Income as Border-Patrol-Officer: Not enough Tax-Money available!!!", ", Einkommen als Border-Patrol-Officer: Nicht genug Steuergelder Vorhanden!!!"
+STRS_geld_ChiefPoliceNOMoney, ", Income as Police-Chief: Not enough Tax-Money available!!!", ", Einkommen Buergermeister: Nicht genug Steuergelder Vorhanden!!!"
+
+// CIV INCOME MESSAGES
+STRS_geld_overviewmsgwelfareYes, "Income Welfare: %1$", "Einkommen Sozialhilfe: %1$"
+STRS_geld_overviewmsgwelfareNo, "Income Welfare: Not enough Tax-Money available", "Einkommen Sozialhilfe: Nicht genug Steuergelder Vorhanden"
+STRS_geld_overviewmsgwelfareLimitReached, "Income Welfare: Not Entitled to claim!", "Einkommen Sozialhilfe: Nicht Anspruchsberechtigt!"
+STRS_geld_overviewmsgworkplaces, ", Income Workplaces: %1$", ", Einkommen Workplaces: %1$"
+STRS_geld_overviewmsgworkers, ", Income Workers: %1$", ", Einkommen Arbeiter: %1$"
+STRS_geld_overviewmsgmissions, ", Income Missions: %1$", ", Einkommen Missionen: %1$"
+STRS_geld_overviewmsgtrainedjobs, ", Income Trained Jobs: %1$", ", Einkommen Trained Jobs: %1$"
+STRS_geld_overviewmsgbusinessassets, ", Income Business Assetes: %1$", ", Einkommen Geschaeftsobjekte: %1$"
+STRS_geld_overviewmsgmayorYes, ", Income Mayor: %1$", ", Einkommen Buergermeister: %1$"
+STRS_geld_overviewmsgmayorNo, ", Income Mayor: Not enough Tax-Money available!!!", ", Einkommen Buergermeister: Nicht genug Steuergelder Vorhanden!!!"
+
+// FINAL INCOME MESSAGES
+STRS_geld_briefoverviewmsg, "The Paycheque arrived! Gross-Income: %1$, Net-Income: %2$, Income-Tax Payed: %3$, Income-Tax-Class: %4 (%5 percent)", "Der Gehaltsscheck ist da! Brutto-Einkommen: %1$, Netto-Einkommen: %2$, Einkommensteuer Bezahlt: %3$, Einkommensteuerklasse: %4 (%5 prozent)"
+STRS_geld_civmoneyadd, "Detailed Overview (Gross-Values): %1%2%3%4%5%6%7", "Detaillierte Uebersicht (Brutto-Werte): %1%2%3%4%5%6%7"
+STRS_geld_copmoneyadd, "Detailed Overview (Gross-Values): %1%2%3%4%5%6%7", "Detaillierte Uebersicht (Brutto-Werte): %1%2%3%4%5%6%7"
+
+
+
+
+// DESCRIPTION
+// ############################################################################012
+
+STRD_description_onloadintro, "Sahrani Life:Reloaded", "Sahrani Life:Reloaded"
+STRD_description_onloadmission, "Sahrani Life:Reloaded", "Sahrani Life:Reloaded"
+STRD_description_param1, "Marker out of city", "Marker out of city"
+STRD_description_time, "in-game hour in min. [Day|Night]", "ingame hour in min. [Day|Night]"
+STRD_description_on, "on", "on"
+STRD_description_off, "off", "off"
+STRD_description_cancel, "Cancel", "Abbrechen"
+STRD_description_buyitem_close, "Close", "Schliessen"
+STRD_description_submit, "Submit", "Bestaetigen"
+STRD_description_weapon_submit, "Buy this weapon!", "Diese Waffe kaufen!"
+STRD_description_civcam_title, "Sahrani Camera Systems","Sahrani Kamera-systeme"
+STRD_description_civcam_chooseciv, "Choose Civ:", "Civ auswaehlen:"
+STRD_description_civcam_dauer, "Duration:", "Dauer:"
+STRD_description_civcam_cost, "Cost:", "Kosten:"
+STRD_description_civcam_submit, "Watch him","Civ beobachten!"
+STRD_description_carshop_submit, "Buy this Vehicle","Dieses Vehikel kaufen"
+STRD_description_civmenu_disarm, "Disarm", "Entwaffnen"
+STRD_description_civmenu_steal, "Steal money", "geld stehlen"
+STRD_description_civmenu_drugs, "Search for Drugs", "Nach Drogen suchen"
+STRD_description_civmenu_arrest, "Arrest", "Verhaften"
+STRD_description_civmenu_ticket, "Ticket", "Strafzettel"
+STRD_description_civmenu_heal, "Heal this Civ", "Diesen Civ heilen"
+STRD_description_civmenu_inventar, "Check Inventory", "Inventar Ueberpruefen"
+STRD_description_civmenu_header, "Civ-menu", "Civmenue"
+STRD_description_wantedrelease_cost, "Enter Cost:", "Kosten eingeben:"
+STRD_description_wantedrelease_setwantedmenu, "Set Wanted Menu", "Auf gesucht setzen"
+STRD_description_wantedrelease_prisonrelease_title, "Release menu", "Civ freilassen"
+STRD_description_wantedrelease_submit, "Set him free", "Lass ihn frei"
+STRD_description_wantedrelease_submit_unwanted, "Set him unwanted", "Auf ungesucht setzen"
+STRD_description_bail_paycash, "Pay bail (Cash)", "Pay bail (Cash)"
+STRD_description_bail_paybank, "Pay bail (Bank)", "Pay bail (Bank)"
+STRD_description_bail_cost, "Bail", "Loesemoney"
+STRD_description_spielerinfo_header, "Player Info", "Spielerinfos"
+STRD_description_spielerinfo_select, "Select Player", "Spieler auswaehlen"
+STRD_description_spielerinfo_name, "Player Name:", "Spielername:"
+STRD_description_spielerinfo_deaths, "Number of deaths:", "Anzahl Tode"
+STRD_description_spielerinfo_wanted, "Wanted:", "Gesucht:"
+STRD_description_spielerinfo_bounty, "Bounty:", "kopfgeld:"
+STRD_description_bombenconfig_header, "Speed Car-Bomb config", "Geschwindigkeitsautobombe einstellen"
+STRD_description_bombenconfig_speed, "Speed:", "Geschwindigkeit:"
+STRD_description_bombenconfig_speed2, "Duration:", "Dauer:"
+STRD_description_bombenconfig_plant, "Plant Bomb", "Bombe legen"
+STRD_description_zeitbombenconfig_header, "Time Car-Bomb config", "Zeitautobombe einstellen"
+STRD_description_zeitbombenconfig_zeit, "Time:", "Zeit:"
+STRD_description_hideout_submit, "Buy Hideout", "Hideout kaufen"
+STRD_description_schluessel_header, "Keys", "Autoschluessel"
+STRD_description_schluessel_wegwerfen, "Throw Key away forever", "Schluessel wegwerfen"
+STRD_description_handy_title, "Write SMS", "SMS schreiben"
+STRD_description_handy_cost, "Cost: $%1", "Kosten: $%1"
+STRD_description_handy_submit, "Send", "Abschicken"
+STRD_description_itemmenu_title, "Buy Items", "Items kaufen"
+STRD_description_itemmenu_title2, "Sell Items", "Items verkaufen"
+STRD_description_inventar_gewicht, "Item Weight single/overall:", "Itemgewicht einzeln/gesamt:"
+STRD_description_spielerliste_header, "Stats", "Statistik"
+STRD_description_gildegruenden_header, "Create a new Guild", "Eine neue Gilde gruenden"
+STRD_description_gildegruenden_submit, "Create!", "Gruenden!"
+STRD_description_gildegruenden_name, "Guild Name:", "Gildenname:"
+STRD_description_gildeverwalten_header, "Manage Guild", "Gilde Verwalten"
+STRD_description_gildeverwalten_rauswerfen_header, "Kick Member", "Mitglied rauswerfen"
+STRD_description_gildeverwalten_rauswerfen_submit, "Kick!", "Rauswerfen!"
+STRD_description_gildehauptmenu_header, "Guilds", "Gilden"
+STRD_description_gildehauptmenu_button_join, "Join Guild", "Gilde beitreten"
+STRD_description_gildehauptmenu_button_manage, "Manage Guild", "Gilde verwalten"
+STRD_description_gildehauptmenu_button_leave, "Leave Guild", "Gilde verlassen"
+STRD_description_gildehauptmenu_button_create, "Create Guild", "Gilde gruenden"
+
+STRD_description_factory_manifacture_header, "Factory", "Fabrik"
+STRD_description_factory_manifacture, "Manufacture", "Herstellen"
+
+STRD_description_close, "Close", "Schliessen"
+
+STRD_description_janein_header, "Please confirm", "Bitte bestaetigen"
+STRD_description_ja, "Yes", "Ja"
+STRD_description_nein, "No", "Nein"
+STRD_janein_header, "Please confirm", "Bitte bestaetigen"
+
+STRD_stunned_dialogbutton, "Stand up", "Aufstehen"
+
+
+// HANDLER_DEAD_PUB
+// ############################################################################013
+
+STRS_handlerdeadpub_civkilled, "You killed %1! He wasn't wanted so you have to pay $%2 as a punishment!", "Du hast %1 getoetet! Er war nicht gesucht, daher musst du $%2 als Strafe zahlen!"
+STRS_handlerdeadpub_bounty_youkilled, "You killed %1! He had a bounty of $%2", "Du hast %1 getoetet! Auf ihn war ein kopfgeld in hoehe von $%2 ausgesetzt."
+STRS_handlerdeadpub_bounty_kill, "You killed a wanted civ and got $%1 as bonus.", "Du hast eine gesuchte Person getoetet und bekommst $%1 Bonus."
+STRS_handlerdeadpub_copkilled, "You killed %1! You are now wanted!", "Du hast den %1 getoetet! Du bist jetzt gesucht!"
+STRS_handlerdeadpub_copkilledbycop, "You Team-killed %1!", "Du hast deinen Teamkameraden %1 getoetet"
+STRS_handlerdeadpub_suicide, "You committed suicide.", "Du hast Selbstmord begangen."
+
+// KONVOY
+// ############################################################################015
+
+STRS_konvoy_start, "A weapon convoy has started and is on its way to the police base.","Ein Waffenkonvoy ist gestartet und auf dem Weg zur Polizeibasis."
+STRS_konvoy_arrived, "The convoy has reached the police base.","Der Konvoy hat die Polizeibasis erreicht."
+STRS_konvoy_hijacked, "The convoy has been hijacked! The Driver is dead!","Der Konvoi wurde ueberfallen und entfuehrt, der Fahrer ist tot."
+STRS_konvoy_destroyed, "The weapon convoy has been destroyed!","Der Waffenkonvoi wurde zerstoert."
+STRS_konvoy_civarrived, "The hijacked Convoy has reached the Black Market.", "Der entfuehrte Konvoi hat den Schwarzmarkt erreicht."
+STRS_Konvoymarker, "Truck", "Truck"
+STRS_konvoy_moneymehr, "You received additional 5000$ because the convoy reached the base", "Du hast zusaetzlich 5000$ erhalten, da der Konvoy die Basis erreicht hat"
+
+// bounty
+// ############################################################################016
+
+STRS_bounty_kein_bounty_entfernen, "There's no bounty on his head.", "Auf diesen Civ ist kein kopfgeld ausgesetzt, welches entfernt werden kann."
+STRS_bounty_entfernt, "The bounty of %1 was removed. He is no longer wanted.", "Das kopfgeld von %1 wurde erfolgreich entfernt. Er wird nun nicht laenger gesucht."
+STRS_bounty_nobounty, "You currently can't set %1 wanted.", "Du kannst %1 gerade nicht auf gesucht setzen."
+STRS_bounty_nomoney, "You don't have enough money.", "Du hast nicht genug geld."
+STRS_kofpmoney_set, "You set %1 wanted. The one who kills him will be rewarded with $%2.", "%1 wird jetzt gesucht. Derjenige der ihn toetet bekommt $%2 als Belohnung."
+STRS_bounty_publicmsg, "%1 sets a bounty of $%2 on Civ%3s head. That's a bounty of $%4 in total (Civs need a Bounty-Hunter license to get the money).", "%1 setzt ein kopfgeld von $%2 auf den Kopf von Civ%3. Das macht gesamt $%4 (Civs benoetigen eine kopfgeldjaegerlizenz um das geld bekommen zu koennen)."
+STRS_bounty_notself, "You cannot set yourself unwanted.", "Du kannst dich nicht selbst auf ungesucht setzen"
+
+// COPMARKER / CIVMARKER
+// ############################################################################018
+
+STRS_switchedcopmarker, "You turned cop-markers %1.", "Du hast die Copmarker %1geschaltet."
+STRS_Off, "off", "aus"
+STRS_On, "on", "ein"
+
+// HINTS
+// ############################################################################019
+
+STRS_statdialog_playerinfo, "P L A Y E R - I N F O:", "S P I E L E R I N F O:"
+STRS_statdialog_playerlist, "P L A Y E R S:", "S P I E L E R:"
+STRS_statdialog_licenselist, "L I C E N S E S:", "L I Z E N Z E N:"
+STRS_statdialog_other, "O T H E R:", "A N D E R E S:"
+STRS_statdialog_inventarlist, "I N V E N T O R Y:", "I N V E N T A R:"
+STRS_statdialog_waffen, "W E A P O N S:", "W A F F E N:"
+STRS_statdialog_magazine, "M A G A Z I N E S:", "M A G A Z I N E:"
+STRS_statdialog_gildenlist, "G U I L D S:", "G I L D E N:"
+STRS_statdialog_laws, "L A W S:", "G E S E T Z E:"
+STRS_statdialog_regierung, "G O V E R N M E N T:", "R E G I E R U N G:"
+STRS_statdialog_mayor, "M A Y O R:", "M A Y O R:"
+STRS_statdialog_chief, "C H I E F:", "C H I E F:"
+STRS_statdialog_taxes, "T A X E S:", "S T E U E R N:"
+STRS_stat_regierung, "Government Guild-ID:", "Regierungs Gilden-ID:"
+STRS_statdialog_money, "Money", "Money"
+STRS_statdialog_hunger, "Hunger", "Hunger"
+STRS_statdialog_thirst, "Thirst", "Durst"
+STRS_statdialog_health, "Health", "Leben"
+STRS_statdialog_speed, "Speed", "Geschwindigkeit"
+STRS_statdialog_heigth, "Height", "Hoehe"
+STRS_statdialog_weight, "Weight", "Gewicht"
+STRS_statdialog_rolenumber, "Role Number", "Rollennummer"
+STRS_statdialog_copkills, "Cops killed", "Cops getoetet"
+STRS_statdialog_civkills, "Civs killed", "Civs getoetet"
+STRS_statdialog_selfkills, "Suicides", "Selbstmorde"
+STRS_statdialog_deaths, "Deaths", "Tode"
+STRS_statdialog_bounty, "Bounty", Kopfgeld"
+STRS_statdialog_bestrace, "Best Race", "Bestes Rennen"
+STRS_statdialog_racewon, "Races won", "Rennen gewonnen"
+STRS_statdialog_gilde, "Guild", "Gilde"
+STRS_statdialog_wanted, "Wanted", "Gesucht"
+STRS_statdialog_bounty, "Bounty", "Kopfgeld"
+STRS_statdialog_nutrition, "Nutrition", "Nutrition"
+
+STRS_hints_ja, "Yes", "Ja"
+STRS_hints_nein, "No", "Nein"
+STRS_hints_keins, "None", "Keins"
+STRS_hints_account_balance, "You have %1$ on your Account.","Du hast $%1 auf deinem Konto."
+
+// PRISON BAIL / RELEASE
+// ############################################################################020
+
+STRS_bail_addbail, "You got $%1 because Civ%2 paid bail.", "Du hast $%1 bekommen, weil Civ%2 Loesegeld gezahlt hat."
+STRS_bail_payed, "Civ%1 paid $%2 in bail", "Civ%1 hat $%2 Loesemoney gezahlt."
+STRS_bail_self, "You paid $%1 bail.", "Du hast $%1 Loesegeld gezahlt."
+STRS_bail_cantpay, "You do not have that much money.", "Du hast nicht genug geld um soviel zu zahlen."
+
+STRS_prison_notinprison, "You cannot release this Civ because he is not in prison.", "Du kannst diesen Civ nicht freilassen, weil er nicht im Gefaengnis ist."
+STRS_prison_freenow, "The Civ is free now.", "Der Civ ist nun frei."
+
+// SHOOTING RANGE
+// ############################################################################022
+
+STRS_sr_result, "You earned $%3 (%1 points) by killing %2 targets.", "Du hast $%3 verdient (%1 Punkte), indem du %2 Ziele Getoetet hast."
+STRS_sr_active_self,"You need to wait a while before going again.","Du kannst den Schiessstand nicht benutzen, weil du ihn vor kurzem benutzt hast!"
+STRS_sr_active,"Sorry, someone else is currently using the shooting range.","Du kannst den Schiessstand nicht benutzen, weil ihn jemand anderes benutzt"
+STRS_sr_nomoney,"You cant afford to shoot here","Du kannst es dir nicht leisten, hier zu schiessen!"
+STRS_sr_noammo,"You do not have any ammo! Come back later.","Du hast keine Munition bei dir! Komm spaeter wieder."
+STRS_sr_info,"Shoot in %1 seconds as many targets as possible. If you leave this area you will be banned from the shooting range for %2 minutes!","Schiess in %1 Sekunden so viele Ziele wie moeglich ab!. Wenn du diesen Bereich hier verlaesst, wird der Schiessstand fuer dich fuer %2 Minuten gesperrt!"
+STRS_sr_timeleft,"Seconds left: %1","Sekunden uebrig: %1"
+STRS_sr_timeout,"No more time left","Zeit abgelaufen"
+STRS_sr_cheater,"You left the area! You cannot use this now for the next %1 minute(s)!","Du hast das Gebiet verlassen. Du kannst den Schiessstand nun fuer die naechsten %1 Minuten nicht benutzen!"
+
+// PIMP
+// ############################################################################024
+
+STRS_pimp_vclsell_toofast, "You are going too fast to sell the vehicle", "Du bist zu schnell, um das Fahrzeug zu verkaufen"
+STRS_pimp_vclsell, "You sold the vehicle for $%1.", "Du hast dein Fahrzeug fuer $%1 verkauft."
+
+// MISSION SQM
+// ############################################################################025
+
+STRM_mission_description, "BLUFOR = Cops - Civillians = Civs", "BLUFOR = Cops - Zivilisten = Civs"
+STRM_mission_marker_arbeiter, "Worker", "Arbeiter"
+STRM_mission_marker_rathaus, "City Hall", "Rathaus"
+STRM_mission_marker_deliverypoint1, "Delivery 1", "Lieferpunkt 1"
+STRM_mission_marker_deliverypoint2, "Delivery 2", "Lieferpunkt 2"
+STRM_mission_marker_deliverypoint3, "Delivery 3", "Lieferpunkt 3"
+STRM_mission_marker_deliverypoint4, "Delivery 4", "Lieferpunkt 4"
+STRM_mission_marker_deliverypoint5, "Delivery 5", "Lieferpunkt 5"
+STRM_mission_marker_deliverypoint6, "Delivery 6", "Lieferpunkt 6"
+STRM_mission_marker_deliverypoint7, "Delivery 7", "Lieferpunkt 7"
+STRM_mission_marker_deliverypoint8, "Delivery 8", "Lieferpunkt 8"
+STRM_mission_marker_deliverypoint9, "Delivery 9", "Lieferpunkt 9"
+STRM_mission_marker_deliverypoint10, "Delivery 10", "Lieferpunkt 10"
+STRM_mission_marker_workplace1, "Workplace 1", "Arbeitsplatz 1"
+STRM_mission_marker_workplace2, "Workplace 2", "Arbeitsplatz 2"
+STRM_mission_marker_workplace3, "Workplace 3", "Arbeitsplatz 3"
+STRM_mission_marker_terrorhideout, "Terror Hideout", "Terroristenversteck"
+STRM_mission_marker_blackmarket, "Black Market", "Schwarzmarkt"
+STRM_mission_marker_jail, "Jail", "Gefaengnis"
+STRM_mission_marker_cocaindealer, "Sell Cocaine", "Kokain verkaufen"
+STRM_mission_marker_marihuanadealer, "Sell Marijuana", "Marihuana verkaufen"
+STRM_mission_marker_lsddealer, "Sell LSD", "LSD verkaufen"
+STRM_mission_marker_lonelyisland, "Just a lonely island", "Nur eine einsame Insel"
+STRM_mission_marker_racefinish, "Race Finish", "Ziel des Rennens"
+STRM_mission_marker_racestart, "Race Start", "Start des Rennens"
+STRM_mission_marker_atm, "ATM", "geldautomat"
+STRM_mission_marker_shootingrange, "Shooting Range", "Schiessstand"
+STRM_mission_marker_refuelstation, "Petrol Station", "Tankstelle"
+STRM_mission_marker_refuelAVGAS, "AVGas Refuel Station", "AVGas Tankstelle"
+STRM_mission_marker_policestation, "Police Base", "Polizei Basis"
+STRM_mission_marker_headmoneylicense, "Bounty-Hunter License", "kopfgeldjaegerlizenzen"
+STRM_mission_marker_antidoteshop, "Virus Antidote Shop", "Virus Gegenmittel Shop"
+STRM_mission_marker_civhospital, "Hospital", "Krankenhaus"
+STRM_mission_marker_bank, "Bank", "Bank"
+STRM_mission_marker_shop_1, "Shop 1", "Shop 1"
+STRM_mission_marker_shop_2, "Shop 2", "Shop 2"
+STRM_mission_marker_shop_3, "Shop 3", "Shop 3"
+STRM_mission_marker_shop_air, "Air-Vehicle shop/Airtaxi", "Luftvehikel Shop/Airtaxi"
+STRM_mission_marker_shop_air_small, "Airvehicle shop/Airtaxi", "Luftvehikel Shop/Airtaxi"
+STRM_mission_marker_shop_armored, "Tank & Car shop", "Gepanzertes+Fahrzeuge Shop"
+STRM_mission_marker_shop_heavygun, "Heavy-Weapon shop", "Schwere Waffen Shop"
+STRM_mission_marker_shop_boat, "Boat shop", "Boot Shop"
+STRM_mission_marker_shop_sniper, "Sniper-Rifle shop", "Scharfschuetzengewehr Shop"
+STRM_mission_marker_shop_rifle, "Rifle shop", "Gewehr Shop"
+STRM_mission_marker_shop_pickup, "Pick-up shop", "Pickup Shop"
+STRM_mission_marker_shop_retro, "Mikes Retro Garage", "Mikes Retro Garage"
+STRM_mission_marker_shop_truck, "Truck shop", "Truck Shop"
+STRM_mission_marker_shop_car, "Car shop", "Auto Shop"
+STRM_mission_marker_shop_handgun, "Handgun shop", "Handfeuerwaffen Shop"
+STRM_mission_marker_shop_smg, "SMG shop", "SMG Shop"
+STRM_mission_marker_shop_equipment, "Equipment shop", "Equipment Shop"
+STRM_mission_marker_shop_fishmarket, "Fish Market", "Fischmarkt"
+STRM_mission_marker_shop_bagango, "Bagango Shop", "Bagango Shop"
+STRM_mission_marker_shop_corazol, "Corazol Shop", "Corazol Shop"
+STRM_mission_marker_shop_mercalillo, "Mercalillo Shop", "Mercalillo Shop"
+STRM_mission_marker_shop_obregan, "Obregan Shop", "Obregan Shop"
+STRM_mission_marker_shop_masbete, "Masbete Shop", "Masbete Shop"
+STRM_mission_marker_shop_eponia, "Eponia Shop", "Eponia Shop"
+STRM_mission_marker_shop_pita, "Pita Shop", "Pita Shop"
+STRM_mission_marker_sellcars, "Sell Vehicles", "Vehikelverkauf"
+STRM_mission_marker_garage, "Garage", "Garage"
+STRM_mission_marker_despawn, "Despawn-free area", "Despawn-Freie Zone"
+STRM_mission_drugbuyflag, "Buy Drugs", "Drogen kaufen"
+STRM_mission_marker_fishing, "Fishing Area", "Fischereigebiet"
+STRM_mission_marker_deepsea_whale, "Deep-Sea Fishing (Whales)", "Tiefsee-Fischen (Wale)"
+STRM_mission_marker_deepsea_shark, "Deep-Sea Fishing (Sharks)", "Tiefsee-Fischen (Haie)"
+STRM_mission_marker_forest, "Workplace Forest", "Workplace Wald"
+STRM_mission_marker_farming, "Wheat Harvesting", "Weizen Ernten"
+STRM_mission_marker_farmingsell, "Sell harvests", "Ernte verkaufen"
+STRM_mission_marker_court, "Court Construction Site", "Gericht Baustelle"
+STRM_mission_marker_jail_construction, "Jail Construction Site", "Gefaengniss Baustelle"
+STRM_mission_marker_bagango_shooting_range, "Bagango Shooting Range", "Bagango Schiessplatz"
+STRM_mission_marker_factory_air, "Air Vehicle Factory", "Luft-Fahrzeugfabrik"
+STRM_mission_marker_parkinglot_bagango, "Parking Lot", "Parkplatz"
+STRM_mission_marker_ressourceshop, "Buy/Sell Resources", "Resourcen kauf./verk."
+STRM_mission_marker_bagango_ap, "Bagango Airport", "Bagango Airport"
+STRM_mission_marker_mercalillo_ap, "Mercalillo Aiport", "Mercalillo Aiport"
+STRM_mission_marker_chantico_ap, "Chantico Airport", "Chantico Airport"
+STRM_mission_marker_gen_liceses, "Licenses", "Lizenzen"
+STRM_mission_marker_construcmat, "Construction Parts", "Konstruktions-Teile"
+STRM_food_Factory, "Food Factory", "Nahrungsmittel Fabrik"
+STRM_Diamond_Mine, "Diamond Mine", "Diamanten Mine"
+STRM_quellwasser, "Spring water", "Quellwasser"
+STRM_quellwasser_high, "Spring Water(high quality)", "Quellwasser(high quality)"
+STRM_seewasser, "Salt water", "Salzwasser"
+STRM_weinberg_rot_norm, "Vineyard (red grapes)", "Weinberge (rote Trauben)"
+STRM_weinberg_rot_high, "Vineyard (red grapes HQ)", "Weinberge (rote Trauben HQ)"
+STRM_weinberg_weiss_norm, "Vineyard (White grapes)", "Weinberge (weisse Trauben)"
+STRM_weinberg_weiss_high, "Vineyard (White grapes HQ)", "Weinberge (weisse Trauben HQ)"
+STRM_hopfen_ernte, "Hops Harvesting", "Hopfen Ernten"
+STRM_tabak_ernte, "Tobacco Harvesting", "Tabak Ernten"
+STRM_mission_marker_bikeshop, "Bike shop", "Bike shop"
+
+STRM_mission_gruen_fahne, "Bases", "Basen"
+STRM_mission_blau_fahne, "Shops", "Geschaefte"
+STRM_mission_gelb_fahne, "Hideout / Workplaces / Buyable Shops", "Hideout / Workplaces / kaufbare Geschaefte"
+STRM_mission_rot_fahne, "Drugs", "Drogen"
+STRM_mission_gruen_punkt, "Bank / ATM", "Bank / geldautomat"
+STRM_mission_rot_punkt, "Delivery Point", "Lieferpunkte"
+STRM_mission_gelb_punkt, "Point of Interest", "Point of Interest"
+STRM_mission_weiss_punkt, "Others", "Anderes"
+STRM_mission_weiss_punkt_tanke, "Fuel-Stations", "Tankstellen"
+STRM_mission_legende, "Caption", "Legende"
+STRM_mission_legende_civmarker, "Civ-marker", "Zivilistenmarker"
+STRM_mission_legende_civmarker2, "Civ-marker (wanted)", "Zivilistenmarker (gesucht)"
+STRM_mission_legende_copmarker, "Cop-marker", "Polizistenmarker"
+STRM_mission_legende_restaurante, "Restaurant", "Restaurant"
+STRM_mission_marker_terrorvehicle, "Terrorist Vehicles", "Terroristenfahrzeuge"
+STRM_mission_marker_illegalweapsbuy, "Illegal Weapons", "Illegale Waffen"
+STRM_mission_marker_illegalweapssell, "Sell Illegal Weapons", "Illegale Waffen verkaufen"
+
+// MISSION TRIGGER
+// ############################################################################026
+
+STRM_vehicle_stolen_ME_AS_1001, "A vehicle (registration plate: ME_AS_1001) was stolen near Bagango!", "Ein Fahrzeug (Kennzeichen: ME_AS_1001) wurde nahe Bagango gestohlen!"
+
+// LIZENZEN
+// ############################################################################027
+
+STRS_license_car, "Car License", "Autolizenz"
+STRS_license_pickup, "Pick-up License", "Pickuplizenz"
+STRS_license_truck, "Truck License", "Trucklizenz"
+STRS_license_heavycar, "Armoured-Car License", "Gepanzerte Fahrzeuglizenz"
+STRS_license_boat, "Boat License", "Wasserfahrzeuglizenz"
+STRS_license_air, "Air-Vehicle License", "Luftvehikellizenz"
+STRS_license_handgun, "Handgun License", "Handfeuerwaffenlizenz"
+STRS_license_smg, "Sub Machine Gun License", "Sub Machine Gun Lizenz"
+STRS_license_rifle, "Rifle License", "Gewehrlizenz"
+STRS_license_sniper, "Sniper License", "Scharfschuetzenlizenz"
+STRS_license_machinegun, "Machine-gun License", "Maschinengewehr Lizenz"
+STRS_license_heavygun, "Heavy-Weapons License", "Schwere Waffenlizenz"
+STRS_license_bounty, "Bounty-Hunter License", "kopfgeldjaegerlizenz"
+STRS_license_terror, "Terrorist Training", "Terroristen Training"
+STRS_license_uni, "University Exam", "Universitaetsausbildung"
+STRS_license_bank, "Bank Insurance", "Bankversicherung"
+STRS_license_bomb, "Bomb Training", "Bombentraining"
+STRS_license_lockpick, "Lock Pick Training", "Lockpick Training"
+STRS_license_engineer, "Engineer Training", "Mechaniker Training"
+STRS_license_explosive, "Explosives Training", "Sprengstofftraining"
+STRS_license_basic_police, "Basic Police Training", "Einfaches Polizei Training"
+STRS_license_coppatrol, "Patrol-Officer Training", "Streifen-Polizist Training"
+STRS_license_copresponse, "Criminal Response-Officer Training", "Criminal Response-Officer Training"
+STRS_license_copairsupport, "Air Suport-Officer Training", "Luft Support-Officer Training"
+STRS_license_copswat, "SWAT-Officer Training", "SWAT-Officer Training"
+STRS_license_medic, "Ambulance/Medic License", "Ambulanz/Medizin Lizenz"
+STRS_license_medicCop, "Medical Training", "Medizin Training"
+STRS_license_realestate, "Real-Estate License", "Immobilien Lizenz"
+STRS_license_taxidriver, "Taxi-Driver License", "Taxifahrer Lizenz"
+STRS_license_bodyguard, "Bodyguard License", "Bodyguard Lizenz"
+STRS_remove_License, "Your license %1 has been removed from you by the chief of police", "Deine Lizenz/Training %1 Wurde vom Polizei-Chief entfernt"
+
+STRM_mission_marker_license1, "Car/Pick-up-License", "Auto/Pickup-Lizenz"
+STRM_mission_marker_license2, "Handgun/Rifle/SMG-License", "Handfeuerwaffen/Gewehr/SMG-Lizenz"
+STRM_mission_marker_license3, "Sniper/MG-License", "Sniper/MG-Lizenz"
+STRM_mission_marker_license4, "Boat License", "Boot Lizenz"
+STRM_mission_marker_license_airport, "Air License", "Luft Lizenz"
+STRM_mission_marker_license5, "Truck License", "Trucklizenz"
+STRM_mission_marker_university, "Civillian Trainings", "Zivile Trainings"
+STRM_mission_marker_realestate, "Habibi's Real-Estate", "Habibi's Immobilien"
+
+// INVENTAR_01
+// ############################################################################028
+
+STRS_item_addinfo_keine, "none", "keine"
+
+//-----------HIDEOUT--------------
+STRS_item_hideout, "Hideout", "Hideout"
+STRS_item_hideout_info, "A Hideout. Use it outside the cities to place it. At the flag, that will stand near the hideout, you can buy addons. Those addons you can use at this flag.","Ein Hideout. Benutze es ausserhalb der Staedte, um es zu bauen. An der Fahne, die dann ebenfalls erstellt wird, kannst du zusaetze kaufen, die du an der Fahne benutzen kannst."
+STRS_inventar_hideout_wrongplace, "You are too close to a city so you cannot build your hideout here.", "Du bist zu nah an einer Stadt, daher kannst du dein Hideout hier nicht bauen."
+STRS_inventar_no_money_hideout, "You can't afford the hideout.", "Du kannst dir das Hideout nicht leisten."
+STRS_inventar_bought_hideout, "%1, you build a Hideout here.", "%1, du hast hier ein Hideout gebaut."
+
+STRS_variablen_hideout_small, "Small Hideout", "Kleines Hideout"
+STRS_variablen_hideout_middle, "Medium Hideout", "Mittleres Hideout"
+STRS_variablen_hideout_large, "Large Hideout", "Grosses Hideout"
+STRS_variablen_hideout_addon_firstaid, "First Aid", "Erste Hilfe"
+STRS_variablen_hideout_addon_teleporter, "Teleporter", "Teleporter"
+STRS_variablen_hideout_addon_banking, "Internet Banking", "Online Banking"
+
+STRS_hideoutheal_nouse, "You are not injured.", "Du bist nicht verletzt."
+STRS_hideoutheal_use, "You are healing yourself, wait 5 seconds until your wounds are healed completely.", "Du heilst dich, warte 5 Sekunden bis du alle Wunden verheilt sind."
+STRS_hideoutheal_used, "Your wounds are now healed.", "Deine Wunden sind nun geheilt."
+
+STRS_hideoutaddons_nobuy, "You can't afford this add-on.", "Du kannst dir dieses Addon nicht leisten."
+STRS_hideoutaddons_buy, "You bought that hideout add-on for $%1.", "Du hast dieses Hideout-Addon fuer $%1 gekauft."
+STRS_hideoutaddons_repaired, "You repaired your hideout.", "Du hast dein Hideout repariert."
+STRS_hideoutaddons_norepair, "You cannot repair your hideout because it is not damaged.", "Du kannst das Hideout nicht reparieren, da es nicht beschaedigt ist."
+
+STRS_hideoutaction_nobuy, "You can't afford that hideout.", "Du kannst dir kein Hideout leisten."
+STRS_hideoutaction_already, "You already own a hideout.", "Du hast bereits ein eigenes Hideout."
+STRS_hideoutaction_info, "You bought a hideout. It is now available in your inventory (Place it by selecting it in the inventory and click use. Note: You can't place the hideout inside towns.)", "Du hast ein Hideout gekauft. Es befindet sich nun in deinem Inventar. Du kannst es bauen indem du es im Inventar auswaehlst und auf Benutzen klickst (Beachte: Du kannst es nicht ueberall bauen - Fuer mehr Informationen siehe Karte/Briefing)."
+
+STRS_hideout_flagowner, "The owner of this hideout is %1", "Der Besitzer dieses Hideouts ist: %1"
+
+STRS_hideout_locked_entered, "%1 has entered your hideout.", "%1 hat dein Versteck betreten."
+STRS_hideout_locked, "Hideout locked.", "Hideout abgeschlossen."
+STRS_hideout_unlocked, "Hideout unlocked.", "Hideout aufgeschlossen."
+
+STRS_hideout_marker, "Your Hideout", "Dein Versteck"
+
+STRS_item_alreadygothideout, "You already have a hideout.", "Du hast bereits ein Hideout."
+
+//-----------STOERSENDER--------------
+STRS_item_stoersender, "Jammer", "Stoersender"
+STRS_item_stoersender_info, "You can block the Civ marker for a certain amount of time using this item.", "Mit diesem Item kannst du den Civmarker fuer eine bestimmte Zeit verschwinden lassen."
+STRS_inventar_stoersender_alreadyinuse, "You can not use it until your current marker jamming is over.", "Du kannst es nicht benutzen bis die aktuelle Stoerung zu Ende ist."
+STRS_inventar_stoersender_success, "You jammed your Civ marker. No-one will see your marker for the next %1 minutes.", "Du hast deinen Civmarker gestoert. Fuer die naechsten %1 Minuten kann niemand deinen Marker sehen"
+STRS_inventar_stoersender_end, "Your Marker jamming has ended.", "Deine Markerstoerung ist zuende"
+
+//-----------VERSICHERUNG--------------
+STRS_item_versicherung, "Bank Insurance", "BankVersicherung"
+STRS_item_versicherung_info, "You cannot lose any money when the bank is robbed while having this item in your inventory. Each time the bank gets robbed one insurance item will be removed.", "Waehrend du dieses Item bei dir hast, kannst du kein geld verlieren, wenn die Bank ausgeraubt wird. Jedes mal, wenn die Bank ausgeraubt wird, verlierst du jedoch eins deiner Versicherungen."
+
+//-----------LOCKPICK--------------
+STRS_item_lockpick, "Lock Pick", "Dietrich"
+STRS_item_lockpick_info, "With this device you can steal other vehicles and acquire the keys.", "Mit diesem Geraet kannst du andere Autos zu deinem eigenem machen."
+STRS_inventar_lockpick_zuweit, "No vehicle close enough.", "Kein Fahrzeug ist nah genug."
+STRS_inventar_lockpick_gesehen, "%1 stole a vehicle (registration plate: %2)!", "%1 hat ein Fahrzeug geklaut (Kennzeichen: %2)!"
+STRS_inventar_lockpick_already, "you already own this vehicle.", "Dir gehoert dieses Fahrzeug bereits."
+STRS_inventar_lockpick_success, "You break opened this vehicle!", "Du hast dieses Fahrzeug geknackt!"
+STRS_inventar_lockpick_noluck, "No Luck this time!", "Du hast dieses mal kein Glueck gehabt!"
+STRS_inventar_lockpick_cant, "Your already using a lockpick, wait until your done.", "Du benutzt zurzeit einen Lockpick, warte bis du fertig bist."
+
+//------------DRUGS---------
+STRS_inv_item_marijuanaseed, "Marijuana Seed", "Marijuana Samen"
+STRS_inv_item_cocaineseed, "Cocaine Seed", "Kokain Samen"
+STRS_inv_item_drugshed, "Drug Shed", "Drogenlabor"
+STRS_inv_item_marijuanaUP, "Marijuana (Unprocessed)", "Marijuana (unverarbeitet)"
+STRS_inv_item_CocaineUP, "Cocaine (Unprocessed)", "Kokain (unverarbeitet)"
+STRS_inv_item_oliveseed, "Olive seed", "Olivensamen"
+
+STRS_Item_cocaineUP_info, "This cocaine needs to be processed in a drug shed before it can be used/sold", "Dieses kokain muss erst verarbeitet werden bevor du es benutzen/verkaufen kannst"
+STRS_item_marijuanaseed_info, "With this seed you can plant Marijuana plants, the plants will grow over time and will be able to be harvested after a period of time, you will need to process the marijuana after harvest",  "Mit diesem Samen kannst du Marijuana pflanzen, die pflanzen brauchen eine weile zum wachsen, nach der ernte muss es verarbeitet werden"
+STRS_item_marijuanaUP_info, "This marijuana needs to be processed in a drug shed before it can be used/sold",  "diesen marijuana muss erst verarbeitet werden bevor du es benutzen/verkaufen kannst"
+STRS_item_drugshed_info, "You can use the drug shed to place it and create marijuana here", "You can use the drug shed to place it and create marijuana here"
+STRS_item_cocaineseed_info, "With this seed you can plant cocaine plants, the plants will grow over time and will be able to be harvested after a period of time, you will need to process the cocaine after harvest", "mit diesem samen kannst du kokainpflanzen pflanzen, die pflanzen brauchen eine weile zum wachsen, nach der ernte muss es verarbeitet werden"
+STRS_item_olive_info, "With this seed you can plant olive tree, the tree will grow over time and you will be able to harvest him", "mit diesem samen kannst du olivenbaeume pflanzen, die baeume brauchen eine weile zum wachsen"
+
+STRS_Drugs_DestroyShed, "You destroy a drug shed", "Du hast ein Drogenlabor zerstört"
+STRS_Drugs_HarvestMarijuana, "You harvest a Marijuana Plant", "Du hast eine Marijuanapflanze geerntet"
+STRS_Drugs_Plant_Marijuana, "You plant a marijuana plant, it will take some time to grow",  "Du hast eine marijuanapflanze gepflanzt, sie braucht einige zeit zum wachsen"
+STRS_Drugs_Marijuana_NearlyReady, "A marijuana plant is almost ready to be harvested", "eine marijuanapflanze ist fast fertig und kann bald geerntet werden"
+STRS_Drugs_Marijuana_Ready, "A Marijuana plant is ready to be harvested", "eine marijuanapflanze ist bereit zum ernten"
+STRS_Drugs_Marijuana_Burn, "You set the marijuana plant on fire destroying the evidence", "du verbrennst die marijuanapflanze um beweise zu vernichten"
+STRS_Drugs_PlaceShed, "You construct a drug shed here", "du hast ein drogenlabor gebaut"
+STRS_Drugs_NoMarijuana, "You have no unprocessed marijuana",  "du hast kein unverarbeitetes marijuana"
+STRS_Drugs_ProcessMarijuana, "You process 1 Marijuana", "du verarbeitest 1 Marijuana"
+
+STRS_Drugs_Plant_Cocaine, "You plant a cocaine plant, it will take some time to grow", "Du hast eine kokainpflanze gepflanzt, sie braucht einige zeit zum wachsen"
+STRS_Drugs_Cocaine_NearlyReady, "A cocaine plant is almost ready to be harvested", "eine kokainpflanze ist fast fertig und kann bald geerntet werden"
+STRS_Drugs_Cocaine_Ready, "A cocaine plant is ready to be harvested", "eine kokainplanze ist bereit zum ernten"
+STRS_Drugs_Cocaine_Burn, "You set the cocaine plant on fire destroying the evidence", "du verbrennst die kokainpflanze um beweise zu vernichten"
+STRS_Drugs_HarvestCocaine, "You harvest a Cocaine Plant", "du erntest eine kokainpflanze"
+STRS_Drugs_ProcessCocaine, "You process 1 Cocaine", "du verarbeitest 1 kokain"
+STRS_Drugs_NoCocaine, "You have no unprocessed cocaine", "du hast kein unverarbeitetes kokain"
+
+STRS_action_Drugs_MarijuanaBurn, "[Burn Marijuana]", "[Marijuana verbrennen]"
+STRS_action_Drugs_MarijuanaHarvest, "[Harvest Marijuana]", "[Marijuana ernten]"
+STRS_action_Drugs_DestroyShed, "[Destroy Shed]", "[Drogenlabor zerstören]"
+STRS_action_Drugs_ProcessMarijuana, "[Process Marijuana]", "[Marijuana verarbeiten]"
+STRS_action_Drugs_ProcessCocaine, "[Process Cocaine]", "[Kokain verarbeiten]"
+STRS_action_Drugs_CocaineBurn, "[Burn Cocaine]", "[Kokain verbrennen]"
+STRS_action_Drugs_CocaineHarvest, "[Harvest Cocaine]", "[Kokain ernten]"
+STRS_action_Drugs_olive_Burn, "You burn the olives", "Du verbrennst die Oliven"
+
+STRS_Drugs_Plant_olive, "You plant an olive tree, it will take some time to grow", "Du hast einen Olivenbaum gepflanzt, er wird einige Zeit zum wachsen brauchen"
+STRS_action_Drugs_oliveBurn, "[Burn Olives]", "[Burn Olives]"
+STRS_action_Drugs_OliveHarvest, "[Harvest Olives]", "[Ernte Oliven]"
+STRS_Drugs_olive_NearlyReady, "An olive tree is almost ready to be harvested", "Ein Olivenbaum wird bald bereit zur ernte sein"
+STRS_Drugs_olive_Ready, "An olive tree is ready to be harvested", "Ein Olivenbaum ist bereit geerntet zu werden"
+STRS_Drugs_Harvestolive, "You harvest an olive tree", "Du erntest einen Olivenbaum"
+
+
+
+//-----------FARM ITEMS--------------
+STRS_item_holz, "Wood", "Holz"
+STRS_item_eisenerz, "Iron Ore", "Eisenerz"
+STRS_item_gold, "Gold-Nuggets", "Gold-Nuggets"
+STRS_item_goldbarren, "Gold-Bar", "Gold-Barren"
+STRS_item_mineraloel, "Mineral Oil", "Mineraloel"
+STRS_item_ebauteile, "Electronic Components", "Elektronische Bauteile"
+STRS_item_silizium, "Silicon", "Silizium"
+STRS_item_kupfer, "Copper", "Kupfer"
+STRS_item_stahl, "Steel", "Stahl"
+STRS_item_schwarzpulver, "Black Powder", "Schwarzpulver"
+STRS_item_schwefel, "Sulphur", "Schwefel"
+STRS_item_kohle, "Coal", "Kohle"
+STRS_item_erdoel, "Petroleum", "Erdoel"
+STRS_item_glas, "Glass", "Glas"
+STRS_item_plastik, "Plastic", "Plastik"
+STRS_item_sand, "Sand", "Sand"
+STRS_item_stone, "Stone", "Stein"
+STRS_item_bricks, "Bricks", "Bricks"
+STRS_item_stahlwolle, "Steel Wool", "Stahlwolle"
+STRM_verseuchte_zone, "Contaminated Zone", "Kontaminierte Zone"
+
+STRS_item_farmitem_info, "This item can be used in order to create other items in factories.", "Dieses Item kann benutzt werden, um andere items in Fabriken herzustellen."
+
+// GILDEN
+// ############################################################################029
+
+STRS_gilde_cop, "You are a Cop, you are not allowed to use guilds.", "Als cop darfst du dich in Gilden nicht einmischen."
+STRS_gilde_schonmember, "You are already a Member of a guild", "Du bist bereits Mitglied einer Gilde"
+STRS_gilde_keinmoney, "You do not have enough money to create a guild. You need $%1.", "Du hast nicht genug geld, eine Gilde zu erstellen. Du brauchst $%1."
+STRS_gilde_erstellt, "You have created a new guild. It has the name %1 and it has the Guild-ID %2. With this ID the Members of your guild are identified.", "Du hast eine neue Gilde gegruendet. Ihr Name ist %1 und sie hat die Gilden-ID %2. Unter dieser ID werden die Member deiner Gilde identifiziert."
+STRS_gilde_beitreten_keinmoney, "You do not have enough money to join a guild. You need $%1.", "Du hast nicht Genug geld, um dieser Gilde beitreten zu koennen. Du brauchst $%1"
+STRS_gilde_beigetreten, "You joined a guild. You paid $%1 for that.", "Du bist einer Gilde beigetreten. Du hast $%1 dafuer bezahlt."
+STRS_gilde_beigetreten_leader, "%1 joined your Guild. You got $%2 from him.", "%1 ist deiner Gilde beigetreten. Du hast $%2 von ihm bekommen."
+STRS_gilde_zuviele, "You can not join this Guild. It has reached the maximum of players per guild or joining this guild has been disabled by the leader.", "Du kannst dieser Gilde nicht beitreten. Sie hat das Maximum an Spielern pro Gilde erreicht oder das Beitreten wurde vom Gildenleader deaktiviert."
+STRS_gilde_keinegilde, "You are not in a Guild.", "Du bist in keiner Gilde."
+STRS_gilde_verlassen, "You left your Guild.", "Du hast deine Gilde verlassen."
+STRS_gilde_verlassen_leader, "Someone has left your Guild.", "Jemand hat deine Gilde verlassen."
+STRS_gilde_newleader, "The Leader of this Guild has left the Guild, you are now the leader!", "Der Leader dieser Gilde hat die Gilde verlassen, du bist nun der Leader!"
+STRS_gilde_keinegewaehlt, "You did not select a guild.", "Du hast keine Gilde gewaehlt."
+STRS_gilde_rausgeworfen, "You were kicked out of the guild by the leader!", "Du wurdest vom Leader aus der Gilde gekickt!"
+STRS_gilde_keinname, "The name must not be empty!", "Der Name darf nicht leer sein!"
+STRS_gildeid, "Guild-ID", "Gilde-ID"
+STRS_gilde_gruender, "Founder", "Gruender"
+
+STRS_gilde_gangwar_keinleader, "You are not the Leader, so you can not take this area.","Du bist nicht der Leader, daher kannst du nicht dieses Gebiet erobern."
+STRS_gilde_gangwar_notactive, "Currently it is not possible to take areas.", "Derzeit ist es nicht moeglich, Gebiete zu erobern."
+STRS_gilde_gangwar_geradeversucht, "You already tried it a short time ago.", "Du hast es erst kuerzlich versucht."
+STRS_gilde_gangwar_bereitserobert, "Area already taken.", "Das Gebiet ist bereits erobert."
+STRS_gilde_gangwar_andereimgebiet, "Area not taken, because member of other guilds are in this area.", "Gebiet nicht erobert, weil sich andere Gildenmitglieder sich in diesem Gebiet befinden."
+STRS_gilde_gangwar_erobert, "Area taken!", "Gebiet erobert !"
+
+STRS_gilde_neueregierung, "A new government has been set up.", "Eine neue Regierung ist angetreten."
+STRS_gilde_keineregierung, "The government has been disbanded.", "Es gibt keine Regieung mehr."
+
+STRS_addaction_gangarea, "Own this area!", "Dieses Gebiet erobern!"
+STRS_gilde_kampfstart, "A fight for the gang areas has started.", "Ein Kampf um die Gang-gebiete hat angefangen."
+STRS_gilde_kampfende, "The fight for the gang areas ended.", "Der Kampf um die Gang-gebiete ist nun beendet."
+
+STRM_mission_marker_gangarea1, "Gang Area 1", "Gang-gebiet 1"
+
+STRS_addaction_gesetz, "Change the Law", "Gesetze Aendern"
+
+STRD_dialogandere_gesetze_header, "Change laws (You have to choose a slot in the list below. It may be empty.)", "Gesetze aendern (Du musst einen Slot in der Liste auswaehlen. Dieser kann auch leer sein.)"
+STRD_dialogandere_gesetze_submit, "Change!", "Aendern!"
+
+STRS_gilde_gesetze_public, "Law #%1 has been changed. This is the new Law: %2", "Gesetz #%1 wurde geaendert. Der neue Text lautet nun: %2"
+
+STRD_description_punktekauf_header, "Buy Guild-Points", "Gildenpunkte kaufen"
+STRS_dialogandere_punktekauf_anzeigetext, "Buy %1 point(s) for $%2", "%1 Punkt(e) fuer $%2 kaufen"
+STRS_addaction_gildenpunkte, "Buy Points (Guild)", "Punkte kaufen (Gilde)"
+STRS_gilde_punktegekauft, "You have bought %1 Guild-Points for $%2.", "Du hast %1 Gilden-Punkte fuer $%2 gekauft."
+
+STRD_description_gildeverwalten_sperren_submit, "Update!", "Aktuallisieren!"
+STRD_description_gildeverwalten_sperren_header, "Join allowed?", "Beitreten erlaubt?"
+STRD_description_gildegruenden_hinweis, "Note: The Name MUST NOT contain quotes! Using quotes will crash the script and you will get an error. If you have further problems using the guilds, you have to leave your guild, which does not exist, using the leave button from the guild's main menu.", "Hinweis: Im Namen duerfen KEINE Anfuehrungszeichen vorkommen. Mit Anfuehrungszeichen im Namen kommt das Script nicht klar und du wirst eine Fehlermeldung bekommen! Sollte es zu Problemen kommen, musst du im Gildenhauptmenu deine Gilde, die nicht existiert, verlassen."
+
+// STUN
+// ############################################################################030
+
+STRS_stunned_enabled, "You are getting tazered!. Wait until the current-flow stops before you try to move.", "Du wirst gerade getasert, warte bis der Stromfluss unterbricht, bevor du versuchst aufzustehen."
+STRS_stunned_disabled, "You recovered. Use the Animation menu and play the animation -normal- in order to stand up again.", "Du hast dich erhohlt. Um wiederaufzustehen, benutz die Animation -normal- aus dem Animationsmenu."
+STRS_stunned_iamtheone, "I stunned %1!", "Ich habe %1 geschockt!"
+
+// SHOPS
+// ############################################################################032
+
+STRS_alreadygotshop, "You already own this shop.", "Dir gehoert bereits dieser shop."
+STRS_gotshop, "%1, you bought this shop for $%2.", "%1, du hast diesen Shop fuer $%2 gekauft."
+
+// COP PRISON
+// ############################################################################033
+
+STRS_cop_inprison, "You are in prison because you team-killed a cop.", "Du bist im Gefaengnis, weil du einen Cop getoetet hast."
+STRS_cop_freeprison, "You are free again.", "Du bist wieder frei."
+
+// FACTORIES
+// ############################################################################034
+
+STRM_mission_marker_fac_weapon, "Pistol Factory", "Pistolenfabrik"
+STRM_mission_marker_fac_smg, "SMG Factory", "SMG Fabrik"
+STRM_mission_marker_fac_rifle, "Rifle Factory", "Gewehr Fabrik"
+STRM_mission_marker_fac_heavweapon, "Heavy Weap Factory", "Schw. Waffen Fabrik"
+STRM_mission_marker_fac_vehicle, "Vehicle Factory", "Fahrzeugfabrik"
+STRM_mission_marker_fac_item, "Item Factory", "Itemfabrik"
+STRM_mission_marker_fac_res, "Resource Factory", "Ressourcenfabrik"
+STRM_mission_marker_fac_construc, "Construction/Buildings Factory", "Haeuser/Konstruktions Fabrik"
+STRM_mission_marker_fac_oresmelt, "Ore Smelter", "Erz Schmelze"
+STRM_mission_marker_fac_food, "Food Factory", "Nahrungsmittelfabrik"
+STRM_mission_marker_fac_water, "Water treatment plant", "Wasseraufbereitungsanlage"
+STRM_mission_marker_fac_food, "Food processing plant", "Nahrungsmittel Fabrik"
+STRM_mission_marker_fac_alk, "Alkohol/Tobacco Factory", "Alkohol/Tabak Fabrik"
+STRM_Jewelry_Factory, "Jewlery Factory", "Schmuck Fabrik"
+
+STRM_mission_marker_mine_erz, "Iron Ore Mine", "Eisenerzmine"
+STRM_mission_marker_mine_oel, "Oil Well", "Oelquelle"
+STRM_mission_marker_mine_kupfer, "Copper Mine", "Kupfermine"
+STRM_mission_marker_mine_holz, "Wood", "Holz"
+STRM_mission_marker_mine_sand, "Sand", "sandgrube"
+STRM_mission_marker_mine_silizium, "Silicon Mine", "Siliziummine"
+STRM_mission_marker_mine_schwefel, "Sulphur Mine", "Schwefelmine"
+STRM_mission_marker_mine_kohle, "Coal Mine", "Kohlemine"
+STRM_mission_marker_mine_stone, "Stone Mine", "Steinmine"
+
+// CRIMELOG
+// ############################################################################035
+
+STRS_functions_crimelog_msg1, "Robbed the bank and stole $%1.", "Hat die Bank ausgeraubt und bekam $%1."
+STRS_functions_crimelog_msg2, "Stole money from another civ.", "Hat money von einem anderen Civ gestohlen."
+STRS_functions_crimelog_msg3, "Killed another civ.", "Hat einen Civ getoetet."
+STRS_functions_crimelog_msg4, "Killed another cop.", "Hat einen Cop getoetet."
+STRS_functions_crimelog_msg5, "Was sent to prison.", "Wurde verhaftet."
+STRS_functions_crimelog_msg6, "Was released from prison.", "Wurde wieder freigelassen."
+STRS_functions_crimelog_msg7, "Escaped from prison.", "Ist aus dem Gefaengnis ausgebrochen."
+STRS_functions_crimelog_msg8, "Has died.", "Starb."
+STRS_functions_crimelog_msg9, "Paid a ticket of %1.", "Hat einen Strafzettel in hoehe von $%1 bezahlt."
+STRS_functions_crimelog_msg10, "Used a bomb.", "Benutzte eine Bombe."
+STRS_functions_crimelog_msg11, "Entered the Terrorcamp.", "Hat das Terroristenlager betreten."
+
+// MAYOR
+// ############################################################################036
+
+STRS_addaction_wahlen, "Vote for goverment positions", "Regierung Waehlen"
+STRD_description_wahl_header, "Mayor Election", "Buergermeister Wahlen"
+STRD_description_chief_header, "Chief Election", "Polizei-Chief Wahlen"
+
+STRD_description_wahl_submit, "Elect Mayor", "Buergermeister waehlen"
+STRD_description_chief_submit, "Elect Chief", "Polizei-Chief waehlen"
+
+STRS_chief_new, "%1 is now the chief of police, He won with %2 votes.", "%1 ist der neue chief der Polizei! Er hat mit %2 Stimmen gewonnen."
+STRS_mayor_new, "%1 is now the new Mayor! He won with %2 votes.", "%1 ist der neue Buergermeister! Er hat mit %2 Stimmen gewonnen."
+STRS_regierung_votedfor, "You voted for %1. The result will be shown at the end of the current government.", "Du hast fuer %1 gestimmt. Das Ergebnis wird am ende der aktuellen Regierung bekanntgegeben."
+STRS_chief_votedfor, "You voted for %1. The result will be shown when the next police of chief is elected", "Du hast fuer %1 gestimmt. Das Ergebnis wird am ende der aktuellen Regierung bekanntgegeben."
+STRS_regierung_nomajor, "Currently no Mayor has been elected.", "Derzeit ist kein Buergermeister gewaehlt."
+STRS_chief_nochief, "There is current no chief of police, it is recommended the police vote one to organise them", "Es ist momentan kein Polizei-Chief geweahlt, es wird dringend empfohlen einen zu weahlen!"
+STRS_regierung_majorstays, "The old Mayor stays.", "Der alte Buergermeister wurde wiedergewaehlt."
+STRS_chief_chiefstays, "The Current chief of police stays", "Der momentane Polizei-Chief bleibt geweahlt"
+
+// TAXES
+STRD_description_steuer_header, "Taxes, Welfare, Payments", "Steuern, Sozialhilfe, Zahlungen"
+STRD_description_steuer_submit, "Confirm Changes", "Aenderungen Bestaetigen"
+
+STRS_dialogandere_steuerdialog_itemsteuer, "Item tax: %1 Percent", "Item Steuer: %1 Prozent"
+STRS_dialogandere_steuerdialog_fahrzeugsteuer, "Vehicle tax: %1 Percent", "Fahrzeug Steuer: %1 Prozent"
+STRS_dialogandere_steuerdialog_magazinsteuer, "Weapon Magazine tax: %1 Percent", "Magazin Steuer: %1 Prozent"
+STRS_dialogandere_steuerdialog_waffesteuer, "Weapon tax: %1 Percent", "Waffen Steuer: %1 Prozent"
+STRS_dialogandere_steuerdialog_banksteuer, "Bank Transfer tax: %1 Percent", "Bank Transfer Steuer: %1 Prozent"
+STRS_dialogandere_steuerdialog_fuelsteuer, "Fuel tax: %1 Percent", "Treibstoff Steuer: %1 Prozent"
+
+// IncomeTaxes
+STRS_dialogandere_steuerdialog_ictaxclass1, "Income-Tax(0-1000$): %1 Percent", "Einkommensteuer(0-1000$): %1Przt"
+STRS_dialogandere_steuerdialog_ictaxclass2, "Income-Tax(1001-4000$): %1 Percent", "Einkommensteuer(1001-4000$): %1Przt"
+STRS_dialogandere_steuerdialog_ictaxclass3, "Income-Tax(4001-9999$): %1 Percent", "Einkommensteuer(4001-9999$): %1Przt"
+STRS_dialogandere_steuerdialog_ictaxclass4, "Income-Tax(10000-20000$): %1 Percent", "Einkommensteuer(10000-20000$): %1Przt"
+STRS_dialogandere_steuerdialog_ictaxclass5, "Income-Tax(>=20001$): %1 Percent", "Einkommensteuer(>=20001$): %1Przt"
+
+// Wealth-Taxes
+STRS_dialogandere_steuerdialog_wealthtaxlimit, "Wealth-tax BankLimit: %1$", "Vermoegenssteuer Bank-Limit: %1$"
+STRS_dialogandere_steuerdialog_wealthtaxpercent, "Wealth-tax : %1 Percent", "Vermoegenssteuersatz : %1 Prozent"
+
+//Welfare,Sozialhilfe
+STRS_dialogandere_steuerdialog_welfareIncomelimit, "Welfare Incomelimit: %1$", "SozHilfe Einkommensgrenze: %1$"
+STRS_dialogandere_steuerdialog_welfareBanklimit, "Welfare Account-Limit: %1$", "SozHilfe Kontogrenze: %1$"
+STRS_dialogandere_steuerdialog_welfareAmount, "Welfare Amount: %1$", "Sozialhilfe-Satz: %1$"
+
+// MAYOR, CHIEFPOLICE PAY, INTEREST RATES, POLICE PAY
+STRS_dialogandere_steuerdialog_MayorIncome, "Mayor Salary: %1$", "Buergermeister Gehalt: %1$"
+STRS_dialogandere_steuerdialog_PolChiefIncome, "Police Chief Salary: %1$", "Police Chief Gehalt: %1$"
+STRS_dialogandere_steuerdialog_InterestRates, "Bank Interest: %1 Percent", "Bank Zinzsatz: %1 Prozent"
+STRS_dialogandere_steuerdialog_PoliceIncome, "Police Basic-Salary: %1$", "Polizei Grundgehalt: %1$"
+
+STRS_bank_dialoge_taxaccountgovtext, "Money on Government Account:", "Geld auf Regierungskonto:"
+STRS_bank_dialoge_taxaccountgovValue, "%1 $", "%1 $"
+STRS_bank_wealthtax_message, "Your Bank Account currently has %1$ in it. You are over the set threshold of %2$ and after government settings, you count as being wealthy, therefor you have to pay %3$ (%4 percent) in wealth-taxes. The Tax will be transfered to the governments bank account at the next Paycheque.", "Du hast Momentan %1$ auf dem Konto. Du liegst damit ueber der Schwelle von %2$ und zaehlst fuer die Regierung als Wohlhabend, deshalb musst du %3$ (%4 Prozent) an Vermoegenssteuer zahlen. Das Geld wird an das Regierungskonto mit dem naechsten Gehaltsscheck Ueberwiesen."
+
+STRS_mayor_screams_out_changes, "The Government has changed Various Taxes, Social-Welfare, Payments, Interest-Rates and/or other Details!", "Die Regierung hat verschiedene Steuern, Sozialhilfesaetze, Loehne+Gehealter, Zins-raten und/oder andere Details geaendert!"
+STRS_mayor_tax_changes_inDetail, "The Government made these Numbers public:\n\nMayor Salary: %1$\nChief-Police Salary: %2$\nCop Default Salary: %3$\nWelfare: %4$\nWelfare-Income-limit:%5$\nWelfare-Bank-Limit:%6$\n\nWealth-Tax Bank-Limit: %7$\nWealth-Tax: %8 Percent\n\nVAT:\nItems: %9 Percent\nVehicles: %10 Percent\nWeapons: %11 Percent\nMagazines: %12 Percent\nBank-Trans.: %13 Percent\nFuel: %14 Percent", "Die Regierung gibt folgende Zahlen bekannt:\n\nBuergermeister Gehalt: %1$\nChief-Police Gehalt: %2$\nPolizei Grundgehalt: %3$\nSozialhilfesatz: %4$\nSozialhilfe Einkommensgrenze:%5$\nSozialhilfe Kontoschwelle:%6$\n\nVermoegenssteuer Kontoschwelle: %7$\nVermoegenssteuer: %8 Prozent\n\nMehrwertsteuern:\nItems: %9 Prozent\nFahrzeuge: %10 Prozent\nWaffen: %11 Prozent\nMagazine: %12 Prozent\nBank-Trans.: %13 Prozent\nTreibstoff: %14 Prozent"
+
+STRS_addaction_steuern, "Change taxes", "Steuern setzen"
+STRS_addaction_resignMayor, "Resign as Mayor!", "Als Buergermeister Zuruecktreten!"
+STRS_addaction_resignChief, "Resign as Chief!", "Als Chief Zuruecktreten!"
+STRS_addaction_resignBodyguard, "Quit Bodyguard Job!", "Bodyguard Job Kuendigen!"
+
+STRS_mayor_resigned, "%1 just resigned from his position as Mayor of Sahrani!\nVote a new one quickly!", "%1 ist soeben von seiner Position als Buergermeister Sahranis zurueckgetreten!\nWaehle schnell einen neuen!"
+STRS_chief_resigned, "%1 just resigned from his position as Police Chief!\nVote a new one quickly!", "%1 ist soeben von seiner Position als Polizei-Chief zurueckgetreten!\nWaehle schnell einen neuen!"
+STRS_bodyguard_resigned_private, "%You have resigned from your position as the mayors Bodyguard!", "Du bist von deiner Position als Bodyguard des Buergermeisters zurueckgetreten!"
+STRS_Bodyguard_resigned_public, "%1 has just resigned from his position as the Mayors Bodyguard", "%1 ist soeben von seiner Position als Bodyguard des Buergermeisters zurueckgetreten!"
+STRS_mayor_died, "%1 died and is no longer the elected Mayor - please vote a new one fast!", "%1 ist verstorben und nicht mehr laenger der geweahlte Buergermeister - waehlt schnell einen neuen!"
+STRS_chief_died, "%1 died and is no longer the elected Police-Chief - please vote a new one fast!", "%1 ist verstorben und nicht mehr laenger der geweahlte Polizei-Chief - waehlt schnell einen neuen!"
+
+// ANIMATIONS
+// ################################################################################################flick
+
+STRS_anim_nur_ohne_waffe, "You cannot play this animation while being armed.", "Du kannst diese Animation nicht spielen, solange du bewaffnet bist."
+STRS_anim_nur_mit_waffe, "You cannot play this animation without a weapon.", "Du kannst diese Animation nicht ohne eine Waffe spielen."
+STRS_anim_noselect, "Please select an animation.", "Waehle zuerst eine animation aus."
+STRS_anim_nohandsup, "You cannot put your hands up now.", "Du kannst deine haende gerade nicht hochnehmen."
+
+STRS_anim_var_handsup, "Hands up", "Haende hoch"
+STRS_anim_var_holsterpistol, "Holster Pistol", "Pistole wegstecken"
+STRS_anim_var_holsterrifle, "Holster Rifle", "Gewehr wegstecken"
+STRS_anim_var_normal, "Normal", "Normal"
+STRS_anim_var_die, "Die, fall forward", "Sterbend vorwaerts fallen"
+STRS_anim_var_headache, "Head ache", "Kopfschmerzen"
+STRS_anim_var_checkweapon, "Check watch with weapon in other hand", "Auf Uhr gucken mit Uhr in der anderen Hand"
+STRS_anim_var_martialarts, "Martial arts", "Martial arts"
+STRS_anim_var_pushups, "Do Pushups", "Liegestuetzen machen"
+STRS_anim_var_situps, "Do knee bends", "Kniebeugen machen"
+STRS_anim_var_conversation, "Have a conversion", "Ein Gespraech haben"
+STRS_anim_var_getup, "Get up from sitting", "Vom sitzen aufstehen"
+STRS_anim_var_sitsmoke, "Sit and smoke", "Sitzen und Rauchen"
+STRS_anim_var_sitcheck, "Sit and check weapon", "Sitzen und Waffe ueberpruefen"
+STRS_anim_var_atease, "At ease", "Ruehren"
+STRS_anim_var_interview, "Interview, give orders, move and prepare to defend", "Bewegend befehle geben und zur Verteidigung vorbereiten"
+STRS_anim_var_kneel_1, "Kneel 1", "Knien 1"
+STRS_anim_var_kneel_2, "Kneel 2", "Knien 2"
+STRS_anim_var_kneel_3, "Kneel 3", "Knien 3"
+STRS_anim_var_kneel_4, "Kneel 4", "Knien 4"
+STRS_anim_var_kneel_5, "Kneel 5", "Knien 5"
+STRS_anim_var_kneel_6, "Kneel 6", "Knien 6"
+STRS_anim_var_shit, "Take a shit", "Scheissen"
+STRS_anim_var_step_1, "Step right", "Nach rechts ausweichen"
+STRS_anim_var_step_2, "Step back", "Zurückweichen"
+STRS_anim_var_step_3, "Step left", "Nach links ausweichen"
+STRS_anim_var_step_4, "Step back", "Zurückweichen"
+STRS_anim_var_step_5, "Step left", "Nach links ausweichen"
+STRS_anim_var_dead_1, "Play dead", "Totstellen"
+STRS_anim_var_sit_1, "Sit down", "Sitzen"
+STRS_anim_var_talk_1, "Talk", "Unterhalten"
+STRS_anim_var_medic_1, "Medic 1", "Medic 1"
+STRS_anim_var_medic_2, "Medic 2", "Medic 2"
+STRS_anim_var_vehicle_1, "Push vehicle", "Fahrzeug schieben"
+STRS_anim_var_vehicle_2, "Clean vehicle", "Fahrzeug saeubern"
+STRS_anim_var_vehicle_3, "Check wheel", "Rad checken"
+STRS_anim_var_bend_2, "Knee bend", "Knee bend"
+STRS_anim_var_sprint_1, "Sprint 1", "Sprinten 1"
+STRS_anim_var_sprint_2, "Sprint 2", "Sprinten 2"
+
+STRD_anim_description_header, "Animations", "Animationen"
+STRD_anim_description_submit, "Perform animation", "Animation ausfuehren"
+
+// WETTERBERICHT
+// ################################################################################################schnick
+
+STRS_forecast_loading, "Sorry, the forecast is loading.", "Der Wetterbericht laed noch."
+STRS_wetterfogmsg1, "no", "kein"
+STRS_wetterfogmsg2, "a little", "ein wenig"
+STRS_wetterfogmsg3, "much", "viel"
+STRS_wetterrainmsg1, "no", "kein"
+STRS_wetterrainmsg2, "a little", "ein wenig"
+STRS_wetterrainmsg3, "heavy", "viel"
+STRS_wetterovercastmsg1, "clear", "klar"
+STRS_wetterovercastmsg2, "a little cloudy", "leicht bewoelkt"
+STRS_wetterovercastmsg3, "dark and cloudy", "stark bewoelkt"
+STRS_forecast, "The sky will be %3 and there will be %1 fog. Expect %2 rain. \n\n Wind:\n%4\n%5", "Der Wetterbericht sagt %2 Regen vorraus. Es wird %1 Nebel geben und der Himmel wird %3 sein. \n\n Wind:\n%4\n%5"
+
+STRS_wetter_wind_xrichtung_ost, "%1 m/s from East", "%1 m/s aus Osten"
+STRS_wetter_wind_xrichtung_west, "%1 m/s from West", "%1 m/s aus Westen"
+STRS_wetter_wind_xrichtung_still, "%1 m/s", "%1 m/s"
+STRS_wetter_wind_xrichtung_sued, "%1 m/s from South", "%1 m/s aus Sueden"
+STRS_wetter_wind_xrichtung_nord, "%1 m/s from North", "%1 m/s aus Norden"
+// ALLGEMEINE STRINGS
+// ############################################################################001
+
+STRS_player_not_ingame, "Error: Player not in-game.", "Fehler: Person ist nicht im Spiel."
+STRS_maxmoney, "You can't have more than $1000000 in your inventory or in the bank. Money has been removed.", "Du kannst soviel money nicht in dem Inventar oder auf der Bank haben. money wurde entfernt."
+STRS_not_copaction, "You are not a cop and cannot use this action.", "Du bist kein Cop und kannst diese Aktion nicht benutzen."
+STRS_kein_money, "Not enough money.", "Nicht genug money."
+STRS_check_inventarmoney, "You have $%1.", "Du hast $%1."
+STRS_not_ingame, "Selected Player is not in-game.", "Spieler ist nicht im Spiel."
+STRS_wrong_input, "Wrong Input. You are not allowed to use that character (%1).", "Falsche Eingabe. Du darfst dieses Zeichen nicht verwenden (%1)."
+STRS_text_zu_lang, "The entered text is too long.", "Der eingegebene Text ist zu lang."
+STRS_no_selection, "Nothing selected.", "Nichts ausgewaehlt."
+STRS_empty_string, "", ""
+STRS_ja,"Yes","Ja"
+STRS_nein,"No","Nein"
+STRS_keine, "None","Keine"
+STRS_keins, "Nothing","Keins"
+STRS_were, "were", "warst"
+STRS_nowere, "were not", "warst nicht"
+STRS_no_valid_number, "The value is not a valid number.", "Der Wert ist keine Zahl."
+
+STRD_grafikeinstellungen_header, "Settings", "Einstellungen"
+STRD_grafikeinstellungen_header_terrain, "Terrain Detail", "Terrain Detail"
+STRD_grafikeinstellungen_header_viewdistance, "View distance", "Sichtweite"
+STRD_grafikeinstellungen_close, "Close", "Schliessen"
+
+// INVENTAR
+// ################################################################################################dams
+
+STRS_inv_kein_money, "Not enough money.", "Nicht genug geld."
+STRS_inv_no_valid_number, "The value is not a valid number.", "Der Wert ist keine Zahl."
+
+STRS_inv_fac_buy, "Buy this factory ($%1)", "Diese Fabrik kaufen ($%1)"
+STRS_inv_fac_mani, "Manufacture an item", "Stelle ein Ojekt her"
+STRS_inv_fac_storage, "Storage", "Lager"
+STRS_inv_fac_success, "Item manufactured!", "Item hergestellt!"
+STRS_inv_no_selection, "You did not select an item.", "Du hast kein Item ausgewaehlt."
+STRS_inv_fac_cannot_mani_item, "You cannot manufacture this item.", "Du kannst dieses Item nicht herstellen."
+STRS_inv_fac_not_enough, "You do not have enough items in the storage of this factory.", "Du hast nicht genug Items in dem Lager dieser Fabrik."
+STRS_inv_facdialog_menge, "%1 (%2x - %3 available)", "%1 (%2x - %3 verfuegbar)"
+STRS_inv_description_factory_manifacture, "Manufacture (%1x)", "Herstellen (%1x)"
+STRS_inv_fac_dia_herstellen, "M A N U F A C T U R E - I T E M S", "I T E M S - H E R S T E L L E N"
+STRS_inv_fac_dia_lager, "NEEDED RESOURCES - STORAGE", "BENOETIGTE RESSOURCEN - LAGER"
+
+STRS_inv_actions_itemgather, "Gather Item", "Item sammeln"
+STRS_inv_actions_buy, "Buy %1 ($%2)", "%1 ($%2) kaufen"
+STRS_inv_actions_remove, "Remove %1", "%1 ablegen"
+
+STRS_inv_buylicense_alreadytrue, "You already have that License.", "Du hast diese Lizenz bereits."
+STRS_inv_buylicense_nomoney, "You do not have enough money for that license.", "Du hast nicht genug geld fuer diese Lizenz."
+STRS_inv_buylicense_gottraining, "You bought a %2 for $%1.", "Du hast eine %2 fuer $%1 gekauft."
+STRS_inv_buylicense_alreadyfalse, "You do not have that License/Training.", "Du hast diese(s) Lizenz/Training nicht."
+STRS_inv_buylicense_losttraining, "You lost your %1.", Du hast dein(e) %1 verloren."
+
+STRS_inv_buyitems_get_zuschwer, "Your weight reached the maximum capacity. You are not able to carry more objects.", "Dein Gewicht hat das Maximum erreicht. Du kannst nicht mehr Objekte aufnehmen."
+STRS_inv_buyitems_get_erhalten, "You got %1 %2.", "Du hast %1 %2 bekommen."
+STRS_inv_buyitems_notallowed, "You are not allowed to buy this item.", "Du darfst dieses Item nicht kaufen."
+
+STRS_inv_cannotUseNow, "You cannot use the inventory now.", "Du kannst das Inventar gerade nicht benutzen."
+
+STRS_inv_inventar_weggeworfen, "You dropped the item.", "Du hast das Item abgelegt."
+STRS_inv_inventar_drop_zuwenig, "You don't have that many objects to drop.", "Du hast nicht soviele Gegenstaende, die du ablegen kannst."
+STRS_inv_inventar_ablege_verbot, "You are not allowed to drop this object.", "Du darfst diesen gegenstand nicht einfach ablegen."
+STRS_inv_inventar_cannotuse, "You cannot use this item.", "Du kannst dieses Item nicht benutzen."
+STRS_inv_inventar_gotfromotherplayer, "You got %1 %2 from %3.", "Du bekamst %1 Einheiten %2 von %3."
+STRS_inv_inventar_cannotdrop, "You can not drop an object right now.", "Du kannst jetzt kein Item ablegen."
+
+STRS_inv_inventardialog_empty, "Your inventory is empty.", "Dein Inventar ist leer"
+STRS_inv_inventardialog_amount, "Amount: %1", Menge: %1"
+
+STRS_inv_storage_weightmax, "You cannot drop this as it will pass the maximum weight for this vehicle", "du kannst das item nicht ablegen da der kofferraum voll ist"
+STRS_inv_storage_took, "You took %1 of the Item.", "Du hast %1 Einheiten dieses Items genommen."
+STRS_inv_storage_toomuch, "There are not that many items in the storage.", "Es gibt nicht genug Items in diesem Lager."
+STRS_inv_storage_dropnotallowed, "Not allowed to drop that item in a factory.", "Es ist nicht erlaubt, dieses Item in einem Lager zu plazieren."
+STRS_inv_storage_dropunablesomuch, "You are not able to drop that much.", "Es ist nicht erlaubt, so viel abzulegen."
+STRS_inv_storage_dropped, "You dropped %1 of the item.", "Du hast %1 Einheiten des Items abgelegt."
+STRS_inv_storage_cannotdropsomuch, "You cannot drop that much here.", "Du kannst hier nicht so viel ablegen."
+STRS_inv_storage_deleted, "%1 units of the item deleted.", "%1 Einheiten des Item gelöscht."
+STRS_inv_storage_spam, "You are still taking/droping items... wait a few seconds.", "Du bist gerade noch am packen... warte ein paar Sekunden."
+
+STRS_inv_alreadygotshop, "You already own this building.", "Dir gehoert dieses Geschaeft bereits."
+STRS_inv_gotshop, "%1, you bought this building for $%2.", "%1, Du hast dieses Geschaeft fuer $%2 gekauft."
+
+STRS_inv_fabrik_dialogheader1, "Take Items", "Items aufnehmen"
+STRS_inv_fabrik_dialogheader2, "Store Items", "Items Ablegen"
+
+STRS_inv_storagedialog_take, "Take %1 Item(s) (%2kg)", "Nimm %1 Item(s) (%2kg)"
+STRS_inv_storagedialog_drop, "Drop %1 Item(s) (%2kg)", "Lege %1 Item(s) (%2kg) ab"
+
+STRS_inv_shopdialog_money, "Money: $%1", "Geld: $%1"
+STRS_inv_shopdialog_itemshop, "Your current Money: $%1", "Dein aktuelles Geld: $%1"
+
+STRS_inv_buyitems_maxgewicht, "Max weight reached. You can not carry any more items.", "Maximalgewicht ueberschritten, du kannst nicht mehr Items tragen"
+STRS_inv_buyitems_keinmoney, "You do not have enough money.", "Du hast nicht genug geld."
+STRS_inv_buyitems_gekauft, "You bought %1 %2 for $%3", "Du hast dir %1 %2 fuer $%3 gekauft."
+STRS_inv_buyvehicles_store_in_use, "This store is busy at the moment. Please try again later.", "Dieser Laden ist derzeit beschaeftigt, bitte versuche es spaeter erneut."
+STRS_inv_buyvehicles_buy_car, "You bought a %1 for $%2. Please wait five seconds until the vehicle spawns.", "Du hast dir ein %1 fuer $%2 gekauft. Bitte warte 5 Sekunden, bis das Vehikel spawnt."
+STRS_inv_buyvehicles_destroyed, "The vehicles is destroyed.", "Das Fahrzeug ist zerstört."
+STRS_inv_buyvehicles_noowner, "You are not the owner of this vehicle.", "dir gehoert dieses Fahrzeug nicht."
+STRS_inv_buyitems_sell_notenough, "You do not have enough items to sell.", "Du hast nicht genug items zum Verkaufen."
+STRS_inv_buyitems_verkauft, "You sold %1 %2 for $%3.", "Du hast %1 %2 fuer $%3 verkauft."
+STRS_inv_buyitems_sell_toofar, "The vehicle is too far away.", "Das Fahrzeug ist zu weit entfernt."
+STRS_inv_buyitems_nolicense, "You do not have the license/training for that object.", "Du hast nicht die Lizenz/Training fuer dieses Objekt."
+
+STRS_inv_shop_sold, "You sold %1 %2 for $%3.", "Du hast %1 Einheiten %2 fuer $%3 verkauft."
+STRS_inv_shop_vehiclesold, "You sold the vehicle for $%1.", "Du hast das Vehikel fuer $%1 verkaufen."
+
+STRD_inv_description_inventar_header, "Inventory", "Inventar"
+STRD_inv_description_factory_manifacture_header, "Factory", "Fabrik"
+STRD_inv_description_close, "Close", "Schliessen"
+STRD_inv_description_itemmenu_title, "Buy Items", "Items kaufen"
+STRD_inv_description_itemmenu_title2, "Sell Items", "Items verkaufen"
+STRD_inv_description_inventar_use, "Use", "Benutzen"
+STRD_inv_description_buyitem_close, "Close", "Schliessen"
+STRD_inv_description_inventar_drop, "Drop", "Ablegen"
+STRD_inv_description_inventar_schluessel_uebergabe, "Give to player", "An Spieler uebergeben"
+STRD_inv_description_inventar_item, "Item:", "Item:"
+STRD_inv_description_inventar_amount, "Amount:", "Menge:"
+STRD_inv_description_inventar_addinfo, "Additional Information:", "Zusaetzliche Informationen:"
+STRD_inv_description_inventar_gewicht, "Item Weight single/overall:", "Itemgewicht einzeln/gesamt:"
+
+STRS_inv_not_ingame, "Selected Player is not in-game.", "Spieler ist nicht im Spiel."
+STRS_inv_inventar_uebergabe_self, "You can't give anything to yourself.", "Du kannst dir nichts selbst uebergeben."
+STRS_inv_inventar_uebergabe_distance, "You have to be within at least 20 meters of the selected player.", "Du musst mindestens 20 Meter nah an dem entsprechendem Spieler sein."
+STRS_inv_inventar_uebergabe_verbot, "You must not give this Item to other players.", "Dieses Item darf nicht uebergeben werden."
+STRS_inv_inventar_uebergabe_zuwenig, "You don't have enough to give away that many of the item.", "Du hast nicht genug Items, um so viele uebergeben zu koennen"
+STRS_inv_inventar_uebergabe_success_self, "You gave %1 %2 units of %3.", "Du hast %1 %2 Einheiten %3 gegeben."
+STRS_inv_inventar_uebergabe_schluessel_success, "You got a key from another player. The Key is now on your Keychain.", "Du hast ein Auto von einem anderen Spieler erhalten. der Schluessel befindet sich nun an deinem Schluesselbund." 
+STRS_inv_inventar_uebergabe_schluessel_success_self, "You gave the Key for the Vehicle to the selected player (It has been removed from your keychain).", "Du hast den Schluessel fuer das Fahrzeug abgegeben (Er wurde von deinem Schluesselbund entfernt)."
+
+STRD_inv_description_inventar_header_police, "Police Inventory", "Polizisten Inventar"
+STRD_inv_description_inventar_polheader_police, "Police Actions", "Polizei Aktionen"
+STRD_inv_description_inventar_police_roadblock, "Place Roadblock", "Strassensperre Errichten"
+STRD_inv_description_inventar_police_impoundw, "Impound Vehicle", "Fahrzeug Konfiszieren"
+STRD_inv_description_inventar_police_impoundv, "Impound Weapon(s)", "Waffe(n) Konfiszieren"
+
+
+// Apples
+STRS_Drugs_Plant_apple, "You plant an apple plant, it will take some time to grow", "Du hast eine apfelpflanze gepflanzt, sie braucht einige zeit zum wachsen"
+STRS_action_Drugs_appleBurn, "[Burn Apples]", "[Apfel verbrennen]"
+STRS_action_Drugs_apple_Burn, "You set the apple plant on fire", "du verbrennst die apfelpflanze um beweise zu vernichten"
+STRS_Drugs_apple_NearlyReady, "An apple plant is nearly ready to harvest", "eine apfelpflanze ist fast fertig und kann bald geerntet werden"
+STRS_action_Drugs_AppleHarvest, "[Harvest Apples]", "[Apfel ernten]"
+STRS_Drugs_apple_Ready, "An apple plant is ready to harvest", "eine apfelpflanze ist bereit zum ernten"
+STRS_Drugs_HarvestApple, "You harvest an apple plant", "du erntest eine apfelpflanze"
+STRS_inv_item_appleseed, "Apple seed", "Apfelseed"
+STRS_item_appleseed_info, "Apple seed", "Apfelseed"
+STRS_inv_item_apple, "Apple", "Apfel"
+STRS_item_apple_info, "Apple", "Apfel"
+
+
+
+// ITEMS
+// ############################################################################101
+
+// money
+STRS_item_money, "Money", "geld"
+STRS_item_money_info, "Buy licenses, vehicles, weapons, drugs and other items! Note that you can not carry more than $999,999.","Kauf Lizenzen, Fahrzeuge, Waffen, Drogen und andere Gegenstaende. Bitte beachte, das du als maximum $999.999 tragen kannst."
+STRS_inventar_money, "You cannot use money. If you buy something, it will be removed automatically", "Du kannst geld nicht benutzen. Wenn du etwas kaufst, wird es automatisch entfernt"
+STRS_item_illegal_money, "Illegal Money", "Schwarzgeld"
+STRS_item_illegal_money_info, "Illegal Money", "Schwarzgeld"
+
+// SPEEDCAM
+
+STRS_inv_item_speedcam, "Speed Camera", "Blitzer"
+STRS_inv_item_speedcam_info, "", ""
+STRS_inv_item_speedcam_nothing, "", ""
+
+// DEFUSER
+
+STRS_inv_item_defuser, "Defuser", "Bombenentschaerfer"
+STRS_inv_item_defuser_info, "With this device you can defuse Satchel Charges and Mines.", "Mit diesem Geraet kannst du gelegte Verzoegerungsbomben und Minen entschaerfen."
+
+STRS_inv_items_defuser_success, "Bomb defused.", "Bombe entschaerft."
+STRS_inv_items_defuser_failed, "You made a mistake while defusing the bomb and it exploded!", "Du hast einen Fehler bei der entschaerfung gemacht, die Bombe ist explodiert!"
+STRS_inv_items_defuser_nobomb, "No Bomb to defuse.", "Keine Bombe zum entschaerfen."
+
+// GPS
+
+STRS_inv_item_gps, "GPS", "GPS"
+STRS_item_gps_info, "The Global Positioning System (GPS) is a U.S. space-based global navigation satellite system. It provides reliable positioning, navigation, and timing services to worldwide users on a continuous basis in all weather, day and night, anywhere on or near the Earth.", "Global Positioning System (GPS) ist ein globales Navigationssatellitensystem zur Positionsbestimmung und Zeitmessung"
+
+// REPAIR UND REFUEL
+
+STRS_inv_item_repairkit, "Repair Kit", "Reparaturkit"
+STRS_inv_item_repairkit_info, "Use it within a vehicle to repair the vehicle. You have to be the driver","Benutz es in einem fahrzeug, um das Fahrzeug zu reparieren. Du musst dazu der fahrer sein."
+
+STRS_inv_item_kanister, "Fuel-Can", "Benzin-Kanister"
+STRS_inv_item_kanister_info, "A can. Use it in a car to refuel it a bit.","Ein Benzinkanister. Benutze diesen in einem fahrzeug, um das Fahrzeug etwas aufzutanken."
+STRS_inv_item_avgascan, "AVGas-Can", "AVGas-Kanister"
+STRS_inv_item_avgascan_info, "A AVGAS can. Use it in a Air Vehicle to refuel it a bit.","Ein AVGas-Kanister. Benutze diesen in einem Luft-Fahrzeug um es etwas aufzutanken."
+
+STRS_inv_items_repair_refuel_wrongkit, "That item is not made for use on such a large vehicle.", "Dieses Item kann auf solch ein großes Fahrzeug nicht angewendet werden."
+STRS_inv_items_repair_refuel_notincar, "You are not in a vehicle", "Du bist nicht in einem Fahrzeug"
+STRS_inv_items_repair_refuel_notdriver, "You are not the driver", "Du bist nicht der Fahrer"
+STRS_inv_items_repair_notneeded, "Your vehicle is not damaged", "Dein Vehikel ist nicht beschaedigt"
+STRS_inv_items_repair_repaired, "You repaired that vehicle", "Du hast das Vehikel repariert"
+STRS_inv_items_refuel_notneeded, "Your vehicle's fuel is already full", "Dein Fahrzeug ist bereits voll"
+STRS_inv_items_refuel_refueled, "You refueled approx 5Ltr. in your vehicle.", "Du hast den 5Ltr Kanister in dein Vehikel getankt."
+STRS_inventar_repair_repaired, "You repaired this vehicle.", "Du hast dieses Fahrzeug repariert."
+STRS_inv_items_repair_wrongvcl, "You cannot repair this vehicle (with that item).", "Du kannst dieses Fahrzeug (mit diesem Item) nicht reparieren."
+STRS_inv_items_repair_inprogress, "You are repairing your vehicle, this will take about 30 seconds. Stay outside the Vehicle and don't move.", "Das Fahrzeug wird repariert, das dauert ca. 30 Sekunden. Bleibe ausserhalb des Fahrzeugs und bewege es nicht."
+STRS_inv_items_refuel_inprogress, "You are refuelling your vehicle with aprox. 5L, this will take about 20 seconds.", "Das Fahrzeug wird mit ca. 5L nachgetankt, das dauert ca. 20 Sekunden."
+STRS_inv_items_repair_already, "You are already repairing this vehicle, please wait until it is done.", "Das Fahrzeug wird bereits repariert, bitte warten bis es fertig ist."
+STRS_inv_items_refuel_already, "You are already refuelling this vehicle, please wait until it is done.", "Das Fahrzeug wird bereits betankt, bitte warten bis es fertig ist."
+STRS_inv_items_refuel_airvehicle, "You can't use that fuel in an Air vehicle - you need AVGAS for that!", "Du kannst diesen Treibstoff nicht in Luftfahrzeugen verwenden - Du brauchst AVGAS!"
+STRS_inv_items_refuel_Noairvehicle, "You can't use that kind of fuel in a NON Air vehicle!", "Du kannst diesen Treibstoff NUR in Luftfahrzeugen verwenden - Nicht in anderen!"
+STRS_inv_items_refuel_AVGASinprogress, "You are refuelling your Air-vehicle with some Gallons of AVGas. This will take about 1-2 Minutes.", "Das Luft-Fahrzeug wird mit ein paar Galonen AVGas betankt, das dauert ca. 1-2 Minuten."
+STRS_inv_items_refuel_AVGASrefueled, "You refueled a few Gallons of AVGAS in your air-vehicle.", "Du hast ein paar Galonen AVGAS in dein Luft-Fahrzeug getankt."
+STRS_inv_items_refuel_AIRengineoff, "You have to turn off the engine first for safety, before attempting to refuel AVGAS", "Du musst zuerst den Motor aus Sicherheitsgruenden stoppen, bevor du versuchst AVGAS nachzutanken"
+STRS_inv_items_refuel_engineoff, "You have to turn off the engine first for safety", "Aus Sicherheitsgründen musst du zuerst den Motor ausschalten"
+STRS_inv_items_ignite_ignite, "The fuel is on fire!! GET OUT QUICKLY BEFORE IT EXPLODES!", "Das Benzin des Fahrzeugs ist entzuendet!! VERSCHWINDE SO SCHNELL DU KANNST BEVOR ES EXPLODIERT!"
+
+//-----------IMPOUND--------------
+STRS_item_impound, "Impound Vehicle Ticket", "Fahrzeug Beschlagnahmen Ticket"
+STRS_item_impound_info, "With this ticket you can impound a vehicle near you. It will be moved to the impound-lot inside the Police base", "Mit diesem Ticket kannst du ein Fahrzeug in deiner Naehe beschlagnahmen. Es landet dann in der Polizeibasis auf dem Beschlagnahme Gelaende."
+STRS_inventar_impound_zuweit, "There is no vehicle here", "Es ist kein Fahrzeug in der nähe"
+STRS_inventar_impound_gesehen, "%1 has impounded vehicle (NAME: %2)!", "%1 Hat Fahrzeug beschlagnahmt (NAME: %2)!"
+STRS_inventar_impound_already, "You cant impound your own vehicle!!.", "Du kannst dein eigenes Fahrzeug nicht beschlagnahmen!!."
+STRS_inventar_impound_success, "You have impounded this vehicle!", "Du hast dieses Fahrzeug beschlagnahmt!"
+STRS_inventar_impound_noluck, "You have failed to impound this vehicle!", "Du bist beim Versuch das Fahrzeug zu beschlagnahmen, fehlgeschlagen!"
+STRS_inventar_impound_cant, "You cant impound a vehicle with living passengers inside", "Du kannst kein Fahrzeug mit lebenden Insassen beschlagnahmen"
+
+// SCHLUESSEL
+
+STRS_inv_item_schluesselbund, "Keychain", "Schluesselbund"
+STRS_inv_item_schluesselb_info, "On this keychain there are keys for all the vehicles you own. Using this object will open a dialog where you can choose the vehicle you want to lock/unlock.","Am Schluesselbund befinden sich die Schluessel aller Fahrzeuge in deinem Besitz. Wenn du auf benutzen klickst, oeffnet sich eine Liste, in der du alle Schluessel aufgelistet hast. Waehle einen Schluessel aus, und klick auf >benutzen<, um ein Fahrzeug auf/abzuschliessen."
+
+STRS_inv_items_vehiclelock_closer, "You have to be closer to your car!", "Du musst naeher an dem Fahrzeug sein, um es oeffnen zu koennen!"
+STRS_inv_items_vehiclelock_locked, "Vehicle locked.", "Fahrzeug abgeschlossen."
+STRS_inv_items_vehiclelock_unlocked, "Vehicle unlocked.", "Fahrzeug aufgeschlossen."
+STRS_inv_items_uebergabe_schluessel_success_self, "You gave the Key for the Vehicle to the selected player (It has been removed from your keychain).", "Du hast den Schluessel fuer das Fahrzeug abgegeben (Er wurde von deinem Schluesselbund entfernt)."
+STRS_inv_items_uebergabe_schluessel_success, "You got key from another player. The Key is now on your Keychain.", "Du hast ein Auto von einem anderen Spieler erhalten. der Schluessel befindet sich nun an deinem Schluesselbund." 
+STRS_inv_items_weggeworfen, "You dropped the item.", "Du hast das Item abgelegt."
+
+
+// NITRO
+
+STRS_inv_item_nitro, "Nitro", "Nitro"
+STRS_inv_item_nitro_info, "Speed-tuning for vehicles. Use this upgrage within a vehicle to activate the speedupgrage.","Geschwindigkeitstuning fuer Fahrzeuge. Benutze dieses Upgrade in einem Fahrzeug, um die Nitroeinspritzung des Fahrzeuges zu aktivieren."
+
+STRS_inv_items_speed_no, "You can't tune this car!", "Du kannst dieses Auto nicht aufruesten!"
+STRS_inv_items_speed_car, "You are not inside a vehicle.", "Du bist nicht in einem Fahrzeug."
+STRS_inv_items_speed_tuned, "You tuned this car! Use the action 'Use Nitro' in the car to speed up.", "Du hast das Fahrzeug getuned. Verwende die Aktion 'Nitro Aktivieren' im Wagen, um ihn zu beschleunigen."
+STRS_inv_items_speed_nodriver, "You are not the driver of the vehicle.", "Du bist nicht der Fahrer des Fahrzeuges."
+STRS_inv_items_speed_notmoving, "The vehicle is not moving.", "Das Fahrzeug bewegt sich nicht."
+STRS_inv_items_speed_nocar, "You are not in a vehicle!", "Du bist nicht in einem Fahrzeug!"
+STRS_inv_items_speed_nitroenabled, "Nitro enabled, it just drained 10% of your fuel.", "Nitro aktiviert, du hast verlierst 10% Treibstoff."
+STRS_inv_items_speed_action, "Use Nitro", "Nitro aktivieren"
+
+
+// WAFFENTASCHE
+
+STRS_inv_item_waffentascbe, "Weapon Bag", "Waffentasche"
+STRS_inv_item_waffentascbe_info, "With this Item you can remove a weapon lying on the ground. After usage, the item will be removed.", "Mit diesem Gegenstand kannst du eine herumliegende Waffe entfernen. Danach wird es entfernt."
+
+STRS_inv_items_weapondeleted, "%1 weapons impounded, scrapped and molten afterwards. The Police got %2 Units of steel in its public storage for that.", "%1 Waffen Konfisziert, Verschrottet und anschliessend Eingeschmolzen. Die Polizei bekommt dafuer %2 Einheiten Stahl in ihr Gemeinsames Lager."
+STRS_inv_items_weaponcargocleared, "Weapon Cargo of this vehicle was impounded and then molten. You got 2 Units of steel in the public storage for that", "Der Waffenvorrat des Fahrzeugs wurde eingezogen und dann eingeschmolzen. Ihr bekommt 2 Einheit Stahl in euer Gemeinsames Lager dafuer."
+
+
+// WAFFE
+
+STRS_inv_item_waffe, "Weapon", "Waffe"
+STRS_inv_item_waffe_info, "A Weapon you holstered. It is in your inventory. To unholster it, press >use<","Eine Waffe, die du geholstert hast. Um sie wieder in die Hand zu nehmen, drueck >benutzen<."
+
+STRS_inv_item_waffe_noholster, "You can't holster/unholster the weapon now", "Du kannst die Waffe jetzt nicht wegstecken/rausholen"
+STRS_inv_item_waffe_noweapon, "No weapon to hide.", "Du hast keine Waffe, die du verstecken koenntest."
+STRS_inv_item_waffe_weaponHidden, "Weapon hidden in Inventory. You can unholster it by using your inventory.", "Waffe im Inventar versteckt. Du kannst sie wieder rausholen, indem du dein Inventar benutzt."
+STRS_inv_item_waffe_weaponHiddenAlready, "Weapon hidden in Inventory, other taken out. Maybe you have to switch fire mode to use it.", "Waffe im Inventar versteckt, die andere wurde rausgenommen. Eventuell musst du den Feuermodus wechseln, um die Waffe benutzen zu koennen."
+STRS_inv_item_waffe_weaponTakenout, "You took the weapon out of the inventory. Maybe you have to switch fire mode to use it.", "Du hast die Waffe aus dem Inventar genommen. Eventuell musst du den Feuermodus wechseln, um die Waffe benutzen zu koennen."
+
+
+// MATERIAL
+
+STRS_inv_items_ressources, "Ressources can not be used. You have to deposit them in factories.", "Ressourcen koennen nicht benutzt werden. Du musst sie in Fabriken ablegen."
+STRS_inv_items_ignite_ignite_notincar, "You have to be in a car to use this", "Du musst dazu in einem Fahrzeug sein"
+
+
+// SEIL
+
+STRS_inv_item_seil, "Rope", "Seil"
+STRS_inv_item_seil_info, "This Item can only be used in helicopters. With this item it is possible to attach a vehicle to the helicopter. While the attaching, the helo has to fly over the vehicle. When attached, you can transport the vehicle.", "Dieses Item kann nur in Hubschraubern benutzt werden. Damit ist es moeglich, Fahrzeuge unter dem Hubschrauber an den Heli zu haengen, dementsprechend muss er waehrend der benutzung fliegen. Die Fahrzeuge koennen dann vom Heli transportiert werden."
+STRS_inv_item_seil_nokey, "Your missing the keys of the Vehicle", "Dir fehlen die Schlüssel zu dem Fahrzeug"
+STRS_inv_item_seil_notinheli, "You are not in a helicopter.", "Du bist in keinem Helikopter."
+STRS_inv_item_seil_notcloseenough, "You are not close enough to a vehicle.", "Du bist nicht in der Naehe eines Vehikels."
+STRS_inv_item_seil_closetoground, "You are too close to the ground.", "Du bist zu nah am Boden."
+STRS_inv_item_seil_action_release, "Release Vehicle", "Vehikel ausklinken"
+STRS_inv_item_seil_action_released, "Vehicle released.", "Vehikel ausgeklinkt."
+
+
+// DRUGS
+
+STRS_inv_item_olives, "Olives", "Oliven"
+STRS_item_olives_info, "Can be sold or eaten. Removes 5 hunger", "Koennen verkauft oder gegessen werden. Entfernt 5 Hunger"
+STRS_inv_item_cocain, "High quality Cocaine", "Kokain hoher qualitaet"
+STRS_inv_item_cocain_low, "Low quality Cocaine", "Kokain schlechte qualitaet"
+STRS_inv_item_marihuana, "Marijuana", "Marihuana"
+STRS_inv_item_lsd, "LSD", "LSD"
+STRS_inv_item_drogen_info, "Drugs can either be sold at one of the flags or can be used by player. To do so, just choose the amount and press >use<. But be careful of the effects...","Drogen koennen entweder an der ensprechenden Fahne des jeweiligen Typs verkauft, oder vom Spieler selber benutzt werden. Dazu einfach die entsprechende Menge auswaehlen und auf >benutzen< klicken. Aber vorsicht vor den Wirkungen..."
+STRS_inv_item_druguse_toomany, "You can't use that many drugs at the same time.", "Du kannst nicht so viele Drogen zur selben Zeit benutzen."
+STRS_inv_item_druguse_ende, "The effects of the drugs diminish.", "Die Drogen lassen nach."
+STRS_drugdealer_busted, "The Police just officially confirmed:\nThe Drugdealer has been busted", "Die Polizei hat soeben offiziell besteatigt:\nDer Drogendealer wurde geschnappt!"
+STRS_addAction_drugdealerbust, "Bust Drugdealer", "Drogendealer Verhaften"
+STRS_drugdealer_busted_more_money, "You got an additional Paycheck of 10.000$, since some cop busted the drugdealer", "Du bekommst einen zusaetzlichen Paycheck von 10.000$ weil ein Cop den Drogendealer verhaftet hat"
+
+
+// ROADBLOCK
+STRS_inv_item_roadblock, "Roadblock", "Strassensperre"
+STRS_inv_item_roadblock_info, "A Roadblock. To place it, press use. The first time it is placed it costs $1000. To move it just "Use" the Roadblock in your inventory again.","Eine Strassensperre. Klick auf benutzen, um die Sperre zu plazieren. Beim ersten mal kostet dies etwas money. Um die Sperre zu verschieben, musst du nur das gleiche machen wie bei ersten plazieren."
+
+STRS_inv_item_sperre_nomoney, "You cannot afford a Roadblock.", "Du kannst dir keine Strassensperre leisten."
+STRS_inv_item_sperre_built, "You built a Roadblock, to move it just use the same action again. If you don't need the roadblock anymore, please move it away from the street.", "Du hast eine Strassensperre gebaut. Um diese zu bewegen benutze einfach die selbe Aktion nochmal. Wenn du die Sperre nicht mehr benoetigst, bewege sie bitte von der Strasse weg."
+STRS_inv_item_sperre_moved, "Please wait 5 seconds for the roadblock to be moved.", "Bitte warte 5 Sekunden bis die Strassensperre umgestellt wurde."
+STRS_inv_item_sperre_invcl, "You can't place a Roadblock inside a vehicle.", "Du kannst keine Strassensperre in einem Fahrzeug platzieren."
+STRS_inv_item_sperre_hiernicht, "You can't place the Roadblock in this area.", "Du kannst hier keine Sperre bauen!"
+
+
+// HANDY
+STRS_inv_item_handy, "Mobile phone", "Handy"
+STRS_inv_item_handy_info, "Using a mobile phone you can send other players private messages. When you use it, a dialogue appears where you can enter your message. Choose the player you want to send the message to and send it. Each message costs $10. The other player can only reach a message, if he has a mobile phone too.","Mit dem Handy kannst du dich mit anderen Spielern privat unterhalten. Wenn du es benutzt, oeffnet sich ein Eingabefeld, in dem du die Nachricht eingeben kannst. Waehle den Spieler, und schicke die Nachricht ab. Jede Nachricht kostet $10. Ein anderer Spieler kann eine Nachricht nur bekommen, wenn er ebenfalls ein Handy hat."
+
+STRS_inv_item_handy_keinmoney, "You cannot afford an SMS.", "Du kannst dir eine SMS nicht leisten."
+STRS_inv_item_handy_gesendet, "You sent an SMS to %1.", "Du hast eine SMS an %1 gesendet."
+STRS_inv_item_handy_nachricht, "%2 sent you an SMS: %1", "%2 hat dir eine SMS gesendet: %1"
+STRS_inv_item_handy_nichterreicht, "%1 does not have a mobile phone. Your message did not reach him.", "%1 hat kein Handy. Er konnte die Nachricht daher nicht empfangen"
+STRS_inv_item_handy_leermsg, "You cannot send an empty message.", "Du kannst keine leere Nachricht senden."
+STRS_inv_item_handy_noplayer, "The selected player is not in-game.", "Der ausgewaehlte Spieler ist nicht ingame."
+STRS_inv_item_handy_text_zu_lang, "The Text is too long.", "Der Text ist zu lang."
+
+
+// VCL AMMO
+STRS_inv_item_vclammo, "Vehicle ammo", "Fahrzeugmunition"
+STRS_inv_item_vclammo_info, "Ammo for weapons attached to vehicles. Use such a box within vehicles to refill the ammo of the vehicle.","Munition fuer Waffen an Fahrzeugen. Benutze eine solche Kiste in einem Fahrzeug, um die Munition aufzufuellen."
+
+STRS_inv_item_vclammo_nomg, "This vehicle doesn't have a weapon which can be rearmed.", "Dieses Fahrzeug hat kein MG das aufmunitioniert werden kann."
+STRS_inv_item_vclammo_rearmed, "You rearmed this vehicle.", "Du hast dieses Fahrzeug neu bewaffnet."
+STRS_inv_item_vclammo_novehicle, "You are not in a vehicle.", "Du bist nicht in einem Fahrzeug."
+
+
+// OBJECTS
+
+STRS_inv_item_objs, "Object", "Objekt"
+STRS_inv_item_objs_info, "Use this item in order to spawn the object.", "Benutze dieses Item, um das Objekt zu bauen."
+
+STRS_inv_item_obj_take, "Take", "Nehmen"
+STRS_inv_item_obj_packed, "You took the object. You can place it by using your inventory.", "Du hast das Objekt genommen. Du kannst es mit deinem Inventar wieder bauen."
+
+STRS_inv_item_obj_invcl, "You cannot place the object while being in a vehicle.", "Du kannst das Objekt nicht bauen, waehrend du in einem Fahrzeug bist."
+STRS_inv_item_obj_hiernicht, "You cannot place this object here.", "Du kannst hier kein Objekt bauen."
+
+STRS_inv_item_obj_bauen, "You placed this object here. Wait a few seconds until it appears.", "Du hast dieses Objekt hier gebaut. Warte ein paar Sekunden, bis es gebaut wurde."
+STRS_inv_item_obj_toomany, "You already placed too many Objects.", "Du hast bereits zu viele Objekte gebaut."
+STRS_inv_item_obj_cantpack, "You can not carry this Object.", "Du kannst dieses Objekt nicht tragen."
+
+// SELBSTMORDBOMBE
+STRS_inv_item_selbstmordbombe, "Suicide Bomb", "Selbstmordbombe"
+STRS_inv_item_selbstmordbombe_info, "When you are using this item, everybody near you should run as fast as possible. You will not survive it.", "Wenn du dieses Item benutzt, sollte jeder in deiner Nähe so schnell wie möglich rennen. Du wirst die Benutzung nicht überleben."
+STRS_inv_item_selbstmordbombe_globalmsg, "Someone will blow himself up in a few moments!", "Jemand wird sich in Kürze in die Luft sprengen!"
+
+
+// VEHICLE BOMBS
+
+STRS_inv_item_fernbombe, "Remote Control Car-Bomb", "Fernzuendautobombe"
+STRS_inv_item_fernbombe_info, "A Car-Bomb. It explodes when you use the remote control.\n\nTo plant the bomb; get in the car, open the inventory, choose the bomb and press >use<. The Bomb is now activated! Other players in the car will be noticed when you place a bomb. To blow the bomb up, use the remote control of the bomb, which you will find in your inventory. To deactivate the bomb, you can either drop the remote control, or you use the action menu entry you have when you sit in the car, you will get the bomb back in your inventory, if you deactivate it the second way.","Eine Autobombe. Sie explodiert, wenn du den Zünder drückst.\n\nUm die Bombe zu legen, setz dich in das entsprechende Fahrzeug, oeffne das Inventar und benutze die Bombe. Die Bombe ist dann scharf! Spieler im Fahrzeug werden mitkriegen, dass du eine Bombe gelegt hast. Um die Bombe explodieren zu lassen, benutze einfach den entsprechenden Zuender, den du im Inventar findest. Um die Bombe zu deaktivieren, kannst du entweder einfach den Zuender wegwerfen oder die Aktion im Fahrzeug benutzen. Mit der zweiten Methode kriegst du die Bombe ins Inventar zurueck."
+
+STRS_inv_item_zeitbombe, "Car-Bomb with Timer", "Autobombe mit Zeitzuender"
+STRS_inv_item_zeitbombe_info, "A Car-Bomb. It explodes when the timer reaches 0.\n\nTo plant the bomb, get in the car, open the inventory, choose the bomb and press >use<. In the following dialogue you can configure the bomb. Other player in the car will be noticed when you place a bomb. To deactivate the bomb, just use the entry from your action menu, you will get the bomb back in your inventory.","Eine Autobombe. Sie explodiert, wenn der Countdown auf 0 ist.\n\nUm die Bombe zu legen, setz dich in das entsprechende Fahrzeug, oeffne das Inventar und benutze die Bombe. Im folgenden Dialog kannst du die Bombe konfigurieren. Spieler im Fahrzeug werden mitkriegen, dass du eine Bombe gelegt hast. Ueber ein Eintrag im Actionmenu kannst du die Bombe entschaerfen, du bekommst die Bombe dann zurueck."
+
+STRS_inv_item_enginebombe, "Ignition Carbomb", "Aktivierungs Autobombe"
+STRS_inv_item_enginebombe_info,"A Car-Bomb. It explodes if the car this bomb is attached to starts the engine.\n\nTo plant the bomb, get in the car, open the inventory, choose the bomb and press >use<. The Bomb is now activated! Other player in the car will be noticed when you place a bomb. To deactivate the bomb, just use the entry from your action menu, you will get the bomb back in your inventory.","Eine Autobombe. Sie explodiert, wenn das Fahrzeug, in dem die Bombe liegt, den Motor startet.\n\nUm die Bombe zu legen, setz dich in das entsprechende Fahrzeug, oeffne das Inventar und benutze die Bombe. Die Bombe ist dann scharf! Spieler im Fahrzeug werden mitkriegen, dass du eine Bombe gelegt hast. Ueber ein Eintrag im Actionmenu kannst du die Bombe entschaerfen, du bekommst die Bombe dann zurueck."
+
+STRS_inv_item_fernzuender, "Bomb remote control", "Fernzuender"
+STRS_inv_item_zuender_info,"Use it to blow the bomb connected with this control up. Drop it to deactivate the bomb.","Benutz es, um die Bombe, die mit diesem Zuender verbunden ist, hochgehen zu lassen. Leg es ab, um die Bombe zu entschaerfen."
+
+STRS_inv_item_speedbombe, "Car-Bomb with Speed activation", "Autobombe mit Geschwindigkeitszuender"
+STRS_inv_item_speedbombe_info,"A Car-Bomb. It activates when the player drives faster than the speed you selected, and will explode when he drives slower.\n\nTo plant the bomb, get in the car, open the inventory, choose the bomb and press >use<. In the following dialogue you can configure the bomb! Other player in the car will be noticed when you place a bomb. To deactivate the bomb, just use the entry from your actionmenu, you will get the bomb back in your inventory.","Eine Autobombe. Sie wird aktiviert, wenn das Fahrzeug schneller faehrt als die von dir eingestellte Geschwindigkeit, und sie explodiert, wenn das Fahrzeug langsamer faehrt.\n\nUm die Bombe zu legen, setz dich in das entsprechende Fahrzeug, oeffne das Inventar und benutze die Bombe. Im folgenden Dialog kannst du die Bombe konfigurieren. Spieler im Fahrzeug werden mitkriegen, dass du eine Bombe gelegt hast. Ueber ein Eintrag im Actionmenu kannst du die Bombe entschaerfen, du bekommst die Bombe dann zurueck."
+
+STRS_inv_item_vehiclebomb_action_deactivate, "Deactivate Bomb", "Bombe deaktivieren"
+STRS_inv_item_vehiclebomb_action_changetimer, "Change Timer", "Zeit aendern"
+STRS_inv_item_vehiclebomb_timebombconfig_sec, "%1 sec", "%1 Sek."
+STRS_inv_item_vehiclebomb_speedbombconfig_kmh, "%1 kph", "%1 km/h"
+STRS_inv_item_vehiclebomb_notexist, "The bomb does not exist.", "Die Bombe existiert nicht."
+STRS_inv_item_vehiclebomb_changed, "Remaining Time set to %1 seconds.", "Verbleibende Zeit auf %1 Sekunden geaendert."
+STRS_inv_item_vehiclebomb_defused, "Bomb defused.", "Bombe entschaerft."
+STRS_inv_item_vehiclebomb_changetimer, "Change Timer", "Timer aendern"
+STRS_inv_item_vehiclebomb_sec, "%1 sec", "%1 Sek."
+STRS_inv_item_vehiclebomb_legen_gesehen, "Watch out! You saw %1 planting a car-Bomb in this vehicle!", "Pass auf! Du hast gesehen, wie %1 eine Autobombe in dieses Vehikel legte."
+STRS_inv_item_vehiclebomb_notinvehicle, "You have to sit in a car to activate the bomb.", "Du musst dich in einem Fahrzeug befinden, um die Bombe zu legen."
+STRS_inv_item_vehiclebomb_deactivated, "Bomb deactivated!", "Bombe deaktiviert!"
+STRS_inv_item_vehiclebomb_speedbomb_activated, "Watch out, the a carbomb has been activated. You are not allowed to drive slower than %2 km/h for %3 seconds.", "Geschwindigkeitsbombe aktiviert! Fahre nicht langsamer als %2 km/h fuer %3 sekunden, oder du wirst explodieren!"
+STRS_inv_item_vehiclebomb_planted, "You planted a bomb (ID: %1).", "Du hast eine Bombe gelegt (ID: %1)."
+
+// ILLEGAL WEAPONS
+
+STRS_inv_item_illegalweapons, "Pack with illegal Weapons", "kiste mit illegale waffen"
+STRS_inv_item_illegalweapons_info, "u only can sell this","du kannst sie nur verkaufen"
+
+
+// NAHRUNG
+
+STRS_inv_item_nahrung_info, "In your stats you can see how hungry you are. With this you can satisfy you hunger. Just choose how much you want to eat and press >use<. Differen kinds of food (unprocessed or finished) will remove your hunger in differen levels. If you reach a hunger of 100 you will die slowly!","In deinen Statistiken kannst du sehen, wie sehr du Hunger hast. Mit diesem Gegenstand kannst du deinen Hunger stillen. Waehle aus, wie viel du essen willst, und klick >benutzen<. Verschiedene Qualiteaten (unverarbeitet oder fertige Produkte) machen dich unterschiedlich Satt. Waechst der Hunger auf 100 an, stirbst du langsam!"
+STRS_inv_item_getraenke_info, "In your stats you can see how thirsty you are. With this you can satisfy you thirst. Just choose how much you want to drink and press >use<. Different kinds of water (unprocessed or bottled) will remove your thirst in different levels. If you reach a thirst of 100 you will die slowly!","In deinen Statistiken kannst du sehen, wie sehr du Durst hast. Mit diesem Getraenk kannst du deinen Durst stillen. Waehle aus, wie viel du davon trinken willst, und klick >benutzen<. Verschiedene Qualitaeten (unverarbeitet oder nicht) entfernt unterschiedlich hoch deinen Durst. Waechst der Durst auf 100 an, stirbst du langsam!"
+STRS_inv_item_alkohol_info, "A Alcoholic drink. Sell it to Fuel Stations, Restaurants or City Shops to make money, or use it to get alcohol effects - but be aware that cops might detect it (WIP)", "Ein Alkoholisches Getraenk. Verkaufe es an Restaurants, Tankstellen oder City-Shops oder Trinke es um die Wirkung zu verspueren - sei dir aber bewusst das Cops es herausfinden koennen(WIP)"
+STRS_inv_item_tobacco_info, "A Tobacco Product. Sell it to Fuel Stations, Restaurants or City Shops to make money, or smoke it.", "Ein Tabak basierendes Produkt. Verkaufe es an Restaurants, Tankstellen oder City-Shops oder Rauche es einfach."
+
+STRS_inv_item_nahrung_gegessen, "You ate something and are %1/100 fed.", "Du hast was gegessen und bist nun %1/100 satt."
+STRS_inv_item_getreank_getrunken, "You drank something and are now only %1/100 thirsty anymore.", "Du hast was getrunken und bist nun nurnoch %1/100 durstig."
+STRS_inv_item_nahrung_verhungern, "You are starving.", "Du bist am Verhungern."
+STRS_inv_item_nahrung_verdursten, "You are dehydrating - drink something!!!", "Du bist am Verdursten - trinke etwas!!!"
+
+// NAHRUNG NAMEN
+STRS_inv_item_name_soup, "Warm Soup", "Warme Suppe"
+STRS_inv_item_name_fish, "Unprocessed Fish", "Unverarbeiteter Fisch"
+STRS_inv_item_name_korn, "Unprocessed Wheat", "Unverarbeiteter Weizen"
+STRS_inv_item_name_bread, "Fresh Bread", "Frisches Brot"
+STRS_inv_item_name_soup, "Fresh hot Soup", "Frische heisse Suppe"
+STRS_inv_item_name_shark, "Unprocessed Shark", "Unverarbeiteter Hai"
+STRS_inv_item_name_whale, "Unprocessed Whale", "Unverarbeiteter Wal"
+STRS_inv_item_name_donut, "Fresh Donut", "Frischer Donut"
+STRS_inv_item_name_whale_filet, "Whale Filets", "Wal Filets"
+STRS_inv_item_name_shark_filet, "Shark Filets", "Hai Filets"
+STRS_inv_item_name_fish_filet, "Fish Filets", "Fisch Filets"
+
+STRS_inv_item_name_salzwasser, "Saltwater", "Salzwasser"
+STRS_inv_item_name_quellwasser, "Mountainspring Water", "BergQuellwasser"
+STRS_inv_item_name_quellwasserhq, "Mountainspring Water (high Quality)", "BergQuellwasser (hohe Qualitaet)"
+STRS_inv_item_name_bottlewater_low, "Bottled Water(low quality)", "Flasche Wasser (schlechte qualiteat)"
+STRS_inv_item_name_bottlewater_no1, "Bottled Water(DelMare Medium)", "Flasche Wasser (Delmare Medium)"
+STRS_inv_item_name_bottlewater_no2, "Bottled Water(Mountain Medium)", "Flasche Wasser (Bergquell Medium)"
+STRS_inv_item_name_bottlewater_hq, "Bottled Water(Mountain HQ)", "Flasche Wasser (Bergquell HQ)"
+
+STRS_inv_item_name_rotwein, "Bottled Red Wine", "Flasche Rotwein"
+STRS_inv_item_name_rotweinhq, "Bottled Red Wine(HQ)", "Flasche Rotwein(HQ)"
+STRS_inv_item_name_weisswein, "Bottled White Wine", "Flasche Weisswein"
+STRS_inv_item_name_weissweinhq, "Bottled White Wine(HQ)", "Flasche Weisswein(HQ)"
+STRS_inv_item_name_bier, "Bottled Beer", "Flasche Bier (Pils)"
+STRS_inv_item_name_weizenbier, "Bottled Wheat-Beer", "Flasche Weizenbier"
+STRS_inv_item_name_Starkbier, "Bottled Strong-Beer", "Flasche Starkbier"
+
+
+// ITEM + RESOURCES NAMES
+STRS_inv_item_name_redtrauben, "Bundle red grapes", "Steangel rote Trauben"
+STRS_inv_item_name_redtraubenhg, "Bundle red grapes(HQ)", "Steangel rote Trauben(HQ)"
+STRS_inv_item_name_whitetrauben, "Bundle white grapes", "Steangel weisse Trauben"
+STRS_inv_item_name_whitetraubenhg, "Bundle white grapes(HQ)", "Steangel weisse Trauben(HQ)"
+STRS_inv_item_name_hopfen, "Hops", "Hopfen"
+STRS_inv_item_name_tabak, "Tobacco Leafs", "Tabak Blaetter"
+STRS_inv_item_name_cigar, "Cigar", "Zigarre"
+STRS_inv_item_name_cigarfatlady, "Fat Lady (Cigar)", "Fat Lady (Zigarre)"
+STRS_inv_item_name_lighter, "Lighter", "Feuerzeug"
+STRS_inv_item_name_smallweaps, "Small illegal weapons package", "Kleines illegales Waffenpaket"
+STRS_inv_item_name_medweaps, "Medium illegal weapons package", "Mittleres illegales Waffenpaket"
+STRS_inv_item_name_largeweaps, "Large illegal weapons package", "Grosses illegales Waffenpaket"
+
+// NAHRUNG DESCRIPTIONS
+STRS_inv_item_shortdesc_fish, "Unprocessed -> Process in Factory", "Unverarbeitet -> Verarbeiten in Fabrik"
+STRS_inv_item_shortdesc_korn, "Unprocessed -> Process in Factory", "Unverarbeitet -> Verarbeiten in Fabrik"
+STRS_inv_item_shortdesc_whale, "Unprocessed -> Process in Factory", "Unverarbeitet -> Verarbeiten in Fabrik"
+STRS_inv_item_shortdesc_shark, "Unprocessed -> Process in Factory", "Unverarbeitet -> Verarbeiten in Fabrik"
+STRS_inv_item_shortdesc_water, "Unprocessed -> Process in Factory", "Unverarbeitet -> Verarbeiten in Fabrik"
+STRS_inv_item_shortdesc_bread, "Ready to eat -> removes 15 hunger", "Fertig verarbeitet -> entfernt 15 Hunger"
+STRS_inv_item_shortdesc_donut, "Ready to eat -> removes 3 hunger", "Fertig verarbeitet -> entfernt 3 Hunger"
+STRS_inv_item_shortdesc_soup, "Ready to eat -> removes 3 hunger", "Fertig verarbeitet -> entfernt 3 Hunger"
+STRS_inv_item_shortdesc_fishfilets, "Ready to eat -> removes 18 hunger", "Fertig verarbeitet -> entfernt 19 Hunger"
+STRS_inv_item_shortdesc_sharkfilets, "Ready to eat -> removes 39 hunger", "Fertig verarbeitet -> entfernt 39 Hunger"
+STRS_inv_item_shortdesc_whalefilets, "Ready to eat -> removes 54 hunger", "Fertig verarbeitet -> entfernt 54 Hunger"
+STRS_inv_item_shortdesc_bottlewater_low, "Very Poor-> removes 5 thirst", "Schlechte Qualitaet -> entfernt 5 Durst"
+STRS_inv_item_shortdesc_bottlewater_no1, "Ready to drink -> removes 15 thirst", "Fertig verarbeitet -> entfernt 15 Durst"
+STRS_inv_item_shortdesc_bottlewater_no2, "Ready to drink -> removes 18 thirst", "Fertig verarbeitet -> entfernt 17 Durst"
+STRS_inv_item_shortdesc_bottlewater_hq, "High Quality -> removes 30 thirst", "Hohe Qualitaet -> entfernt 30 Durst"
+STRS_inv_item_shortdesc_alkohol_generic, "Alkholic Drink - makes drunk", "Alkoholisches Getraenk - macht betrunken"
+STRS_inv_item_shortdesc_zigarre_generic, "Cigar, smoke it or sell it", "Zigarre - Rauche oder verkaufe sie"
+
+// BANK
+// ################################################################################################rams
+
+STRS_bank_rob_titlemsg, "!!WARNING !! Someone is robbing the bank !! WARNING !!", "!! WARNUNG !! Bank wird ausgeraubt !! WARNUNG !!"
+STRS_bank_rob_lostnomoney, "Because of your bank insurance you lost no money but you lost one bank insurance.", "Wegen deiner Bankversicherung hast du kein money verloren. Aber du hast eine Bankversicherung verloren."
+STRS_bank_rob_somemoneylost, "The bank has been robbed. You lost $%1 and have $%2 left on your account.", "Die Bank wurde ausgeraubt. Du hast $%1 verloren und jetzt noch $%2 uebrig."
+STRS_bank_rob_allmoneylost, "The bank has been robbed. You lost all the money on your account!", "Die Bank wurde ausgeraubt und du hast all dein Geld auf dem Konto verloren."
+STRS_bank_rob_success, "You robbed the bank successfully. Escape because you are wanted!", "Du hast die Bank erfolgreich ausgeraubt. Flieh jetzt, denn du wirst polizeilich gesucht!"
+STRS_bank_rob_nosuccess, "You escaped too early and didn't get the money!", "Du bist zu frueh weggerannt und hast kein Geld bekommen."
+STRS_bank_rob_info, "You decided to rob the bank. Stay here until you get the money and then get the hell outta here!", "Du raubst die Bank aus, bleibe ein paar Sekunden hier bis du das Geld hast und dann verschwinde!"
+STRS_bank_rob_noweapon, "You can't rob the bank without being armed.", "Du kannst die Bank nicht ausrauben ohne bewaffnet zu sein."
+STRS_bank_rob_no, "You can't rob the bank at the moment.", "Du kannst die Bank jetzt nicht ausrauben."
+
+STRS_bank_dialog_inventarmoney, "Money in your Inventory: $%1", "money in deinem Inventar: $%1"
+STRS_bank_dialoge_accountmoney, "Money in your Account: $%1", "money auf deinem Konto: $%1"
+STRS_bank_dialoge_tax, "Incl. Taxes:", "Inkl. Steuern:"
+STRS_bank_dialoge_robbsperre, "You robbed the bank a few minutes ago. You can not use it for %1 minutes after you robbed it.", "Du hast vor kurzem die Bank ausgeraubt, du kannst sie daher bis zu %1 Minuten danach nicht benutzen."
+STRS_bank_no_money, "You don't have enough money on your account.", "Du hast nicht genug money auf deinem Account."
+STRS_bank_deposit_other_no, "You don't have enough money on your account.", "Du hast nicht genug money auf deinem Account."
+STRS_bank_deposit_self_no, "You don't have enough money on your account to transfer $%1 on the wanted Account.","Du hast nicht genug money auf deinem Konto, um $%1 auf das gewuenschte Konto zu ueberweisen."
+STRS_bank_deposit_other_no2, "You don't have enough money on your account to transfer $%1 on the wanted Account. Remember that you need enough money on your Account for the additional %2 Percent tax.", "Du hast nicht genug money auf deinem Konto, um $%1 auf das gewuenschte Konto zu ueberweisen. Bedenke dass du genug money auf dem Konto haben musst, um %2 Prozent Steuern dazuzahlen zu koennen."
+STRS_bank_account_getmoney, "You got $%1 from %2 on your Account.", "Du hast $%1 von %2 auf dein Konto erhalten."
+
+STRS_bank_deposit_self_yes, "$%1 transferred to your own account.", "$%1 auf dein eigenes Konto ueberwiesen."
+STRS_bank_withdraw_yes, "$%1 successfully withdrawn.", "$%1 erfolgreich abgehoben."
+
+STRS_bank_zinsen, "You got %2 percent extra money from the bank, you now have $%1 in your bank account.", "Du hast %2 Prozent extra money von der Bank bekommen und hast jetzt $%1 auf deinem Konto."
+
+STRS_bank_no_valid_number, "The value is not a valid number.", "Der Wert ist keine Zahl."
+STRS_bank_player_not_ingame, "Error: Player not in-game.", "Fehler: Person ist nicht im Spiel."
+STRS_bank_hints_account_balance, "You have %1$ on your account.","Du hast $%1 auf deinem Konto."
+
+STRS_bank_serverrobmessage, "The Government lost %1$ at the bank-rob.", "Die Regierung hat %1$ bei dem Bankraub verloren"
+
+STRS_bank_addaction_robb, "Rob the Bank", "Bank ausrauben"
+STRS_bank_addaction_dialog, "Bank Menu", "Bank Menue"
+STRS_bank_addaction_balance, "Account Balance", "Kontostand"
+
+STRD_bank_description_title, "Bank", "Bank"
+STRD_bank_description_deposit_transfer, "Deposit/Transfer", "Einzahlen/Ueberweisen"
+STRD_bank_description_selectplayer, "Select player:", "Spieler Auswaehlen:"
+STRD_bank_description_steuern, "Incl. Taxes:", "Inkl. Steuern:"
+STRD_bank_description_bank_withdraw, "Withdraw", "Abheben"
+STRD_bank_description_submit, "Submit", "Bestaetigen"
+STRD_bank_description_cancel, "Cancel", "Abbrechen"
+STRD_bank_description_withdraw, "Withdraw", "Abheben"
+STRS_inventar_beschreibung_bankversicherung, "Bank Insurance stops you from losing any money when someone robs the bank. Each time the bank is robbed a single Bank Insurance will be used up. Owning 2 Bank Insurances will mean that you do not lose any money the next 2 times the Bank is robbed.", "Die Bankversicherung sorgt dafuer, dass du kein money auf deinem Konto verlierst, wenn die Bank ausgeraubt wird. Wenn sie ausgeraubt wird, verlierst du eine Versicherung. Sind alle weg, kannst du wieder money verlieren."
+STRS_inventar_bankversicherung, "You can not use the Bank insurance. It will be removed automatically when the bank is robbed.", "Du kannst die Bankversicherung nicht benutzen. Sie wird automatisch entfernt, wenn die Bank ausgeraubt wird."
+
+STRS_bankgov_add, "Government Account", "Regierungskonto"
+STRS_bank_deposit_gov, "You transfered %1$ successfully to the Governments bank account!", "Du hast erfolgreich %1$ an das Konto der Regierung gezahlt!"
+STRS_bank_deposit_gov_mayormsg, "%1 just transfered %2$ to the Governments Bank Account!", "%1 hat so eben %2$ an das Konto der Regierung Ueberwiesen!"
+
+STRD_bankgov_description_title, "Manage Government Account", "Regierungskonto Verwaltung"
+STRD_bankgov_description_deposit_transfer, "Transfer Money to Players", "Ueberweisen von Geld zu Spielern"
+STRS_bankgov_dialoge_accountmoney, "Money on Governments Account: $%1", "Geld auf dem Regierungskonto: $%1"
+STRS_bankgov_no_money, "The Government doesn't have enough money on its account.", "Die Regierung hat nicht genug Geld auf ihrem Konto."
+STRS_bankgov_account_getmoney, "You got $%1 from the Government on your Account.", "Du hast $%1 von der Regierung auf dein Konto erhalten."
+STRS_bankgov_deposit_yes, "$%1 successfully transferred to the wanted Account. Please note that Transfers from the Governments Account are tax-free", "$%1 erfolgreich auf das gewuenschte Konto ueberwiesen. Bitte beachte, dass Ueberweisungen vom Regierungskonto generell Steuerfrei sind."
+
+STRS_bankgov_transfered_small, "#Transparent-Government-Act#: A smaller amount of Money (< 5000$) has been transfered from the Governements Bank Account to a Private Bank Account!", "#Aktion Glaeserne-Regierung#: Eine kleinere Menge Geld (< 5000$) wurde vom Regierungskonto auf ein Privatkonto Ueberwiesen!"
+STRS_bankgov_transfered_medium, "#Transparent-Government-Act#: A bigger amount of Money (between 5000$ and 50000$) has been transfered from the Governements Bank Account to a Private Bank Account!", "#Aktion Glaeserne-Regierung#: Eine etwas groessere Menge Geld (zw. 5000$ und 50000$ ) wurde vom Regierungskonto auf ein Privatkonto Ueberwiesen!"
+STRS_bankgov_transfered_big, "#Transparent-Government-Act#: A larger amount of Money (between 50000$ and 100000$) has been transfered from the Governements Bank Account to a Private Bank Account!", "#Aktion Glaeserne-Regierung#: Eine grosse Menge Geld (zw. 50000$ und 100000$ ) wurde vom Regierungskonto auf ein Privatkonto Ueberwiesen!"
+STRS_bankgov_transfered_huge, "#Transparent-Government-Act#: A huge amount of Money (between 100000$ and 500000$) has been transfered from the Governements Bank Account to a Private Bank Account!", "#Aktion Glaeserne-Regierung#: Eine sehr grosse Menge Geld (zw. 100000$ und 500000$ ) wurde vom Regierungskonto auf ein Privatkonto Ueberwiesen!"
+STRS_bankgov_transfered_extra_huge, "#Transparent-Government-Act#: A tremendous amount of Money (more than 500000$) has been transfered from the Governements Bank Account to a Private Bank Account!", "#Aktion Glaeserne-Regierung#: Eine gigantische Menge Geld (mehr als 500000$ ) wurde vom Regierungskonto auf ein Privatkonto Ueberwiesen!"
+
+// GAS STATION
+// ################################################################################################bli
+
+STRS_gasstation_bereits_getankt, "This vehicle's fuel is already at 100%.", "Der Treibstoff des Fahrzeuges ist bereits bei 100%."
+STRS_gasstation_tanken_vclleft, "Stay inside the car while you are refuelling.", "Warte im Auto waehrend du es auftankst."
+STRS_gasstation_tanken_vclmoved, "You cancelled the Refuel-action by moving your vehicle.", "Du hast die Tanken-Aktion abgebrochen, indem du dein Fahrzeug bewegt hast."
+STRS_gasstation_tanken_money, "You don't have enough money to refuel the vehicle completely.", "Du hast nicht genug money um das Fahrzeug komplett aufzutanken."
+STRS_gasstation_tanken_finished, "The vehicle's fuel is at 100% again!", "Der Treibstoff des Fahrzeugs ist wieder bei 100%"
+STRS_gasstation_tanken_zwischenmsg, "Fuel Status: %1 of 50L. \n You refuelled 1 litres into your car. If you have enough, please move your car or wait until your vehicles fuel is full.", "Treibstoff-Status: %1 von 50L. \n Du hast 1 Liter getankt. Wenn du meinst, genug zu haben, bewege bitte dein Auto oder warte, bis der Tank Randvoll ist."
+STRS_addaction_buy_gas, ">>Refuel for %1$ + %2$ Tax per one litre", ">>Tanken fuer %1$ + %2$ Steuer pro Liter"
+STRS_addaction_buy_AVgas, ">>Refuel for %1$ + %2$ Tax per Gallon", ">>Tanken fuer %1$ + %2$ Steuer pro Gallone"
+STRS_gasstation_bereits_getankt_avgas, "This Air-vehicle's fuel is already at 100%.", "Der Treibstoff des Luft-Fahrzeuges ist bereits bei 100%."
+STRS_gasstation_tanken_airleft, "Stay inside the Air-Vehicle while you are refuelling.", "Warte im Luft-Vehikel waehrend du es auftankst."
+STRS_gasstation_avgastanken_zwischenmsg, "Fuel Status: %1 of 50 Gallons. \n You refuelled 1 gallon into your car. If you have enough, please move your car or wait until your vehicles fuel is full.", "Treibstoff-Status: %1 von 50Gallonen. \n Du hast 1 Gallone getankt. Wenn du meinst, genug zu haben, bewege bitte dein Auto oder warte, bis der Tank Randvoll ist."
+STRS_gasstation_tanken_avgasfinished, "The air-vehicle's fuel is at 100% again!", "Der Treibstoff deines Luft-Fahrzeugs ist wieder bei 100%"
+
+
+
+// LOTTO
+// ################################################################################################blubb
+
+STRS_lotto_action, "Play Lotto", "Lotto Spielen"
+STRS_lotto_lost, "Sorry, better luck next time.", "Diesesmal hatten sie nicht soviel Glueck."
+STRS_lotto_winner, "Congratulations, You won $%1.", "Glueckwunsch, du hast $%1 gewonnen."
+STRS_lotto_nomoney, "You do not have enough money.", "Du hast nicht genug money."
+STRS_lotto_wait, "Wait 5 seconds for your lotto ticket.", "Warte 5 Sekunden auf dein Lotto Ticket."
+STRD_lotto_title, "Lotto", "Lotto"
+STRD_lotto_buyticket, "Buy Ticket", "Ticket kaufen"
+STRD_lotto_cancel, "Cancel", "Abbrechen"
+STRS_lotto_cant, "You are already playing lotto", "Du spielst bereits Lotto"
+
+// MISSIONS
+// ################################################################################################bla
+
+STRS_workplacemission_plane_action, "Airline Mission", "Airline Mission"
+STRS_workplacemission_plane_cancelaction, "Finish Airline Mission", "Airline Mission beenden"
+
+STRS_workplacemission_plane_alreadyinuse, "Either you already agreed to the Airline mission, or you finished it within the last %1 minutes, so you can not agree to them now.", "Entweder hast du die Airline bereits angenommen, oder du hast sie innerhalb der letzten %1 Minuten beendet. Daher kannst du sie jetzt nicht benutzen."
+STRS_workplacemission_plane_marker_kunde, "Airport start", "Airport pickup"
+STRS_workplacemission_plane_marker_ziel, "Airport destination", "Airport destination"
+STRS_workplacemission_plane_begin, "Your next stop is marked on the map, fly there and pick the passengers up. land your plane and park around 20 metres near him, then they will board the plane", "Your next stop is marked on the map, fly there and pick the passengers up. land your plane and park around 20 metres near him, then they will board the plane"
+STRS_workplacemission_plane_wannagetin, "The passengers are boarding your plane. Stay here and wait until they have boarded your vehicle.", "The passengers are boarding your plane. Stay here and wait until they have boarded your vehicle"
+STRS_workplacemission_plane_target, "Bring them to the next airport, this will be marked on the map!", "Bring them to the next airport, this will be marked on the map!"
+STRS_workplacemission_plane_success, "You have successfully brought the passengers to there destination. you got your paycheck off $%1. You will get a new missions soon.", "You have successfully brought the passengers to there destination. you got your paycheck off $%1. You will get a new missions soon."
+STRS_workplacemission_plane_failure, "The passengers/or you have died!!. The Airline mission is cancelled.", "The passengers/or you have died!!. The Airline mission is cancelled."
+STRS_workplacemission_plane_canceled, "You finished the Airline Mission.", "Du hast die Airlinemissionen beendet."
+STRS_workplacemission_plane_nospace, "There is no space in your vehicle for your passengers.",
+
+STRS_workplacemission_weapon_alreadyhave, "You have already a Weapon delivery job. Get weapon %1", "Du hast bereits einen Waffenlieferauftrag. Bring die Waffe %1 hier hin."
+STRS_workplacemission_weapon_startjob, "Get weapon %1","Beschaffe die Waffe %1"
+STRS_workplacemission_weapon_donthave, "You do not have a Weapon delivery job", "Du hast keinen Waffenlieferauftrag"
+STRS_workplacemission_weapon_finish, "You delivered the weapon %1 and you got $%2.", "Du hast die Waffe %1 abgeliefert und $%2 bekommen."
+STRS_workplacemission_weapon_cannotfinish, "You do not have the required weapon (%1). Come back when you have it.", "Du hast nicht die verlangte Waffe (%1). Komm wieder wenn du sie hast."
+STRS_workplacemission_weapon_zeitsperre, "You have to wait at least %1 Minutes since your last job to get a new one". "Du musst mindestenss %1 Minuten warten bis du einen neuen annehmen kannst"
+
+STRS_workplacemission_addaction_searchjob, "Search-Job", "Suchjob"
+STRS_workplacemission_addaction_searchjob_cancel, "Cancel Search-Job", "Suchjob abbrechen"
+
+STRS_workplacemission_delivery_finish, "You finished your Delivery Mission and got $%1!", "Du hast die Delivery Mission erfuellt und $%1 als Belohnung bekommen!"
+STRS_workplacemission_deliverymsg_1, "Here's a package with some Weapons, bring them to %1.", "Hier ist ein Paket mit Waffen, bring es zum %1"
+STRS_workplacemission_deliverymsg_2, "A Client  at %1 needs this package.", "Einer unserer Clienten beim %1 braucht dieses Paket."
+STRS_workplacemission_deliverymsg_3, "Take this USB Stick and bring it to %1.", "Nimm diesen USB Stick und bring ihn zum %1."
+STRS_workplacemission_deliverymsg_4, "One of our Clients at %1 wants this package.", "Einer unserer Kunden beim %1 forderte dieses Paket an. Bring es zu ihm."
+STRS_workplacemission_deliverymsg_5, "Here are some documents, deliver them to one of our customers at %1.", "Hier sind einige Dokumente, bring sie zu einem unserer Kunden bei %1."
+STRS_workplacemission_deliverymsg_6, "Here are some new Video games for our Customers at %1.", "Hier sind ein paar neue PC Games fuer unseren Kunden bei %1."
+STRS_workplacemission_deliverymsg_7, "Our Client at %1 requested some external storages. Deliver them.", "Einer unserer Kunden bei %1 forderte ein paar externe Festplatten an. Bring sie hin."
+STRS_workplacemission_deliverymsg_8, "Take this package and deliver it to our Customer at %1.", "Nimm dieses Paket und bring es zu einem unserer Kunden bei %1."
+STRS_workplacemission_deliverymsg_9, "There are some secret documents in this suit-case. Bring them to our Customer at %1.", "Hier sind ein paar geheime Dokumente in diesem Koffer, bring sie zu unserem Kunden in %1."
+STRS_workplacemission_deliverymsg_10, "This package is for a customer at %1. Deliver it to him.", "Dieses Paket ist fuer einen unserer Kunden bei %1. Liefer es ihm ab."
+
+STRS_workplacemission_searchjob_targetreached, "You found the object you had to find. Move closer to it in order to finish the job.", "Du hast das Objekt, das du suchen solltest, gefunden. Bitte gehe näher heran, um die Mission zu beenden."
+STRS_workplacemission_search_finish, "You have found the target and got $%1!", "Du hast das Ziel gefunden und $%1 als Belohnung bekommen!"
+STRS_workplacemission_searchmsg_1, "We are missing a worker. Search the forest for him.", "Wir vermissen einen Arbeiter, durchsuch den Wald nach ihm."
+STRS_workplacemission_searchmsg_2, "A BlackHawk crashed in a forest. Find it.", "Ein Blackhawk ist in einen Wald gestuertzt. Finde ihn."
+STRS_workplacemission_searchmsg_3, "Find a hidden barrel in the forest.", "Finde einen versteckten Kanister im Wald."
+
+STRS_workplacemission_delivery_finishaction, "Finish Delivery Mission!", "Delivery Mission erfolgreich beenden!"
+STRS_workplacemission_search_finishaction, "Find this Object!", "Dieses Object finden!"
+
+STRS_addaction_weaponjob_anfang, "Get Weapon delivery job", "Waffenlieferauftrag bekommen"
+STRS_workplacemission_weaponjob_ende, "Finish Weapon delivery job", "Waffe abliefern"
+STRS_workplacemission_already, "You already got a Workplace Job.", "Du hast bereits einen Workplace Job."
+
+STRS_workplacemission_taxi_action, "Taxi Mission", "Taxi Mission"
+STRS_workplacemission_taxi_cancelaction, "Finish Taxi Mission", "Taxi Mission beenden"
+
+STRS_workplacemission_taxi_alreadyinuse, "Either you already agreed to the Taxi mission, or you finished it within the last %1 minutes, so you can not agree to them now.", "Entweder hast du die Taxi-Mission bereits angenommen, oder du hast sie innerhalb der letzten %1 Minuten beendet. Daher kannst du sie jetzt nicht benutzen."
+STRS_workplacemission_taxi_marker_kunde, "Your passenger waits here", "Dein Fahrgast wartet hier"
+STRS_workplacemission_taxi_marker_ziel, "Your passenger wants to get here", "Dein Fahrgast moechte hier hin"
+STRS_workplacemission_taxi_begin, "A Passenger waits for you. You can see his position on the map. Drive around 20 metres near him, then he boards your vehicle automatically.", "Ein Kunde wartet auf dich. Schau auf der Karte nach, wo er ist! fahre etwa 20m an ihn heran, er kommt dann zum fahrzeug."
+STRS_workplacemission_taxi_wannagetin, "Your passenger wanna get in your car. Stay here and wait until he boarded your vehicle.", "Der Kunde moechte einsteigen. Bleib stehen und warte, bis er eingestiegen ist."
+STRS_workplacemission_taxi_target, "Bring him to the position marked on the map!", "Bringe ihn zur Position, die auf der Karte markiert ist!"
+STRS_workplacemission_taxi_success, "You successfully took your passenger to the target. For this mission you got $%1. You get a new taxi mission within a few seconds.", "Du hast den Kunden erfolgreich ans Ziel gebracht. Du bekommst fuer diese Taximission $%1. In kuerze wird ein neuer Taxiauftrag eingehen."
+STRS_workplacemission_taxi_failure, "Either you or your passenger are dead. The Taxi-Mission is cancelled.", "Entweder du oder der Kunde sind Tot. Die Taximission ist Beendet."
+STRS_workplacemission_taxi_canceled, "You finished the Taxi Mission.", "Du hast die Taximissionen beendet."
+STRS_workplacemission_taxi_nospace, "There is no space in your vehicle for your passenger.", "In deinem Fahrzeug ist kein Platz fuer deinen Fahrgast."
+STRS_workplacemission_taxi_no_license, "You need a Taxidriver License in order to transport persons!", "Du brauchst die Taxifahrer-Lizenz um Personen zu transportieren"
+
+STRS_rennen_kein_vehicle, "You have to be the driver of the vehicle.", "Du musst der Fahrer in einem Wagen sein, um teilnehmen zu koennen."
+STRS_rennen_already_racemember, "You have already joined the race.", "Du bist bereits dem Rennen beigetreten."
+STRS_rennen_kein_fahrer, "You have to be the driver of the vehicle.", "Du musst der Fahrer des Fahrzeuges sein, um am Rennen teilzunehmen."
+STRS_rennen_falsches_vcl, "You are not allowed to join the race with this car!", "Du darfst mit diesem Fahrzeug nicht am Rennen teilnehmen!"
+STRS_rennen_hat_angefangen, "The race has already started.", "Das Rennen hat bereits begonnen, du musst warten."
+STRS_rennen_no_racemoney, "You can't afford this.", "Du kannst dir dies nicht leisten."
+STRS_rennen_joinedrace, "You joined the race.", "Du bist dem Rennen beigetreten."
+STRS_rennen_tot, "You are dead and left the race.", "Du wurdest vom Rennen ausgeschlossen, da du tot bist."
+STRS_rennen_vcltot, "Your vehicle was destroyed and you left the race.", "Dein Fahrzeug, das fuer das Rennen angemeldet wurde, wurde zerstoert."
+STRS_rennen_zuende, "The race has finished.", "Das Rennen wurde beendet"
+
+STRS_rennen_pub_start1, "A Street Race will start in 60 seconds.", "Ein Strassenrennen startet in 60 Sekunden."
+STRS_rennen_pub_start2, "The race started. %1 players are fighting for $%2.", "Das Rennen startet jetzt. Es nehmen gesamt %1 Spieler teil und es gibt ein Preismoney in Hoehe von $%2 fuer den Sieger!"
+STRS_rennen_pub_ausgeschlossen, "You were too far away from the starting position of the race. You have been removed from the race.", "Du warst zu weit von der Startposition entfernt und wurdest vom Rennen ausgeschlossen."
+STRS_rennen_pub_record, "Winners Time: %1!!!", "Damit wurde eine neue Bestzeit von %1 aufgestellt!!!",
+STRS_rennen_pub_gewinnermeldung, "The street race ended. The winner is %1 who drove the whole Race in %2 seconds! %3", "Das Rennen wurde beendet. Der Gewinner ist %1 mit einer Zeit von %2! %3"
+STRS_rennen_pub_gewinner, "You won the street race and got $%1", "Du hast das Rennengewonnen und $%1 erhalten."
+STRS_rennen_pub_abort, "The race was cancelled.", "Das Rennen wurde abgebrochen!"
+
+// Unflip.sqf
+// ################################################################################################
+
+STRS_unflip_cant, "You are currently flipping a vehicle, wait.", "Du bist gerade dabei ein Fahrzeug aufzurichten, warte."
+STRS_unflip_no_cooter, "There is no Cooter TOW Truck around to flip the vehicle", "Es ist kein Cooter TOW Truck in der naehe um das Fahrzeug aufzurichten"
+STRS_unflipped, "Vehicle flipped", "Fahrzeug aufgerichtet"
+STRS_in_car, "You must be on foot", "Du musst dazu zu fuss sein"
+
+// MAIN MENU
+// ################################################################################################mm
+
+STRS_mainmenu_MissionTutorial, "In this small Tutorial we will explain the basic aspects of the mission. For more information visit Sahrani Life:Reloaded Community Forums under www.arma-rpg.com.\n\n
+	- Money, Items and the Inventory:\n
+	Money is one of the important things in Sahrani Life. While cops receive their normal paychecks after some time, civs have to work for their money. 
+	Legal ways to earn money are staying in one of the workplaces, buy some workers, do some jobs for the workplaces, deal with other players and more. 
+	Illegal ways to earn money are robing the bank, dealing with drugs or robing other players. More information about ways to earn money can be found in the briefing. 
+	Money and all the other items will be stored in your own inventory. You can open it by using the corespondending entry in your action menu. Items can be used, deleted or given to other players. Information about the items can be seen in the inventory.
+	All shops where you can buy and sell items are marked on the map (Items are Vehicles, Weapons and other Objects such as repair kits...). Keep in mind that you have to buy a license for weapons and some other items before you are able to buy them. 
+	When you die you lose you whole inventory. In order to save your money and items you can store them in your bank account, at your hideout or other storages. 
+	If you lose your connection your account is saved on the server so you keep your money after a reconnect. Licenses are also saved. 
+	Note that all saved information is lost when the server restarts or changes the map.\n\n
+	- A word on weapons and vehicles:\n
+	You should always holster your weapons by using the animation menu which can be found in your action menu. By carrying unholstered weapons cops will see you as a threat and attack you. 
+	Using a vehicle you should always make sure that you are driving on the right side of the road and watch out for police checkpoints. Note that you vehicle can be locked using the action entry or the keychain in you inventory. \n\n
+	- Getting started:\n
+	As a cop you should always communicate with the other people. Warn before you shoot and try to stun instead of kill civilians. The first thing you should do is to get a stun gun, other weapons and a vehicle. 
+	As a civ you are very low on money. You should buy a drivers license and a small vehicle in order to drive to a work place and do some jobs or stay there for a while. When having enough money you can buy workplaces, shops or other things to get some income.
+	
+	", "In diesem kleinen Tutorial werden wir die wichtigsten Eigenschaften der Mission vorstellen, um einen einfachen Einstieg in die Mission zu ermoeglichen. Zusaetzliche Informationen gibt es in dem Sahrani Life:Reloaded Forum unter www.arma-rpg.com\n\n
+	- money, Items und das Inventar:\n
+	money ist eines der wichtigsten Dinge in Sahrani Life. Waehrend Cops ihren normalen paycheck erhalten, muessen Civs mehr fuer ihr money machen.
+	Legale Wege um money zu verdienen sind z.B. sich in Workplaces aufzuhalten, Arbeiter zu kaufen und dort arbeiten zu lassen, Missionen fuer die Workplaces erledigen oder mit anderen Spielern handeln.
+	Illegale Moeglichkeiten sind hingegen die Bank auszurauben, mit Drogen zu handeln oder andere Spieler zu bestehlen. Weitere Wege koennen im Briefing eingesehen werden.
+	money und andere Items/Gegenstaende werden in deinem Inventar gelagert. Dies kann durch den dazugehoerigen Eintrag im Aktionsmenu geoeffnet werden. Die Items koennen benutzt, geloescht oder an andere Spieler uebergeben werden. Informationen ueber die einzelnen Items koennen im Inventar angesehen werden.
+	Alle Geschaefte bei denen man sowohl Items kaufen als auch verkaufen kann (zu den Items zaehlen Fahrzeuge, Waffen und Objekte wie z.B. Benzinkanister) sind auf der Karte eingezeichnet. Beachte das fuer den Kauf mancher Objekte bestimmte Lizenzen notwendig sind, die an den auf der Karte markierten Positionen erworben werden koennen.
+	Im Falle eines Todes wird das gesamte Inventar (mit wenigen Ausnahmen) geleert. Sicher sind die Items und das money jedoch auf der Bank oder bei anderen Lagern wie z.B. im Hideout.
+	Sollte es zu einem Disconnect kommen ist der Bankaccount und die gelagerten gegenstaende (nicht die aus dem Inventar) auf dem Server gespeichert und stehen bei einem reconnect wieder zur Verfuegung. Lizenzen werden auch gespeichert.
+	Sollte der Server die Mission neu starten oder wechseln, so sind alle gespeicherten Daten verloren.\n\n
+	- Ein Wort ueber Waffen und Fahrzeuge:\n
+	Du solltest deine Waffe immer geholstert(eingepackt) haben, um von den Cops nicht als Bedrohung gesehen zu werden. Dies ist durch eine Animation im Animationsmenu moeglich, welches ueber das Aktionsmenu geoeffnet werden kann.
+	Wenn du ein Fahrzeug benutzt solltest du immer rechts fahren und auf Polizei-Kontrollen achten. Beachte, dass du dein Fahrzeug mit einer Aktion im Aktionsmenu oder mit dem Schluessel im Inventar auf und abschliessen kannst, sodass es nicht gestohlen werden kann.\n\n
+	- Der Anfang:\n
+	Als Cop solltest du immer mit den anderen Spielern kommunizieren und versuchen, andere Spieler ohne Gewalt zu verhaften, falls sie Straftaten begangen haben. Hierzu kann die Stun-gun verwendet werden. Scharfe Waffen sollten immer die letzte Option sein. Als erstes solltest du dich in der Basis ausruesten und dir ein Auto kaufen.
+	Als Civ musst du haerter fuer dein money arbeiten und solltest dir zu Beginn des Spiels eine Autolizenz und ein Fahrzeug kaufen, um vorerst an einem der workplaces money zu verdienen. Wenn du genug money beisammen hast, kannst du workplaces, shops oder andere Objekte erwerben, um dir ein gewisses Einkommen zu sichern."
+
+
+STRS_mainmenu_AboutThisMission, "About this mission: \n
+	Mission Created by Arma-RPG.com RPG Community for the RPG Fans out there!
+
+	", "Ueber diese Mission: \n
+	Missien erstellt von der Arma-RPG.com Community fuer die RPG Fans da draussen!"
+
+STRS_mainmenu_FAQ, "Frequently Asked Questions:\n
+	1. Is this the newest version of Sahrani Life: Reloaded?\n
+	- Information about the latest versions can be found on the SLR-RPG Community Forums (slr-rpg.webs.com).\n\n
+	2. Who created this mission and how can i contact them?\n
+	- This mission was created by the Arma-RPG.com and SLR-RPG Communities. Its a Fork of the original SL by Issetea and Fewo.\n
+	3. I have new ideas - where can i talk about it?\n
+	- Write your suggestion in the slr-rpg.webs.com Forums.\n\n
+	4. I want to modify this version of SL:R. How do i do it?\n
+	- Simply do it! However it would be nice if you post your changes and version in the slr-rpg.webs.de Forums, maybe we like what you did and what to implement your changes in our version too.\n
+
+	", "Frequently Asked Questions:\n
+	1. Ist das hier die neuste Version von Sahrani Life:Reloaded?\n
+	- Informationen ueber die neusten versionen koennen im slr-rpg.webs.com Community Forum in Erfahrung gebracht werden (slr-rpg.webs.com).\n\n
+	2. Wer hat diese Mission erstellt und wie kann ich die Macher kontaktieren?\n
+	- Diese Mission wurde von der Arma-RPG.com Community fuer die RPG-Fans erstellt. Es ist eine absplitterung vom originalen SL von Issetea und Fewo. Kontaktmoeglichkeiten sind das Forum unter slr-rpg.webs.com\n
+	3. Ich habe Verbesserungsvorschlaege - Wo werde ich sie los?\n
+	- Schreibe die Vorschlaege ins slr-rpg.webs.com!\n\n
+	4. Ich moechte diese Mission editieren. Wie mache ich das?\n
+	- Mach es einfach! Trotzdemm koenntest du ins Arma-RPG.com Forum deine Veraenderungen posten, evtl. moegen wir deine Edits und wollen sie in unsere Mission mit aufnehmen."
+
+
+// Sat Cam
+
+
+// CAMERA
+// ################################################################################################dick
+
+STRD_cam_clickmap, "Click on map to Start the Satcam there!", "Klicke auf die Karte um an dieser position zu starten!"
+STRD_cam_callTookToLong, "Sattelite Camera aborted - you took to long!", "Sattellit-Kamera abgebrochen - du hast zu lange gebraucht!"
+STRD_cam_notavail, "Sattelite is not in the correct orbit currently, try again later!", "Sattelit momentan nicht in der passenden Umlaufbahn, vesuche es spaeter wieder!"
+STRD_cam_orbit_reached, "The Sattelite reached the Orbit, Satcam is now available!", "Der Sattelit hat die Umlaufbahn erreicht, Satcam jetzt verfuegbar!"
+STRD_cam_orbit_passed, "The Sattelite passed out the Orbit, Satcam is not available currently...", "Der Sattelit hat die Umlaufbahn verlassen, Satcam jetzt nicht mehr verfuegbar..."
+STRD_cam_warmup, "Location logged-in, Sattelite is aligning itself (please close you map now!!!)", "Zielposition eingeloggt, Sattelit bringt sich in position! (Bitte Map jetzt schliesen!!!)"
+STRD_cam_description_header, "Free cam", "Freie Kamera"
+STRD_cam_description_100north, "100m North", "100m ri. Norden"
+STRD_cam_description_100south, "100m South", "100m ri. Sueden"
+STRD_cam_description_100west, "100m West", "100m ri. Westen"
+STRD_cam_description_100east, "100m East", "100m ri. Osten"
+STRD_cam_description_halt, "Stop", "Halt"
+STRD_cam_description_zoomin, "Zoom in", "Reinzoomen"
+STRD_cam_description_zoomout, "Zoom out", "Rauszoomen"
+STRD_cam_description_resetbright, "auto. Brightness", "auto. Helligkeit"
+STRD_cam_description_nvgon, "NV on", "NV an"
+STRD_cam_description_nvgoff, "NV off", "NV aus"
+
+
+// TELEPHONE CELLPHONE STUFF
+STRD_phone_alreadyinuse, "Your Phone is already in use!", "Du benutzt dein Handy bereits!"
+STRD_phone_description, "Phone Menu", "Telefon Menue"
+STRD_phone_policebutton, "Call 158 (Police)!", "Weahle 158 (Polizei)!"
+STRD_phone_ambulancebutton, "Call the Ambulance!", "Rufe die Ambulanz!"
+STRD_phone_taxibutton, "Call for a Taxi", "Rufe ein Taxi"
+STRD_phone_descriptionfield, "Short Description of Situation", "Kurze Beschreibung der Situation"
+
+STRD_phone_policeself, "You are a Policeman - To call your Collegues, use the panic button or the sidechat", "Du bist selber Polizist, nutze den Panic Button oder sidechat um deine Kollegen zu Rufen!"
+STRD_phone_policCallTitleText, "This is the Police of Sahrani, please click first on your map to transfer us the location, of the situation you are reporting", "Hier ist die Polizei von Sahrani, bitte klicke zu erst auf die Karte, um die Position der Situation zu uebertragen!"
+STRD_phone_policCallTitleTextNextStep, "Location received and understood! Please describe us briefly the situation you are reporting!", "Positionsdaten erhalten! Gib uns nun eine kurze Beschreibung, welche die genaue Situation an der ausgeweahlten Position beschreibt"
+STRD_phone_callTookToLong, "Phonecall aborted - you took to long!", "Telefongesrpraech abgebrochen - du hast zu lange gebraucht!"
+STRD_phone_callsuccesfull, "The Phonecall was succesfull and the Police is alarmed!", "Das Telefongesrpraech war Erfolgreich und die Polizei ist Alarmiert!"
+STRD_phone_callsuccesfull_medic, "The Phonecall was succesfull and the Ambulance is alarmed!", "Das Telefongesrpraech war Erfolgreich und die Ambulanz ist Alarmiert!"
+STRD_phone_callsuccesfull_taxi, "Taxi was successfully requested, a free driver should get in contact with you soon!", "Ein Taxi wurde erfolgreich Bestellt, ein freier Fahrer sollte sich bald mit dir in verbindung setzen!"
+
+STRD_phone_medicCallTitleText, "This is the Sahrani Emergency Service, please click on your map to transfer us the location of the emergency!", "Hier ist Notfalldienst von Sahrani, bitte klicke auf die Karte um die Position des Notfalls zu uebertragen!"
+STRD_phone_medicCallTitleTextNextStep, "Location received and understood! Please describe us briefly the emergency-situation!", "Notfall-Positionsdaten erhalten! Gib uns nun eine kurze Beschreibung, welche die Art des Notfalls an der ausgeweahlten Position beschreibt"
+
+STRD_phone_taxiCallTitleText, "This is the Sahrani Taxi Dispatch, please click on your map to transfer us your current location - thank you!", "Hier ist der Sahrani Taxi-Verteilungs-Dienst, bitte markiere auf der Karte deine aktuelle Position (einfacher klick) - danke!"
+STRD_phone_taxiCallTitleTextNextStep, "We received your location, thank you. Please enter now any additional informations about your requested ride, like proposed payment, destination, etc - otherwise leave blank and just press SEND.", "Wir haben ihre Position erhalten, danke! Bitte Uebertragen sie wenn moeglich weitere Daten ihrer geplanten fahrt, wie Bezahlungs-Vorschlag, Zieladresse, etc. - ansonsten einfach SENDEN druecken!"
+
+STRD_phone_call_marker_desc_police, "Police Request", "Polizei Alarmierung"
+STRD_phone_call_marker_desc_medic, "Emergency", "Notfall"
+STRD_phone_call_marker_desc_taxi, "Taxi called", "Taxi gerufen"
+
+STRD_phone_call_alarm_msg_police, "#####ATTENTION ALL UNITS!##### --> %1 just called for the Police. He Transmitted this as Description of the Situation: >> %2 << A red Marker has been placed at the position he has reported!", "#####ACHTUNG AN ALLE EINHEITEN!##### --> %1 Hat gerade die Polizei Gerufen. Er beschreibt die Situation mit: >> %2 <<. Ein roter Marker wurde an der Stelle erstellt, die er uebermittelt hat!"
+STRD_phone_call_alarm_msg_medic, "#####EMERGENCY-SITUATION!##### --> %1 just reported a Emergency-Situation and called for the Ambulance. He Transmitted this as emergency-description: >> %2 << A red Medic-car shaped Marker has been placed at the position he has reported!", "#####Notfall-Situation!##### --> %1 Hat gerade einen Notfall und hat die Ambulanz angerufen. Er beschreibt den Notfall mit: >> %2 <<. Ein roter Krankenwagen-Marker wurde an der Stelle erstellt, die er uebermittelt hat!"
+STRD_phone_call_alarm_msg_taxi, "#####Taxi-Dispatch##### --> %1 just requested a Taxi-Ride! His possible destination will be/additional informations are >> %2 <<  A yellow Marker has been placed at his position!", "#####Taxi-Verteilungs-Zentrum##### --> %1 Hat gerade ein Taxi Bestellt. Sein warscheinliches Ziel wird sein/Zusatzinformationen fuer den Fahrer: >> %2 <<. Ein gelber Marker wurde an seiner aktuellen Position erstellt."
+STRD_phone_call_alarm_add_msg_police, "Hint for Police-Calls:\nSometimes - depending on the reported Situation - it is better to treat a police-call or report in a discrete way...", "Hinweise fuer Polizei-Anrufe:\nManchmal ist es besser eingegangene Anrufe/Benachrichtigungen eher Diskret zu behandeln....."
+STRD_phone_call_alarm_add_msg_taxidriver, "Taxidriver Hint:\nIf you are free currently, you should respond to %1 (your potential customer) as soon as possible, to deal with further details and questions like payment, etc...", "Taxifahrer Hinweis:\nWenn du momentan Frei bist, solltest du %1 (potentieller Kunde) so schnell wie moeglich Antworten, um weitere details wie Bezahlung, usw. zu besprechen..."

@@ -1,0 +1,6 @@
+* Rewrite SLR
+	* Folder structure.
+	* Code rewritten.
+	* New techniques such as configs.
+	* Functions instead of scripts. 
+	* New saving system.
