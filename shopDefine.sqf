@@ -6,29 +6,83 @@
 _emptyshop = [];
 
 // Basic Vehicle Sell Shop -> All Vehicles must be listed here
-_vclsellshop = [
- "MMT_Civ", "ATV_US_EP1", "Skoda", "SkodaBlue", "SkodaRed", "SkodaGreen", "Car_hatchback",
-"Lada1", "Car_Sedan", "Tractor", "M1030", "TT650_Civ", "LandRover_CZ_EP1", "hilux1_civil_1_open",
-"hilux1_civil_2_covered", "hilux1_civil_3_open", "datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open", "MTVR", "Ikarus", "Ural_CDF", "Ural_TK_CIV_EP1", "V3S_Civ", "UAZ_CDF", "HMMWV",
- "HMMWV_M2", "UAZ_MG_CDF", "Zodiac", "Smallboat_2", "PBX", "RHIB", "Mi17_Civilian",
- "S1203_TK_CIV_EP1", "rpp_hilux", "rpp_hatch", "rpp_sedan", "rpp_skoda","SUV_TK_CIV_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"
+// Reformatted 2 per line - Stefan
+_vclsellshop =  [
+				"MMT_Civ", "ATV_US_EP1",
+				"Skoda", "SkodaBlue", 
+				"SkodaRed", "SkodaGreen",
+				"Car_hatchback", "Lada1", 
+				"Car_Sedan", "Tractor",
+				"M1030", "TT650_Civ", 
+				"LandRover_CZ_EP1", "hilux1_civil_1_open",
+				"hilux1_civil_2_covered", "hilux1_civil_3_open", 
+				"datsun1_civil_1_open", "datsun1_civil_2_covered",
+				"datsun1_civil_3_open", "MTVR",
+				"Ikarus", "Ural_CDF",
+				"Ural_TK_CIV_EP1", "V3S_Civ",
+				"UAZ_CDF", "HMMWV",
+				"HMMWV_M2", "UAZ_MG_CDF",
+				"Zodiac", "Smallboat_2", 
+				"PBX", "RHIB",
+				"Mi17_Civilian", "S1203_TK_CIV_EP1",
+				"rpp_hilux", "rpp_hatch",
+				"rpp_sedan", "rpp_skoda",
+				"SUV_TK_CIV_EP1","An2_1_TK_CIV_EP1",
+				"An2_2_TK_CIV_EP1"
 ];
 
 // Basic Weapon & Ammo Sell Shop -> All Weapons & Magazines must be listed here
+// Reformated 2 per line - Stefan
 _weapsellshop = [
-            "Colt1911", "M9",
-"M9SD", "glock17_EP1", "Makarov", "MakarovSD", "15Rnd_9x19_M9", "15Rnd_9x19_M9SD", "8Rnd_9x18_Makarov",
-"8Rnd_9x18_MakarovSD", "7Rnd_45ACP_1911", "17Rnd_9x19_glock17",
-       "M4A1", "M4A1_AIM", "M4A1_AIM_SD_CAMO", "M4GL","G36K",
-"G36C", "G36A", "30rnd_9x19_MP5SD", "aks_74_u", "AKS_74_UN_Kobra", "ak_74", "ak_74_gl", "AKS_74_PSO", "M16A2", "M16A2gl", "M16A4_ACG", "M16A4_ACG_GL", "30Rnd_556x45_Stanag",
-"30Rnd_556x45_StanagSD", "30Rnd_556x45_G36", "30rnd_9x19_MP5SD", "30Rnd_545x39_AKSD", "M24", "SVD", "KSVK", "5Rnd_762x51_M24", "10Rnd_762x54_SVD",
-"5Rnd_127x108_KSVK", "M136", "JAVELIN", "STINGER", "RPG7V", "STRELA", "M240", "M249", "PK", "1Rnd_HE_M203", "1Rnd_HE_GP25", "100Rnd_762x51_M240",
-"200Rnd_556x45_M249", "100Rnd_762x54_PK", "M136", "Javelin", "Stinger", "PG7V", "Strela", "HandGrenade_East", "Mine", "MineE", "ACE_Knicklicht_Y", "ACE_KeyCuffs",
-"PipeBomb", "ACE_NVGoggles", "FlareWhite_GP25", "FlareGreen_GP25", "FlareRed_GP25", "FlareYellow_GP25", "FlareWhite_M203", "FlareGreen_M203", "FlareRed_M203",
-"FlareYellow_M203", "SmokeShellRed", "SmokeShellGreen", "SmokeShell", "30rnd_9x19_MP5", "M4SPR", "ACE_Flashbang", "HandGrenade_Stone", "ACE_Rope_TOW_M_5", "ACE_Rope_M5","ACE_ParachutePack", "MG36",
-  "m1014", "M4A1_AIM", "M4A1_AIM_SD_CAMO", "M4A1_HWS_GL", "M4A1_RCO_GL", "M16A4", "M16A4_gl", 
-  "AK_47_S", "AK_107_Kobra", "AK_107_GL_Kobra", "x26_mag", "x26",
-"30Rnd_762x39_AK47"
+				"Colt1911", "M9",
+				"M9SD", "glock17_EP1",
+				"Makarov", "MakarovSD",
+				"15Rnd_9x19_M9", "15Rnd_9x19_M9SD",
+				"8Rnd_9x18_Makarov","8Rnd_9x18_MakarovSD",
+				"7Rnd_45ACP_1911", "17Rnd_9x19_glock17",
+				"M4A1", "M4A1_AIM",
+				"M4A1_AIM_SD_CAMO", "M4GL",
+				"G36K","G36C", 
+				"G36A", "30rnd_9x19_MP5SD",
+				"aks_74_u", "AKS_74_UN_Kobra",
+				"ak_74", "ak_74_gl",
+				"AKS_74_PSO", "M16A2",
+				"M16A2gl", "M16A4_ACG",
+				"M16A4_ACG_GL", "30Rnd_556x45_Stanag",
+				"30Rnd_556x45_StanagSD", "30Rnd_556x45_G36",
+				"30rnd_9x19_MP5SD", "30Rnd_545x39_AKSD",
+				"M24", "SVD",
+				"KSVK", "5Rnd_762x51_M24",
+				"10Rnd_762x54_SVD","5Rnd_127x108_KSVK", 
+				"M136", "JAVELIN",
+				"STINGER", "RPG7V",
+				"STRELA", "M240",
+				"M249", "PK",
+				"1Rnd_HE_M203", "1Rnd_HE_GP25", 
+				"100Rnd_762x51_M240","200Rnd_556x45_M249",
+				"100Rnd_762x54_PK", "M136", 
+				"Javelin", "Stinger",
+				"PG7V", "Strela", 
+				"HandGrenade_East", "Mine", 
+				"MineE", "ACE_Knicklicht_Y", 
+				"ACE_KeyCuffs","PipeBomb",
+				"ACE_NVGoggles", "FlareWhite_GP25",
+				"FlareGreen_GP25", "FlareRed_GP25",
+				"FlareYellow_GP25", "FlareWhite_M203",
+				"FlareGreen_M203", "FlareRed_M203",
+				"FlareYellow_M203", "SmokeShellRed",
+				"SmokeShellGreen", "SmokeShell", 
+				"30rnd_9x19_MP5", "M4SPR", 
+				"ACE_Flashbang", "HandGrenade_Stone", 
+				"ACE_Rope_TOW_M_5", "ACE_Rope_M5",
+				"ACE_ParachutePack", "MG36",
+				"m1014", "M4A1_AIM",
+				"M4A1_AIM_SD_CAMO", "M4A1_HWS_GL",
+				"M4A1_RCO_GL", "M16A4",
+				"M16A4_gl","AK_47_S", 
+				"AK_107_Kobra", "AK_107_GL_Kobra",
+				"x26_mag", "x26",
+				"30Rnd_762x39_AK47"
 ];
 
 // Drugshops
@@ -138,16 +192,32 @@ _vehicleshop_copair = ["avgas_kanister","reparaturkit","ACE_Rope_M5", "ACE_Parac
 _vehicleshop8 = ["avgas_kanister", "reparaturkit", "handy", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1" , "ACE_Rope_M5", "ACE_ParachutePack" ];
 
 // Equipment Shops
+// Reformatted 2 per line - Stefan
 _gunshop0 = [
-"Binocular", "NVGoggles", "ACE_VTAC_RUSH72", "ACE_FAST_PackEDC", "ACE_CharliePack", "ACE_Backpack_CivAssault", "ACE_BackPack", "ACE_Rucksack_MOLLE_Brown", "ACE_Rucksack_MOLLE_Green", "ACE_Rucksack_MOLLE_Wood",
-"ACE_Rucksack_MOLLE_ACU", "ACE_Rucksack_MOLLE_DMARPAT", "ACE_Rucksack_MOLLE_WMARPAT", "ACE_Rope_M5",
-"SmokeShellRed", "SmokeShellGreen", "SmokeShell", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS" , "HandGrenade_Stone", "ACE_Rope_TOW_M_5", "lockpick" , "ACE_Knicklicht_Y", "ACE_KeyCuffs",
+			"Binocular", "NVGoggles", 
+			"ACE_VTAC_RUSH72", "ACE_FAST_PackEDC", 
+			"ACE_CharliePack", "ACE_Backpack_CivAssault",
+			"ACE_BackPack", "ACE_Rucksack_MOLLE_Brown",
+			"ACE_Rucksack_MOLLE_Green", "ACE_Rucksack_MOLLE_Wood",
+			"ACE_Rucksack_MOLLE_ACU", "ACE_Rucksack_MOLLE_DMARPAT",
+			"ACE_Rucksack_MOLLE_WMARPAT", "ACE_Rope_M5",
+			"SmokeShellRed", "SmokeShellGreen",
+			"SmokeShell", "ItemMap", 
+			"ItemCompass", "ItemWatch",
+			"ItemRadio", "ItemGPS" , 
+			"HandGrenade_Stone", "ACE_Rope_TOW_M_5",
+			"lockpick", "ACE_Knicklicht_Y",
+			"ACE_KeyCuffs",
 ];
 
 // Pistol Shop
-_gunshop1 = [ "Colt1911", "M9", "glock17_EP1",
- "Makarov", "MakarovSD", "15Rnd_9x19_M9", "15Rnd_9x19_M9SD", "7Rnd_45ACP_1911",
-"17Rnd_9x19_glock17", "8Rnd_9x18_Makarov", "8Rnd_9x18_MakarovSD"
+// Reformatted 2 per line - Stefan
+_gunshop1 = ["Colt1911", "M9", 
+			"glock17_EP1", "Makarov",
+			"MakarovSD", "15Rnd_9x19_M9",
+			"15Rnd_9x19_M9SD", "7Rnd_45ACP_1911",
+			"17Rnd_9x19_glock17", "8Rnd_9x18_Makarov",
+			"8Rnd_9x18_MakarovSD"
 ];
 
 // Rifle Shop
@@ -158,121 +228,250 @@ _gunshop7 = [ "MP5A5", "30rnd_9x19_MP5"
 ];
 
 // Basic Cop Shop
+// Reformatted 2 per line or 1 item array per line - Stefan
 _copshop = [
-           "kanister", "handy", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio", "ItemGPS", "ACE_KeyCuffs", "ACE_Bodybag", "ACE_Stretcher", "ACE_Bandage", "ACE_LargeBandage", "ACE_IV", "ACE_Medkit", "ACE_Plasma", "ACE_Splint", "ACE_Morphine", "ACE_Epinephrine",
-"lighter", "soup", ["bread", 300, 300], ["fish_filet", 490, 350], ["normqualitywater1", 300, 200], ["normqualitywater2", 330, 200], "Binocular", "NVGoggles", "Laserdesignator", "Laserbatteries", "kleinesreparaturkit", "ACE_Knicklicht_Y"
+           "kanister", "handy",
+		   "ItemMap", "ItemCompass", 
+		   "ItemWatch", "ItemRadio", 
+		   "ItemGPS", "ACE_KeyCuffs", 
+		   "ACE_Bodybag", "ACE_Stretcher",
+		   "ACE_Bandage", "ACE_LargeBandage",
+		   "ACE_IV", "ACE_Medkit", 
+		   "ACE_Plasma", "ACE_Splint", 
+		   "ACE_Morphine", "ACE_Epinephrine",
+		   "lighter", "soup", 
+		  ["bread", 300, 300], 
+		  ["fish_filet", 490, 350], 
+		  ["normqualitywater1", 300, 200],
+		  ["normqualitywater2", 330, 200], 
+		  "Binocular", "NVGoggles", 
+		  "Laserdesignator", "Laserbatteries", 
+		  "kleinesreparaturkit", "ACE_Knicklicht_Y"
 ];
 
 // Copshop Patrol License
-_copshop_patrol = [["lockpick", 350, 350], "SpeedCam", "reparaturkit", "kanister", "ucasiren", "defuser", "M9",
-"M9SD", "Makarov", "MakarovSD", "x26", "x26_mag",
-      "Colt1911", "glock17_EP1", "15Rnd_9x19_M9", "15Rnd_9x19_M9SD", "8Rnd_9x18_Makarov",
-"8Rnd_9x18_MakarovSD", "7Rnd_45ACP_1911", "17Rnd_9x19_glock17","ACE_Flashbang",
- "SmokeShellRed", "SmokeShellGreen", "SmokeShell", "SpawnObj_Fortress", "SpawnObj_Danger", "SpawnObj_Shed", "SpawnObj_Wall", "SpawnObj_Wire", "SpawnObj_RoadCone",
-"SpawnObj_RoadBarrier_long", "SpawnObj_blinkbarrier", "SpawnObj_Fire", "SpawnObj_FenceWood", "SpawnObj_minibunker", "SpawnObj_Ladder", "SpawnObj_SearchLight"
+// Reformatted 2 per line or 1 item array per line - Stefan
+_copshop_patrol = [["lockpick", 350, 350],
+					"SpeedCam", "reparaturkit",
+					"kanister", "ucasiren", 
+					"defuser", "M9",
+					"M9SD", "Makarov", 
+					"MakarovSD", "x26",
+					"x26_mag","Colt1911",
+					"glock17_EP1", "15Rnd_9x19_M9",
+					"15Rnd_9x19_M9SD", "8Rnd_9x18_Makarov",
+					"8Rnd_9x18_MakarovSD", "7Rnd_45ACP_1911", 
+					"17Rnd_9x19_glock17","ACE_Flashbang",
+					"SmokeShellRed", "SmokeShellGreen", 
+					"SmokeShell", "SpawnObj_Fortress",
+					"SpawnObj_Danger", "SpawnObj_Shed",
+					"SpawnObj_Wall", "SpawnObj_Wire", 
+					"SpawnObj_RoadCone", "SpawnObj_RoadBarrier_long",
+					"SpawnObj_blinkbarrier", "SpawnObj_Fire", 
+					"SpawnObj_FenceWood", "SpawnObj_minibunker",
+					"SpawnObj_Ladder", "SpawnObj_SearchLight"
 ];
 
 // Copshop CRO
 _copshop_response = [
- "MP5A5", "30rnd_9x19_MP5", "30rnd_9x19_MP5SD",
-    "m1014", "8Rnd_B_Beneli_74Slug",
-   "30Rnd_556x45_Stanag",
-     
-"SpawnObj_minibunker"];
+					"MP5A5", "30rnd_9x19_MP5", 
+					"30rnd_9x19_MP5SD","m1014",
+					"8Rnd_B_Beneli_74Slug","30Rnd_556x45_Stanag",
+					"SpawnObj_minibunker"
+];
 
 // Copshop SWAT
+//Reformatted 2 per line - Stefan
+
 _copshop_swat = [
- "m1014",
-"M4A1", "M4A1_AIM", "M4A1_AIM_SD_CAMO", "M4A1_HWS_GL", "M4A1_RCO_GL", "M16A4", "M16A4_gl", "M4SPR",
- "30Rnd_556x45_Stanag", "30Rnd_556x45_StanagSD", "1Rnd_HE_M203",
-"M24", "5Rnd_762x51_M24",
-"FlareWhite_M203", "FlareGreen_M203", "FlareRed_M203", "FlareYellow_M203", "SmokeShell", "G36K", "G36_C_SD_Eotech", "MG36",
-"30Rnd_556x45_G36", "M240", "100Rnd_762x51_M240",
-"M136", "M136", "Stinger", "Stinger", "HandGrenade_East", "Mine", "PipeBomb", "SpawnObj_minibunker", "SpawnObj_MgPillbox"
+				"m1014", "M4A1", 
+				"M4A1_AIM", "M4A1_AIM_SD_CAMO",
+				"M4A1_HWS_GL", "M4A1_RCO_GL", 
+				"M16A4", "M16A4_gl",
+				"M4SPR", "30Rnd_556x45_Stanag",
+				"30Rnd_556x45_StanagSD", "1Rnd_HE_M203",
+				"M24", "5Rnd_762x51_M24", "FlareWhite_M203",
+				"FlareGreen_M203", "FlareRed_M203",
+				"FlareYellow_M203", "SmokeShell", 
+				"G36K", "G36_C_SD_Eotech", 
+				"MG36", "30Rnd_556x45_G36",
+				"M240", "100Rnd_762x51_M240",
+				"M136", "M136",
+				"Stinger", "Stinger", 
+				"HandGrenade_East", "Mine", 
+				"PipeBomb", "SpawnObj_minibunker", 
+				"SpawnObj_MgPillbox"
 ];
 
 // Boarderpatrol Weapons
+// Reformatted 2 per line or 1 item array per line
 _borderpatrolweapons = [
- "kanister", "handy", "lighter", "soup", ["bread", 300, 300], ["fish_filet", 490, 350], ["normqualitywater1", 300, 200], ["normqualitywater2", 330, 200], "Binocular", "NVGoggles", "Laserdesignator",
-"Laserbatteries", "kleinesreparaturkit", "reparaturkit", "kanister", "nitro", "defuser",
-    "MP5A5",
-       "30rnd_9x19_MP5", "30rnd_9x19_MP5SD",
-    "30Rnd_556x45_Stanag", "30Rnd_556x45_StanagSD", "1Rnd_HE_M203", "FlareWhite_M203",
-"FlareGreen_M203", "FlareRed_M203", "FlareYellow_M203", "SmokeShell", "G36K", "30Rnd_556x45_G36", "HandGrenade_East", "Mine", "SpawnObj_Fortress",
-"SpawnObj_Danger", "SpawnObj_Shed", "SpawnObj_Wall", "SpawnObj_Wire", "SpawnObj_RoadCone", "SpawnObj_RoadBarrier_long", "SpawnObj_blinkbarrier", "SpawnObj_Fire", "SpawnObj_FenceWood", "SpawnObj_minibunker",
-"SpawnObj_MgPillbox", "SpawnObj_Ladder", "SpawnObj_SearchLight"
+						"kanister", "handy", 
+						"lighter", "soup", 
+						["bread", 300, 300], 
+						["fish_filet", 490, 350], 
+						["normqualitywater1", 300, 200], 
+						["normqualitywater2", 330, 200], 
+						"Binocular", "NVGoggles", 
+						"Laserdesignator", "Laserbatteries", 
+						"kleinesreparaturkit", "reparaturkit",
+						"kanister", "nitro",
+						"defuser", "MP5A5",
+						"30rnd_9x19_MP5", "30rnd_9x19_MP5SD",
+						"30Rnd_556x45_Stanag", "30Rnd_556x45_StanagSD",
+						"1Rnd_HE_M203", "FlareWhite_M203",
+						"FlareGreen_M203", "FlareRed_M203", 
+						"FlareYellow_M203", "SmokeShell", 
+						"G36K", "30Rnd_556x45_G36", 
+						"HandGrenade_East", "Mine",
+						"SpawnObj_Fortress", "SpawnObj_Danger", 
+						"SpawnObj_Shed", "SpawnObj_Wall", 
+						"SpawnObj_Wire", "SpawnObj_RoadCone", 
+						"SpawnObj_RoadBarrier_long", "SpawnObj_blinkbarrier", 
+						"SpawnObj_Fire", "SpawnObj_FenceWood", 
+						"SpawnObj_minibunker", "SpawnObj_MgPillbox",
+						"SpawnObj_Ladder", "SpawnObj_SearchLight"
 ];
 
 // Shooting Range Ammo
-_shooting_range = [
-   "15Rnd_9x19_M9", "15Rnd_9x19_M9SD",
-"7Rnd_45ACP_1911", "17Rnd_9x19_glock17", "8Rnd_9x18_Makarov", "8Rnd_9x18_MakarovSD", "30rnd_9x19_MP5", "30rnd_9x19_MP5SD"
+// Reformatted 2 per line - Stefan
+_shooting_range = 	[
+					"15Rnd_9x19_M9", "15Rnd_9x19_M9SD",
+					"7Rnd_45ACP_1911", "17Rnd_9x19_glock17",
+					"8Rnd_9x18_Makarov", "8Rnd_9x18_MakarovSD", 
+					"30rnd_9x19_MP5", "30rnd_9x19_MP5SD"
 ];
 
 // Terrorist Shop Buy
-_terrorshop_buy = ["fernzuender", "kleinesreparaturkit", "reparaturkit", "kanister", "lockpick", "lighter", "soup", "bread", "fish_filet", "normqualitywater1", "normqualitywater2", "Binocular", "NVGoggles", "Laserdesignator", "Laserbatteries",
-         "AK_47_S", "AK_107_Kobra", "AK_107_GL_Kobra", "30Rnd_762x39_AK47",
-  "1Rnd_HE_GP25", "HandGrenade_East",
-        "PK",
-"100Rnd_762x54_PK", "RPG7V", "PG7V", "Strela", "Strela",
-"stoersender"
+// Reformatted 2 per line - Stefan
+_terrorshop_buy =  ["fernzuender", "kleinesreparaturkit",
+					"reparaturkit", "kanister", 
+					"lockpick", "lighter", 
+					"soup", "bread", 
+					"fish_filet", "normqualitywater1",
+					"normqualitywater2", "Binocular",
+					"NVGoggles", "Laserdesignator", 
+					"Laserbatteries", "AK_47_S", 
+					"AK_107_Kobra", "AK_107_GL_Kobra", 
+					"30Rnd_762x39_AK47", "1Rnd_HE_GP25", 
+					"HandGrenade_East", "PK",
+					"100Rnd_762x54_PK", "RPG7V", 
+					"PG7V", "Strela", 
+					"Strela", "stoersender"
 ];
 
 // Terrorist Shop Sell
-_terrorshop_sell = ["fernzuenderbombe", "zeitzuenderbombe", "aktivierungsbombe", "geschwindigkeitsbombe", "selbstmordbombe", "kleinesreparaturkit", "reparaturkit", "kanister", "fisch"];
+// Reformatted 2 per line - Stefan
+// Reformatted 2 per line - Stefan
+_terrorshop_sell = ["fernzuenderbombe", "zeitzuenderbombe", 
+					"aktivierungsbombe", "geschwindigkeitsbombe", 
+					"selbstmordbombe", "kleinesreparaturkit",
+					"reparaturkit", "kanister", 
+					"fisch"];
 
 // Vehicle Shop at Terrobase
+// Reformatted 2 per line - Stefan
 _terrorshop4 = [
-"LandRover_CZ_EP1", "hilux1_civil_1_open", "hilux1_civil_2_covered", "hilux1_civil_3_open", "datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open", ["HMMWV_M2", 180000, 45000],
-[ 250000, 75000], ["UAZ_MG_CDF", 180000, 40000], "Ikarus", "Ural_CDF", "Ural_TK_CIV_EP1", "V3S_Civ", "UAZ_CDF", "MH6", "M1030", "TT650_Civ"
+				"LandRover_CZ_EP1", "hilux1_civil_1_open",
+				"hilux1_civil_2_covered", "hilux1_civil_3_open", 
+				"datsun1_civil_1_open", "datsun1_civil_2_covered", 
+				"datsun1_civil_3_open",
+				["HMMWV_M2", 180000, 45000],
+				["UAZ_MG_CDF", 180000, 40000], "Ikarus",
+				"Ural_CDF", "Ural_TK_CIV_EP1", 
+				"V3S_Civ", "UAZ_CDF",
+				"MH6", "M1030", 
+				"TT650_Civ"
 ];
 
 // Blackmarket Buy
+// Reformatted 2 per line - Stefan
 _blackmarket_buy = [
-"smallillegalweapons", "mediumillegalweapons", "largeillegalweapons", "fernzuenderbombe", "zeitzuenderbombe", "aktivierungsbombe", "geschwindigkeitsbombe", "selbstmordbombe", "fernzuender", "stoersender", "stoersender_improved",
-"kleinesreparaturkit", "reparaturkit", "kanister", "lockpick", "Binocular", "NVGoggles", "Laserdesignator", "Laserbatteries",
- "m1014", "MP5A5",
-"M4A1", "M4A1_AIM", "M4A1_AIM_SD_CAMO", "M4A1_HWS_GL", "M4A1_RCO_GL", "M16A4", "M16A4_gl", "M4SPR",
- 
-"ak_74", "AKS_74_PSO", "ak_74_gl","aks_74_u", "AKS_74_UN_Kobra", "RPK_74",
-"PK", "Pecheneg", "KSVK", "RPG7V", "Strela", "JAVELIN",
-"SpawnObj_minibunker", "SpawnObj_MgPillboxE",
- "G36_C_SD_Eotech", "MG36", "M24",
-"SVD",
-"MineE", "HandGrenade_East",
- "30rnd_9x19_MP5", "30rnd_9x19_MP5SD",
-       
- "30Rnd_556x45_G36", "30Rnd_556x45_Stanag", "30Rnd_556x45_StanagSD", "5Rnd_762x51_M24",
-"30Rnd_545x39_AKSD", "10Rnd_762x54_SVD", "100Rnd_762x54_PK", "5Rnd_127x108_KSVK",
-"1Rnd_HE_GP25", "PG7V", "Strela", "Javelin"
+					"smallillegalweapons", "mediumillegalweapons", 
+					"largeillegalweapons", "fernzuenderbombe",
+					"zeitzuenderbombe", "aktivierungsbombe", 
+					"geschwindigkeitsbombe", "selbstmordbombe", 
+					"fernzuender", "stoersender", 
+					"stoersender_improved", "kleinesreparaturkit",
+					"reparaturkit", "kanister", 
+					"lockpick", "Binocular", 
+					"NVGoggles", "Laserdesignator", 
+					"Laserbatteries", "m1014", 
+					"MP5A5", "M4A1", 
+					"M4A1_AIM", "M4A1_AIM_SD_CAMO",
+					"M4A1_HWS_GL", "M4A1_RCO_GL",
+					"M16A4", "M16A4_gl",
+					"M4SPR", "ak_74", 
+					"AKS_74_PSO", "ak_74_gl",
+					"aks_74_u", "AKS_74_UN_Kobra", 
+					"RPK_74", "PK",
+					"Pecheneg", "KSVK",
+					"RPG7V", "Strela",
+					"JAVELIN", "SpawnObj_minibunker",
+					"SpawnObj_MgPillboxE","G36_C_SD_Eotech", 
+					"MG36", "M24",
+					"SVD", "MineE",
+					"HandGrenade_East", "30rnd_9x19_MP5",
+					"30rnd_9x19_MP5SD", "30Rnd_556x45_G36",
+					"30Rnd_556x45_Stanag", "30Rnd_556x45_StanagSD",
+					"5Rnd_762x51_M24", "30Rnd_545x39_AKSD", 
+					"10Rnd_762x54_SVD", "100Rnd_762x54_PK",
+					"5Rnd_127x108_KSVK", "1Rnd_HE_GP25",
+					"PG7V", "Strela", 
+					"Javelin"
 ];
 
 // Blackmarket Sell
+// Reformatted 2 per line - Stefan
 _blackmarket_sell = [
-"fernzuenderbombe", "zeitzuenderbombe", "aktivierungsbombe", "geschwindigkeitsbombe", "selbstmordbombe", "fernzuender", "stoersender", "stoersender_improved",
-"kleinesreparaturkit", "reparaturkit", "kanister", "lockpick", "Binocular", "NVGoggles", "Laserdesignator", "Laserbatteries",
- "m1014", "MP5A5",
-"M4A1", "M4A1_AIM", "M4A1_AIM_SD_CAMO", "M4A1_HWS_GL", "M4A1_RCO_GL", "M16A4", "M16A4_gl", "M4SPR",
- 
-"ak_74", "AKS_74_PSO", "ak_74_gl","aks_74_u", "AKS_74_UN_Kobra", "RPK_74",
-"PK", "Pecheneg", "KSVK", "RPG7V", "Strela", "JAVELIN",
-"SpawnObj_minibunker", "SpawnObj_MgPillboxE",
- "G36_C_SD_Eotech", "MG36", "M24",
-"SVD",
-"MineE", "HandGrenade_East",
- "30rnd_9x19_MP5", "30rnd_9x19_MP5SD",
-       
- "30Rnd_556x45_G36", "30Rnd_556x45_Stanag", "30Rnd_556x45_StanagSD", "5Rnd_762x51_M24",
-"30Rnd_545x39_AKSD", "10Rnd_762x54_SVD", "100Rnd_762x54_PK", "5Rnd_127x108_KSVK",
-"1Rnd_HE_GP25", "PG7V", "Strela", "Javelin"
+					"fernzuenderbombe", "zeitzuenderbombe", 
+					"aktivierungsbombe", "geschwindigkeitsbombe", 
+					"selbstmordbombe", "fernzuender",
+					"stoersender", "stoersender_improved",
+					"kleinesreparaturkit", "reparaturkit",
+					"kanister", "lockpick", 
+					"Binocular", "NVGoggles", 
+					"Laserdesignator", "Laserbatteries",
+					"m1014", "MP5A5",
+					"M4A1", "M4A1_AIM",
+					"M4A1_AIM_SD_CAMO", "M4A1_HWS_GL",
+					"M4A1_RCO_GL", "M16A4", 
+					"M16A4_gl", "M4SPR",
+					"ak_74", "AKS_74_PSO",
+					"ak_74_gl","aks_74_u", 
+					"AKS_74_UN_Kobra", "RPK_74",
+					"PK", "Pecheneg", 
+					"KSVK", "RPG7V", 
+					"Strela", "JAVELIN",
+					"SpawnObj_minibunker", "SpawnObj_MgPillboxE",
+					"G36_C_SD_Eotech", "MG36",
+					"M24", "SVD",
+					"MineE", "HandGrenade_East",
+					"30rnd_9x19_MP5", "30rnd_9x19_MP5SD",
+					"30Rnd_556x45_G36", "30Rnd_556x45_Stanag",
+					"30Rnd_556x45_StanagSD", "5Rnd_762x51_M24",
+					"30Rnd_545x39_AKSD", "10Rnd_762x54_SVD", 
+					"100Rnd_762x54_PK", "5Rnd_127x108_KSVK",
+					"1Rnd_HE_GP25", "PG7V", "Strela", "Javelin"
 ];
 
-_clothingBuy = ["ACE_GlassesBalaklava", "ACE_GlassesBalaklavaGray" , "ACE_GlassesBalaklavaOlive" , "ACE_GlassesSunglasses", "ACE_GlassesBlackSun", "ACE_GlassesBlueSun",
-"ACE_GlassesTactical", "ACE_Earplugs", "ACE_GlassesGasMask_US", "ACE_GlassesSpectacles"
+// Clothes Shop
+// Reformatted 2 per line - Stefan
+_clothingBuy = [
+				"ACE_GlassesBalaklava", "ACE_GlassesBalaklavaGray", 
+				"ACE_GlassesBalaklavaOlive" , "ACE_GlassesSunglasses", 
+				"ACE_GlassesBlackSun", "ACE_GlassesBlueSun",
+				"ACE_GlassesTactical", "ACE_Earplugs", 
+				"ACE_GlassesGasMask_US", "ACE_GlassesSpectacles"
 ];
 
 //NSPD Shop
-_NSPD_Shop = ["nitro", "vclammo", "avgas_kanister", "reparaturkit", "HMMWV_M2", "UAZ_MG_CDF"];
+// Reformatted 2 per line - Stefan
+_NSPD_Shop = 	[
+				"nitro", "vclammo",
+				"avgas_kanister", "reparaturkit",
+				"HMMWV_M2", "UAZ_MG_CDF"
+];
 
 
 // interndebug Mode Shop
