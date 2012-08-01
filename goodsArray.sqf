@@ -171,6 +171,10 @@ INV_AlleWaffenObjekte = [
 
 ["ACE_GlassesBalaklava", ["Waffe", "pistol"],["ACE_GlassesBalaklava", "Balaclava"],[4500, 1250], [1, "", ""], [], "ACE_GlassesBalaklava" call ISSE_Cfg_Weapons_GetName, "ACE_GlassesBalaklava" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
 
+["ACE_GlassesBalaklavaOlive", ["Waffe", "pistol"],["ACE_GlassesBalaklavaOlive", "Balaclava (Olive)"],[4500, 1250], [1, "", ""], [], "ACE_GlassesBalaklavaOlive" call ISSE_Cfg_Weapons_GetName, "ACE_GlassesBalaklavaOlive" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
+
+["ACE_GlassesBalaklavaGray", ["Waffe", "pistol"],["ACE_GlassesBalaklavaGray", "Balaclava (Gray)"],[4500, 1250], [1, "", ""], [], "ACE_GlassesBalaklavaGray" call ISSE_Cfg_Weapons_GetName, "ACE_GlassesBalaklavaGray" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
+
 ["ACE_GlassesSunglasses", ["Waffe", "pistol"],["ACE_GlassesSunglasses", "Sunglasses"],[500, 250], [1, "", ""], [], "ACE_GlassesSunglasses" call ISSE_Cfg_Weapons_GetName, "ACE_GlassesSunglasses" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
 
 ["ACE_GlassesBlackSun", ["Waffe", "pistol"],["ACE_GlassesBlackSun", "Black Sunglasses"],[500, 250], [1, "", ""], [], "ACE_GlassesBlackSun" call ISSE_Cfg_Weapons_GetName, "ACE_GlassesBlackSun" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
@@ -303,28 +307,25 @@ INV_AlleMagazinObjekte = [
 
 ["ACE_Bodybag",["Magazin", "pistol"],["ACE_Bodybag", "Bodybag"],[250, 180], [1, "", ""], [], "ACE_Bodybag" call ISSE_Cfg_MagazineInfo, "ACE_Bodybag" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
 
-["ACE_Rope_M5",["Magazin", "rifle"],["ACE_Rope_M5", "Sling rope"],[1500, 1000], [1, "", ""], [], "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
-
 ["7Rnd_45ACP_1911",["Magazin", "pistol"],["7Rnd_45ACP_1911", "7Rnd M1911 .45 Mag"],[140, 20], [1, ""], [], "7Rnd_45ACP_1911" call ISSE_Cfg_MagazineInfo, "7Rnd_45ACP_1911" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
 
-["17Rnd_9x19_glock17",["Magazin", "pistol"],["17Rnd_9x19_glock17", "17Rnd 9mm Glock 17 Mag"],[150, 20],[1, ""],[], "17Rnd_9x19_glock17" call ISSE_Cfg_MagazineInfo, "17Rnd_9x19_glock17" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ]
+["17Rnd_9x19_glock17",["Magazin", "pistol"],["17Rnd_9x19_glock17", "17Rnd 9mm Glock 17 Mag"],[150, 20],[1, ""],[], "17Rnd_9x19_glock17" call ISSE_Cfg_MagazineInfo, "17Rnd_9x19_glock17" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
 
-["ACE_Flashbang",["Magazin", "equipment"],["ACE_Flashbang", "Flashbang"],[250, 160],[1, ""],[], "ACE_Flashbang" call ISSE_Cfg_MagazineInfo, "ACE_Flashbang" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ]
+["ACE_Flashbang",["Magazin", "equipment"],["ACE_Flashbang", "Flashbang"],[250, 160],[1, ""],[], "ACE_Flashbang" call ISSE_Cfg_MagazineInfo, "ACE_Flashbang" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
 
-["HandGrenade_Stone",["Magazin", "equipment"],["HandGrenade_Stone", "Stone"],[20, 10],[1, ""],[], "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, [["stone", 1]] ]
+["HandGrenade_Stone",["Magazin", "equipment"],["HandGrenade_Stone", "Stone"],[20, 10],[1, ""],[], "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, [["stone", 1]] ],
 
-["ACE_Rope_TOW_M_5",["Magazin", "equipment"],["ACE_Rope_TOW_M_5", "Towing Rope"],[250, 160],[1, ""],[], "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ]
+["ACE_Rope_TOW_M_5",["Magazin", "equipment"],["ACE_Rope_TOW_M_5", "Towing Rope"],[250, 160],[1, ""],[], "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, "HandGrenade_Stone" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ],
 
-["ACE_Rope_M5",["Magazin", "equipment"],["ACE_Rope_M5", "Fast Rope"],[2500, 1600],[1, ""],[], "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ]
+["ACE_Rope_M5",["Magazin", "equipment"],["ACE_Rope_M5", "Fast Rope"],[2500, 1600],[1, ""],[], "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ],
 
-["ACE_ParachutePack",["Magazin", "equipment"],["ACE_ParachutePack", "Steerable Parachute"],[5500, 4600],[1, ""],[], "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, [["plastik", 3]] ]
+["ACE_ParachutePack",["Magazin", "equipment"],["ACE_ParachutePack", "Steerable Parachute"],[5500, 4600],[1, ""],[], "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, [["plastik", 3]] ],
 
-["ACE_Knicklicht_Y",["Magazin", "equipment"],["ACE_Knicklicht_Y", "Chemlight Yellow"],[350, 290],[1, ""],[], "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ]
+["ACE_Knicklicht_Y",["Magazin", "equipment"],["ACE_Knicklicht_Y", "Chemlight Yellow"],[350, 290],[1, ""],[], "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ],
 
 ["ACE_KeyCuffs",["Magazin", "equipment"],["ACE_KeyCuffs", "Handcuffs"],[350, 290],[1, ""],[], "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ]
 
 ];
-
 
 // Vehicle Array (Fixed for A2 - Tom)
 INV_AlleFahrzeugeArray = [
@@ -414,13 +415,13 @@ INV_AlleFahrzeugeArray = [
 
 ["rpp_skoda",["Fahrzeug", "car"],["slr_policeSkoda", "Police Skoda 105"],[16000, 12000], [1, "car", "basic_police"], [150, [1,0,0,3]], "rpp_skoda" call ISSE_Cfg_Vehicle_GetName, "rpp_skoda" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 10],["ebauteile", 1],["mineraloel", 3]] ],
 
-["S1203_ambulance_EP1", ["Fahrzeug", "pickup"],["S1203_ambulance_EP1", "S1203 Ambulance"],[21500, 16000], [2, "medic", "medic"], [350,[1,0,0,2] ], "S1203_ambulance_EP1" call ISSE_Cfg_Vehicle_GetName, "S1203_ambulance_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]]
+["S1203_ambulance_EP1", ["Fahrzeug", "pickup"],["S1203_ambulance_EP1", "S1203 Ambulance"],[21500, 16000], [2, "medic", "medic"], [350,[1,0,0,2] ], "S1203_ambulance_EP1" call ISSE_Cfg_Vehicle_GetName, "S1203_ambulance_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 50],["ebauteile", 10],["glas", 5],["mineraloel", 3]]],
 
-["An2_1_TK_CIV_EP1", ["Fahrzeug", "air"],["An2_1_TK_CIV_EP1", "An2 Civilian"],[155500, 140000], [2, "air, "air_support_training"], [500,[1,0,0,8] ], "An2_1_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "An2_1_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 80],["ebauteile", 15],["glas", 8],["mineraloel", 4]]]
+["An2_1_TK_CIV_EP1", ["Fahrzeug", "air"],["An2_1_TK_CIV_EP1", "An2 Civilian"],[155500, 140000], [2, "air", "air_support_training"], [500,[1,0,0,8] ], "An2_1_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "An2_1_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 80],["ebauteile", 15],["glas", 8],["mineraloel", 4]]],
 
-["An2_2_TK_CIV_EP1", ["Fahrzeug", "air"],["An2_2_TK_CIV_EP1", "An2 TakAir"],[155500, 140000], [2, "air, "air_support_training"], [500,[1,0,0,8] ], "An2_2_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "An2_2_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 80],["ebauteile", 15],["glas", 8],["mineraloel", 4]]]
+["An2_2_TK_CIV_EP1", ["Fahrzeug", "air"],["An2_2_TK_CIV_EP1", "An2 TakAir"],[155500, 140000], [2, "air", "air_support_training"], [500,[1,0,0,8] ], "An2_2_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "An2_2_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 80],["ebauteile", 15],["glas", 8],["mineraloel", 4]]],
 
-["SUV_TK_CIV_EP1", ["Fahrzeug", "pickup"],["SUV_TK_CIV_EP1", "SUV black"],[155500, 140000], [2, "pickup, "patrol_training"], [650,[1,0,0,5] ], "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 60],["ebauteile", 12],["glas", 4],["mineraloel", 4]]]
+["SUV_TK_CIV_EP1", ["Fahrzeug", "pickup"],["SUV_TK_CIV_EP1", "SUV black"],[155500, 140000], [2, "pickup", "patrol_training"], [650,[1,0,0,5] ], "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 60],["ebauteile", 12],["glas", 4],["mineraloel", 4]]]
 
 ];
 
@@ -745,7 +746,7 @@ INV_VehicleWeightArray =
  ["rpp_hilux", 250], 
  ["rpp_hatch", 100], 
  ["rpp_sedan", 100],
- ["rpp_skoda", 90]
+ ["rpp_skoda", 90],
  ["An2_1_TK_CIV_EP1",750],
  ["An2_2_TK_CIV_EP1",750],
  ["SUV_TK_CIV_EP1",750]

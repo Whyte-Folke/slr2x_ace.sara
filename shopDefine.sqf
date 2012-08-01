@@ -165,7 +165,7 @@ _vehicleshop5 = ["Zodiac", "Smallboat_2", "PBX"];
 _terrorist_boat = ["RHIB", "RHIB2Turret"];
 
 // Pita Airflag shop
-_vehicleshop6 = ["avgas_kanister", "reparaturkit", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1", "ACE_Rope_M5", "ACE_ParachutePack"];
+_vehicleshop6 = ["avgas_kanister", "reparaturkit", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1" ];
 
 // Muscle Cars shop
 _mikes_garage = [ ];
@@ -174,10 +174,10 @@ _mikes_garage = [ ];
 _borderpatrolveh = ["LadaLM"];
 
 // Bagango Airport
-_vehicleshop_air = ["avgas_kanister", "reparaturkit", "handy", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1","ACE_Rope_M5", "ACE_ParachutePack" ];
+_vehicleshop_air = ["avgas_kanister", "reparaturkit", "handy", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1"  ];
 
 // Mercalillo Airport
-_vehicleshop_air2 = ["avgas_kanister", "reparaturkit", "handy", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1","ACE_Rope_M5","ACE_ParachutePack" ];
+_vehicleshop_air2 = ["avgas_kanister", "reparaturkit", "handy", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1" ];
 
 // Police Vehicles (Basic)
 _vehicleshop7 = [ "rpp_hilux", "rpp_sedan", "rpp_skoda" ];
@@ -186,10 +186,10 @@ _vehicleshop7 = [ "rpp_hilux", "rpp_sedan", "rpp_skoda" ];
 _vehicleshop_copheavy = [ "UAZ_CDF", "HMMWV", "SUV_TK_CIV_EP1" ];
 
 // Police Vehicles AIR
-_vehicleshop_copair = ["avgas_kanister","reparaturkit","ACE_Rope_M5", "ACE_ParachutePack"];
+_vehicleshop_copair = ["avgas_kanister","reparaturkit"];
 
 // Terrorist Airvehicles
-_vehicleshop8 = ["avgas_kanister", "reparaturkit", "handy", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1" , "ACE_Rope_M5", "ACE_ParachutePack" ];
+_vehicleshop8 = ["avgas_kanister", "reparaturkit", "handy", "Mi17_Civilian", "An2_1_TK_CIV_EP1", "An2_2_TK_CIV_EP1"  ];
 
 // Equipment Shops
 // Reformatted 2 per line - Stefan
@@ -207,7 +207,7 @@ _gunshop0 = [
 			"ItemRadio", "ItemGPS" , 
 			"HandGrenade_Stone", "ACE_Rope_TOW_M_5",
 			"lockpick", "ACE_Knicklicht_Y",
-			"ACE_KeyCuffs",
+			"ACE_KeyCuffs", "ACE_ParachutePack"
 ];
 
 // Pistol Shop
@@ -240,6 +240,7 @@ _copshop = [
 		   "ACE_Plasma", "ACE_Splint", 
 		   "ACE_Morphine", "ACE_Epinephrine",
 		   "lighter", "soup", 
+           "ACE_Rope_M5", "ACE_ParachutePack",
 		  ["bread", 300, 300], 
 		  ["fish_filet", 490, 350], 
 		  ["normqualitywater1", 300, 200],
@@ -503,6 +504,7 @@ call compile format["%1 = ""%2"" createVehicleLocal %3; %1 setPos %3; clearMagaz
 ["gunbox_cop_response", "AmmoBoxWest", gunbox_responsecop_logic ] call SpawnBox;
 ["gunbox_bag_shotrange", "AmmoBoxWest", shooting_range_logic ] call SpawnBox;
 ["gunbox07", "AmmoBoxWest", gunbox07_logic ] call SpawnBox;
+["gunbox08", "AmmoBoxWest", gunbox08_logic ] call SpawnBox;
 ["gunbox_terrorbox", "AmmoBoxWest", gunbox_terrorbox_logic ] call SpawnBox;
 ["gunbox_blackmarket", "AmmoBoxWest", gunbox_blackmarketbox_logic] call SpawnBox;
 ["box_fabrik_1","AmmoBoxWest",box_fabrik_1_logic] call SpawnBox;
@@ -609,7 +611,7 @@ INV_ItemShops = [
 
 [ressourceshop1_flag, "Resources Shop", dummyobj, dummyobj, _ressourceshop_buy, _ressourceshop_sell, false, "normalshop"],
 
-[clothing, "Clothing Shop", dummyobj, dummyobj, _clothingBuy, _clothingBuy, true, "normalshop"],
+[clothing, "Clothing Shop", gunbox08_logic, dummyobj, _clothingBuy, _clothingBuy, true, "normalshop"],
 
 [none, ">>NSPD Shop<<", dummyobj, NSPD_Shop_spawn, _NSPD_Shop, _NSPD_Shop,true, "normalshop"]
 ];

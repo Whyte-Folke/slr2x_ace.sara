@@ -4,3 +4,7 @@
 	* New techniques such as configs.
 	* Functions instead of scripts. 
 	* New saving system.
+	
+* Add a ammo box to clothing shop
+* Move fast ropes to equipment shop
+* Move parachutes to equipment shop

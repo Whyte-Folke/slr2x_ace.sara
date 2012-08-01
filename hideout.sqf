@@ -183,6 +183,10 @@ hideout_arraynumber = _hideoutnummer;
 if (_art == "init") then
 {					
 INV_local_hashideout = 0;	
+
+if (!(isNil "SLR_hideout_init")) exitWith {};
+
+SLR_hideout_init = true;
                                      					
 _a1 = 0; 
 _a2 = 0; 

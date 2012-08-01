@@ -58,6 +58,7 @@ if ((!isServer) or (Server_Client)) then
 	[0, 0, 0, ["clientloop"]] execVM "guildsTerrorMisc.sqf";
 	[]execVM "terrorist_shop.sqf";
 	["clientloop2"]execVM "loopChecks.sqf";
+    ["clientStateLoop"] execVM "loopChecks.sqf";
 	[]execVM "animList.sqf";
 	[]execVM "atmBankActions.sqf";
 	[]execVM "someTrigger.sqf";

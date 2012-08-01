@@ -13,6 +13,33 @@ _a9 = 0;
 _TerrorcivSetWanted   = 0;
 _art = _this select 0;
 
+/* This loop has a shorter sleep time than the other loops */
+if (_art == "clientStateLoop") then {
+    if (isNil "SLR_var_isRestrained") then {
+     	SLR_var_isRestrained = false;   
+        
+    };
+    
+	while {true} do {
+        _animation = animationState player;
+        
+        if (_animation == "ace_keycuffed_loop") then {
+        	if (!(SLR_var_isRestrained)) then {
+            	/* Restrain the player */  
+               	[] spawn SLR_fnc_restrain;
+            };
+        } else {
+        	if (SLR_var_isRestrained) then {
+            	/* Unrestrain the player */   
+                SLR_var_isRestrained = false;
+            };
+        };
+        
+        
+    	sleep 1;    
+    };
+};
+
 _money = 'money' call INV_GetItemAmount;
 if (_art == "clientloop2") then {	
 	while {true} do {
