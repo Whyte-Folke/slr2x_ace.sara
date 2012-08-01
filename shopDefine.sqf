@@ -83,7 +83,8 @@ _weapsellshop = [
 				"AK_107_Kobra", "AK_107_GL_Kobra",
 				"x26_mag", "x26",
 				"30Rnd_762x39_AK47",
-                                "ACE_MugLite"
+                                "ACE_MugLite", "6Rnd_45ACP",
+				"revolver_EP1", "revolver_gold_EP1"
 ];
 
 // Drugshops
@@ -220,7 +221,8 @@ _gunshop1 = [
 			"MakarovSD", "15Rnd_9x19_M9",
 			"15Rnd_9x19_M9SD", "7Rnd_45ACP_1911",
 			"17Rnd_9x19_glock17", "8Rnd_9x18_Makarov",
-			"8Rnd_9x18_MakarovSD"
+			"8Rnd_9x18_MakarovSD", "6Rnd_45ACP",
+		        "revolver_EP1", "revolver_gold_EP1"
 ];
 
 // Rifle Shop
