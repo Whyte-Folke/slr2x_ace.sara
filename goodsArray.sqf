@@ -193,6 +193,8 @@ INV_AlleWaffenObjekte = [
 
 ["glock17_EP1", ["Waffe", "pistol"],["glock17_EP1", "Glock 17 9mm"],[2200, 1000], [1, "handgun", "patrol_training"],[], "glock17_EP1" call ISSE_Cfg_Weapons_GetName,"glock17_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 5] ]]
 
+["ACE_MugLite", ["Waffe", "pistol"],["ACE_MugLite", "Flashlight"],[550, 390], [1, "", ""],[], "ACE_MugLite" call ISSE_Cfg_Weapons_GetName,"ACE_MugLite" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 3],["plastik", 1] ]]
+
 
 ];
 
