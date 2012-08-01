@@ -82,7 +82,8 @@ _weapsellshop = [
 				"M16A4_gl","AK_47_S", 
 				"AK_107_Kobra", "AK_107_GL_Kobra",
 				"x26_mag", "x26",
-				"30Rnd_762x39_AK47"
+				"30Rnd_762x39_AK47",
+                                "ACE_MugLite"
 ];
 
 // Drugshops
@@ -207,12 +208,14 @@ _gunshop0 = [
 			"ItemRadio", "ItemGPS" , 
 			"HandGrenade_Stone", "ACE_Rope_TOW_M_5",
 			"lockpick", "ACE_Knicklicht_Y",
-			"ACE_KeyCuffs", "ACE_ParachutePack"
+			"ACE_KeyCuffs", "ACE_ParachutePack",
+			"ACE_MugLite"
 ];
 
 // Pistol Shop
 // Reformatted 2 per line - Stefan
-_gunshop1 = ["Colt1911", "M9", 
+_gunshop1 = [
+                        "Colt1911", "M9", 
 			"glock17_EP1", "Makarov",
 			"MakarovSD", "15Rnd_9x19_M9",
 			"15Rnd_9x19_M9SD", "7Rnd_45ACP_1911",
@@ -230,7 +233,7 @@ _gunshop7 = [ "MP5A5", "30rnd_9x19_MP5"
 // Basic Cop Shop
 // Reformatted 2 per line or 1 item array per line - Stefan
 _copshop = [
-           "kanister", "handy",
+                   "kanister", "handy",
 		   "ItemMap", "ItemCompass", 
 		   "ItemWatch", "ItemRadio", 
 		   "ItemGPS", "ACE_KeyCuffs", 
@@ -240,14 +243,15 @@ _copshop = [
 		   "ACE_Plasma", "ACE_Splint", 
 		   "ACE_Morphine", "ACE_Epinephrine",
 		   "lighter", "soup", 
-           "ACE_Rope_M5", "ACE_ParachutePack",
+                   "ACE_Rope_M5", "ACE_ParachutePack",
 		  ["bread", 300, 300], 
 		  ["fish_filet", 490, 350], 
 		  ["normqualitywater1", 300, 200],
 		  ["normqualitywater2", 330, 200], 
 		  "Binocular", "NVGoggles", 
 		  "Laserdesignator", "Laserbatteries", 
-		  "kleinesreparaturkit", "ACE_Knicklicht_Y"
+		  "kleinesreparaturkit", "ACE_Knicklicht_Y",
+                  "ACE_MugLite"
 ];
 
 // Copshop Patrol License
