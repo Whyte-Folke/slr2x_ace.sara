@@ -134,7 +134,7 @@ if (_civnumber == 2) then
 		_markername = format["cop%1_marker", _copnumber];
 		_copmarkernamearray = _copmarkernamearray + [_markername];
 		_copmarker setMarkerShapeLocal "ICON";
-		_markername setMarkerTypeLocal "Destroy";
+		_markername setMarkerTypeLocal "Triangle";
 		_markername setMarkerColorLocal "ColorGreen";
 		format["cop%1_marker", _copnumber] setMarkerTextLocal format["Cop%1" , _copnumber];
 		_copnumber = _copnumber + 1;
@@ -158,11 +158,12 @@ if (_civnumber == 2) then
 			{
 				if (alive _cop) then 
 				{
+                    (_copmarkernamearray select _counter) SetMarkerDirLocal getDir _cop;
 					(_copmarkernamearray select _counter) SetMarkerPosLocal [position _cop select 0, position _cop select 1];
 				};
 			};
 			_counter = _counter + 1;
 		};
-		sleep 5;
+		sleep 1;
 	};
 };

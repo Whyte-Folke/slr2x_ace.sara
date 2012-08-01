@@ -1,6 +1,6 @@
 LANGUAGE, English, German
 
-STRM_mission_name, "Sahrani-Life:Reloaded 2.07", "Sahrani-Life:Reloaded 2.07"
+STRM_mission_name, "Sahrani-Life:Reloaded 2.08", "Sahrani-Life:Reloaded 2.08"
 
 // MISC
 // ############################################################################001
@@ -13,9 +13,9 @@ STRS_hints_vehicle_information, "VEHICLE INFORMATION:\n\nName: %7\nSpeed: %1\nVe
 STRS_anfang_laden, "Loading... \nPlease Wait.", "Laden... \nBitte warten"
 STRS_anfang_sponsor, "Server forums located at NSS-gamers.forumatic.com", ""
 STRS_anfang_01, "The Sahrani-Life Community\npresent", "Die Sahrani-Life Community (zu finden unter)\npraesentiert"
-STRS_anfang_02, "Highlights in this Version:\n\n2.0, "Highlights in dieser Version:\n\n2.0"
+STRS_anfang_02, "Highlights in this Version:\n\n2.08, "Highlights in dieser Version:\n\n2.08"
 STRS_anfang_03, "An RPG-Mission", "Eine RPG-Mission"
-STRS_anfang_04, "Sahrani Life: Reloaded\nVersion 2.0", "Sahrani Life: Reloaded\nVersion 2.0"
+STRS_anfang_04, "Sahrani Life: Reloaded\nVersion 2.08", "Sahrani Life: Reloaded\nVersion 2.08"
 STRS_anfang_05_civ, "Welcome to Sahrani, citizen!\n\nPlease check the guide (briefing) for all you need to know!", "Willkommen in Sahrani, Buerger!\n\nBitte Checke das briefing um alles zu Erfahren was du wissen musst!"
 STRS_anfang_05_cop, "Welcome to duty, officer!\n\nPlease check the guide (briefing) for all you need to know!", "Willkommen bei der Pflicht, Officer!\n\nBitte Checke das briefing um alles zu Erfahren was du wissen musst!"
 STRS_anfang_cop_loadout, "You default loadout is a Mossberg 590 Pump-Action Shotgun with non-lethal bean-bags, aswell as a Beretta 92FS.\n\nTo get better Weapons, Equipments and Vehicles, you have to buy the approriate trainings in the base.", "Deine Standard Ausruestung besteht aus einer Mossberg 590 Pump-Action Shotgun mit nicht toedlichen Bohnen-Saeckchen (bean-bag) Munition, sowie einer Beretta 92FS.\n\nUm an bessere Waffen, Ausruestungen und Fahrzeuge zu gelangen, musst du die entsprechended Cop-Trainings in der Basis kaufen."

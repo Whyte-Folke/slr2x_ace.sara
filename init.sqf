@@ -62,6 +62,7 @@ if ((!isServer) or (Server_Client)) then
 	[]execVM "animList.sqf";
 	[]execVM "atmBankActions.sqf";
 	[]execVM "someTrigger.sqf";
+    [] execVM "restrain.sqf";
 	[]execVM "someTrigger2.sqf";
 	[]execVM "lottoFlagActions.sqf";
 	[]execVM "refuelActions.sqf";
