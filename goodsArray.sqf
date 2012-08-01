@@ -195,6 +195,9 @@ INV_AlleWaffenObjekte = [
 
 ["ACE_MugLite", ["Waffe", "pistol"],["ACE_MugLite", "Flashlight"],[550, 390], [1, "", ""],[], "ACE_MugLite" call ISSE_Cfg_Weapons_GetName,"ACE_MugLite" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 3],["plastik", 1] ]]
 
+["revolver_EP1", ["Waffe", "pistol"],["revolver_EP1", "Revolver .45 Silver"],[5500, 3500], [1, "handgun", "patrol_training"],[], "revolver_EP1" call ISSE_Cfg_Weapons_GetName,"revolver_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 2] ]]
+
+["revolver_gold_EP1", ["Waffe", "pistol"],["revolver_gold_EP1", "Revolver .45 Gold"],[8500, 4500], [1, "handgun", "patrol_training"],[], "revolver_gold_EP1" call ISSE_Cfg_Weapons_GetName,"revolver_gold_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 2] ]]
 
 ];
 
@@ -326,6 +329,8 @@ INV_AlleMagazinObjekte = [
 ["ACE_Knicklicht_Y",["Magazin", "equipment"],["ACE_Knicklicht_Y", "Chemlight Yellow"],[350, 290],[1, ""],[], "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ],
 
 ["ACE_KeyCuffs",["Magazin", "equipment"],["ACE_KeyCuffs", "Handcuffs"],[350, 290],[1, ""],[], "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ]
+
+["6Rnd_45ACP",["Magazin", "pistol"],["6Rnd_45ACP", "6Rnd 45ACP Revolver"],[140, 50], [1, ""], [], "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
 
 ];
 
