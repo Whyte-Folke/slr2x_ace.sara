@@ -26,6 +26,7 @@ if (_art == "use") then {
 			if ((random 100) > 5) then { 
 				format ["%1 lock false;", _closeVcl] call ISSE_pub_execPstr;
 				_closeVcl setpos [(getpos impoundlot select 0)+(random 4)-(random 4), (getpos impoundlot select 1)+(random 4)-(random 4), (getpos impoundlot select 2)];
+				sleep 0.5;
 				_closeVcl setdir 180;
 				//kontostand = kontostand + impound; 
 				//impound call ISSE_str_IntToStr;
