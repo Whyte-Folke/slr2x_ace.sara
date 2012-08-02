@@ -324,7 +324,7 @@ INV_AlleMagazinObjekte = [
 
 ["ACE_Rope_M5",["Magazin", "equipment"],["ACE_Rope_M5", "Fast Rope"],[2500, 1600],[1, ""],[], "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M5" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ],
 
-["ACE_ParachutePack",["Magazin", "equipment"],["ACE_ParachutePack", "Steerable Parachute"],[5500, 4600],[1, ""],[], "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, [["plastik", 3]] ],
+["ACE_ParachutePack",["Magazin", "launcher"],["ACE_ParachutePack", "Steerable Parachute"],[5500, 4600],[1, ""],[], "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, "ACE_ParachutePack" call ISSE_Cfg_MagazineInfo, [["plastik", 3]] ],
 
 ["ACE_Knicklicht_Y",["Magazin", "equipment"],["ACE_Knicklicht_Y", "Chemlight Yellow"],[350, 290],[1, ""],[], "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ],
 
