@@ -96,12 +96,12 @@ if (_art == 6) then
 
 	publicVariable "crateweaponarray";
 	publicVariable "cratemagarray";
-	konvoybox setdamage 0;
+	_crate setdamage 0;
 	sleep 3;
 	format ["
 	ClearMagazineCargo %1;
 	ClearWeaponCargo %1;
-	{%1 addWeaponCargo   [(_x select 0), (_x select 1)];} forEach crateweaponarray;
-	{%1 addMagazineCargo [(_x select 0), (_x select 1)];} forEach cratemagarray;
-	", konvoybox] call Isse_Pub_execPstr;
+	{%1 addWeaponCargoGlobal   [(_x select 0), (_x select 1)];} forEach crateweaponarray;
+	{%1 addMagazineCargoGlobal [(_x select 0), (_x select 1)];} forEach cratemagarray;
+	", _crate] call Isse_Pub_execPstr;
 };
