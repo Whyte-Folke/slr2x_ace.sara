@@ -191,11 +191,11 @@ INV_AlleWaffenObjekte = [
 
 ["ACE_Stretcher",["Waffe", "pistol"],["ACE_Stretcher", "Stretcher"],[400, 250], [1, "medic", "medic"], [], "ACE_Stretcher" call ISSE_Cfg_Weapons_GetName, "ACE_Stretcher" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
 
-["glock17_EP1", ["Waffe", "pistol"],["glock17_EP1", "Glock 17 9mm"],[2200, 1000], [1, "handgun", "patrol_training"],[], "glock17_EP1" call ISSE_Cfg_Weapons_GetName,"glock17_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 5] ]]
+["glock17_EP1", ["Waffe", "pistol"],["glock17_EP1", "Glock 17 9mm"],[2200, 1000], [1, "handgun", "patrol_training"],[], "glock17_EP1" call ISSE_Cfg_Weapons_GetName,"glock17_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 5] ]],
 
-["ACE_MugLite", ["Waffe", "pistol"],["ACE_MugLite", "Flashlight"],[550, 390], [1, "", ""],[], "ACE_MugLite" call ISSE_Cfg_Weapons_GetName,"ACE_MugLite" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 3],["plastik", 1] ]]
+["ACE_MugLite", ["Waffe", "pistol"],["ACE_MugLite", "Flashlight"],[550, 390], [1, "", ""],[], "ACE_MugLite" call ISSE_Cfg_Weapons_GetName,"ACE_MugLite" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 3],["plastik", 1] ]],
 
-["revolver_EP1", ["Waffe", "pistol"],["revolver_EP1", "Revolver .45 Silver"],[5500, 3500], [1, "handgun", "patrol_training"],[], "revolver_EP1" call ISSE_Cfg_Weapons_GetName,"revolver_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 2] ]]
+["revolver_EP1", ["Waffe", "pistol"],["revolver_EP1", "Revolver .45 Silver"],[5500, 3500], [1, "handgun", "patrol_training"],[], "revolver_EP1" call ISSE_Cfg_Weapons_GetName,"revolver_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 2] ]],
 
 ["revolver_gold_EP1", ["Waffe", "pistol"],["revolver_gold_EP1", "Revolver .45 Gold"],[8500, 4500], [1, "handgun", "patrol_training"],[], "revolver_gold_EP1" call ISSE_Cfg_Weapons_GetName,"revolver_gold_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 2] ]]
 
