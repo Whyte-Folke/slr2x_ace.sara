@@ -328,9 +328,9 @@ INV_AlleMagazinObjekte = [
 
 ["ACE_Knicklicht_Y",["Magazin", "equipment"],["ACE_Knicklicht_Y", "Chemlight Yellow"],[350, 290],[1, ""],[], "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, "ACE_Knicklicht_Y" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ],
 
-["ACE_KeyCuffs",["Magazin", "equipment"],["ACE_KeyCuffs", "Handcuffs"],[350, 290],[1, ""],[], "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ]
+["ACE_KeyCuffs",["Magazin", "equipment"],["ACE_KeyCuffs", "Handcuffs"],[350, 290],[1, ""],[], "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ],
 
-["6Rnd_45ACP",["Magazin", "pistol"],["6Rnd_45ACP", "6Rnd 45ACP Revolver"],[140, 50], [1, ""], [], "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
+["6Rnd_45ACP",["Magazin", "pistol"],["6Rnd_45ACP", "6Rnd 45ACP Revolver"],[140, 50], [1, ""], [], "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ]
 
 ];
 
