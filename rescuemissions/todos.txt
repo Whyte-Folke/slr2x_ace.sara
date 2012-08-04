@@ -1,0 +1,4 @@
+Unforgiven: ["Money", amount] call INV_addInventoryItem; for cash
+Unforgiven: Kontostand = Kontostand + amount; for bank
+[ { SQF_CODE }, [PARAMS]] call SLR_fnet_execPublic;
+["FunctionName", [PARAMS]] call SLR_fnet_execPublic;
