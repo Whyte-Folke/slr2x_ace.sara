@@ -1,4 +1,9 @@
-Unforgiven: ["Money", amount] call INV_addInventoryItem; for cash
-Unforgiven: Kontostand = Kontostand + amount; for bank
+Spawn Money to inventory: ["Money", amount] call INV_addInventoryItem; for cash
+Spawn Money to bank account Kontostand = Kontostand + amount; for bank
 [ { SQF_CODE }, [PARAMS]] call SLR_fnet_execPublic;
 ["FunctionName", [PARAMS]] call SLR_fnet_execPublic;
+
+ToDo:
+ - change missions to be independent from helicopter
+ - change ways to detect when to activate special tasks like injuring the people when medic has a distance of less than x meters
+ - new mission ideas: heart attack, airplane emergency, possibly a search for a missing person
