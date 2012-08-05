@@ -7,6 +7,8 @@
 // Database Name: slr1
 
 
+////////// PLAYER QUERIES //////////
+
 // Check Player Account Exists With PID
 // %1 = PID
 // Returns (via var checkAccount): Boolean; 0 (No Account), 1 (Account Found)
@@ -28,6 +30,22 @@
 'SELECT * FROM players WHERE pid=%2 LIMIT 1'
 
 
+// Create Player (After Forum Authentication)
+// %1 = PID
+// %2 = Name
+// %3 = Password (Plain Text)
+// %4 = Initial Bank Balance
+// Returns: None
+'INSERT INTO players (pid, name, password, bankbalance) VALUES (%1, %2, %3, %4)'
+
+
+// Change Players Status to Online/Offline
+// %1 = 1 (Online), 0 (Offline)
+// %2 = PID
+// Returns: None
+'UPDATE players SET online=%1 WHERE pid=%2'
+
+
 // Get Player Name From PID
 // %1 = PID
 // Returns: String
@@ -35,6 +53,10 @@
 // just change 'name' to column header to result required
 'SELECT name FROM players WHERE pid=%1 LIMIT 1'
 
+//////////////////////////////////////
+
+
+////////// LICENCE QUERIES //////////
 
 // Get Array of Players Licences using PID
 // %1 = PID
@@ -42,12 +64,59 @@
 'SELECT licence FROM licences WHERE pid=%1'
 
 
+// Add Licence to Player Licences using PID and Licence Name
+// %1 = PID
+// %2 = Licence
+// Returns: None
+'INSERT INTO licences (pid, licence) VALUES (%1, %2)'
+
+
+// Remove Licence from Player Licences Using PID and Licence Name
+// %1 = PID
+// %2 = Licence
+// Returns: None
+'DELETE FROM licences WHERE pid=%1 AND licence=%2'
+
+//////////////////////////////////////
+
+////////// STORAGE QUERIES //////////
+
 // Get Array of Items and Quantity in Certain Storage using Storage Classname and PID
 // %1 = Storage Classname (eg copstore1)
 // %2 = PID
 // Returns: Array
 'SELECT itemclass, amount FROM storages WHERE storeloc = %1 AND pid = %2';
 
+// Update Storage Items Quantity
+// %1 = New Amount
+// %2 = PID
+// %3 = Storage Location
+// %4 = Item Classname
+// Returns: None
+'UPDATE storages SET amount=%1 WHERE pid=%2 AND storeloc=%3 AND itemclass=$4'
+
+
+// Delete Item from Storage (ie 0 Quantity)
+// %1 = New Amount
+// %2 = PID
+// %3 = Storage Location
+// %4 = Item Classname
+// Returns: None
+'DELETE FROM storages WHERE pid=%2 AND storeloc=%3 AND itemclass=$4'
+
+
+// Add Item to Storage
+// %1 = PID
+// %2 = Storage Location
+// %3 = ItemClassname
+// %4 = Initial Quantity
+// Returns: None
+'INSERT INTO storages (pid, storeloc, itemclass, amount) VALUES (%1, %2, %3, %4)'
+
+
+//////////////////////////////////////
+
+////////// FACTORY QUERIES //////////
 
 // Get Array of Factories using PID
 // %1 = PID
@@ -55,3 +124,4 @@
 'SELECT factory FROM factories WHERE pid=%1'
 
 
+//////////////////////////////////////
