@@ -1,0 +1,38 @@
+///////////////////////////////////////////////////////////////
+// SQL Queries for SLR 		 								 //
+// For Connecting to MySQL Database                          //
+// Written by Jason - Updated 05/08/2012  01:20 UTC          //
+///////////////////////////////////////////////////////////////
+
+// Database Name: slr1
+
+
+// Check Player Account Exists With PID
+// %1 = PID
+// Returns: Boolean; 0 (No Account), 1 (Account Found)
+'SELECT COUNT(pid) AS checkAccount FROM players WHERE pid=%1 LIMIT 1'
+
+
+// Check Player Account Exists with Name
+// %1 = Player Name
+// Returns: 0 (No Account), 1 (Account Found)
+'SELECT COUNT(pid) AS checkAccount FROM players WHERE name=%1 LIMIT 1'
+
+
+// Get Player Data Array
+// %1 = Player Name
+// %2 = PID
+// Returns: Array
+'SELECT * FROM players WHERE name=%1 LIMIT 1'
+// OR
+'SELECT * FROM players WHERE pid=%2 LIMIT 1'
+
+
+// Get Player Name From PID
+// %1 = PID
+// Returns: String
+// NOTE: Can get any variable return as string,
+// just change 'name' to column header to result required
+'SELECT name FROM players WHERE pid=%1 LIMIT 1'
+
+
