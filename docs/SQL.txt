@@ -9,13 +9,13 @@
 
 // Check Player Account Exists With PID
 // %1 = PID
-// Returns: Boolean; 0 (No Account), 1 (Account Found)
+// Returns (via var checkAccount): Boolean; 0 (No Account), 1 (Account Found)
 'SELECT COUNT(pid) AS checkAccount FROM players WHERE pid=%1 LIMIT 1'
 
 
 // Check Player Account Exists with Name
 // %1 = Player Name
-// Returns: 0 (No Account), 1 (Account Found)
+// Returns (via var checkAccount): 0 (No Account), 1 (Account Found)
 'SELECT COUNT(pid) AS checkAccount FROM players WHERE name=%1 LIMIT 1'
 
 
