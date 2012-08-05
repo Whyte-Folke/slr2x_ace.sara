@@ -36,3 +36,22 @@
 'SELECT name FROM players WHERE pid=%1 LIMIT 1'
 
 
+// Get Array of Players Licences using PID
+// %1 = PID
+// Returns: Array
+'SELECT licence FROM licences WHERE pid=%1'
+
+
+// Get Array of Items and Quantity in Certain Storage using Storage Classname and PID
+// %1 = Storage Classname (eg copstore1)
+// %2 = PID
+// Returns: Array
+'SELECT itemclass, amount FROM storages WHERE storeloc = %1 AND pid = %2';
+
+
+// Get Array of Factories using PID
+// %1 = PID
+// Returns: Array
+'SELECT factory FROM factories WHERE pid=%1'
+
+
