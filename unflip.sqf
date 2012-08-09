@@ -6,8 +6,10 @@ if (!(player == vehicle player)) exitWith {player groupChat localize "STRS_in_ca
  {
  if (not(isNull(_x))) then 
  {						
- if ( ((_vehicle distance _x) < 7) and (_x isKindOf "cooter" )) exitWith 
+ if ( ((_vehicle distance _x) < 7)) exitWith 
  {
+// removed check for Cooter until replacement is found, re-add after (_vehicle distance _x) < 7)
+// code: (_vehicle distance _x) < 7)
  _unflip = 1
  }							
  };								
