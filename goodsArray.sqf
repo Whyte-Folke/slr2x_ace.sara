@@ -435,7 +435,7 @@ INV_AlleFahrzeugeArray = [
 
 ["An2_2_TK_CIV_EP1", ["Fahrzeug", "air"],["An2_2_TK_CIV_EP1", "An2 TakAir"],[155500, 140000], [2, "air", "air_support_training"], [500,[1,0,0,8] ], "An2_2_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "An2_2_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 80],["ebauteile", 15],["glas", 8],["mineraloel", 4]]],
 
-["SUV_TK_CIV_EP1", ["Fahrzeug", "pickup"],["SUV_TK_CIV_EP1", "SUV black"],[155500, 140000], [2, "pickup", "patrol_training"], [650,[1,0,0,5] ], "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 60],["ebauteile", 12],["glas", 4],["mineraloel", 4]]]
+["SUV_TK_CIV_EP1", ["Fahrzeug", "pickup"],["SUV_TK_CIV_EP1", "SUV black"],[40000, 25000], [2, "pickup", "patrol_training"], [650,[1,0,0,5] ], "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetName, "SUV_TK_CIV_EP1" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 60],["ebauteile", 12],["glas", 4],["mineraloel", 4]]]
 
 ];
 
