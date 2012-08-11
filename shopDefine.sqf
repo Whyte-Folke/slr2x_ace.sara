@@ -87,7 +87,7 @@ _weapsellshop = [
 				"revolver_EP1", "revolver_gold_EP1",
                                 "ACE_Rope_M50","ACE_Rope_M60",
                                 "ACE_Rope_M90","ACE_Rope_M120",
-                                "ACE_Minedetector_US"
+                                "ACE_Minedetector_US", "ACE_Bodybag"
 ];
 
 // Drugshops
@@ -215,7 +215,8 @@ _gunshop0 = [
 			"ACE_KeyCuffs", "ACE_ParachutePack",
 			"ACE_MugLite", "ACE_Rope_M50",
                         "ACE_Rope_M60", "ACE_Rope_M90",
-                        "ACE_Rope_M120", "ACE_Minedetector_US"
+                        "ACE_Rope_M120", "ACE_Minedetector_US",
+                        "ACE_Bodybag"
 ];
 
 // Pistol Shop
@@ -258,7 +259,7 @@ _copshop = [
 		  "Binocular", "NVGoggles", 
 		  "Laserdesignator", "Laserbatteries", 
 		  "kleinesreparaturkit", "ACE_Knicklicht_Y",
-                  "ACE_MugLite"
+                  "ACE_MugLite", "ACE_Bodybag"
 ];
 
 // Copshop Patrol License
