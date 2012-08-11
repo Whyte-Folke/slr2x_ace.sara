@@ -86,7 +86,8 @@ _weapsellshop = [
                                 "ACE_MugLite", "6Rnd_45ACP",
 				"revolver_EP1", "revolver_gold_EP1",
                                 "ACE_Rope_M50","ACE_Rope_M60",
-                                "ACE_Rope_M90","ACE_Rope_M120"
+                                "ACE_Rope_M90","ACE_Rope_M120",
+                                "ACE_Minedetector_US"
 ];
 
 // Drugshops
@@ -214,7 +215,7 @@ _gunshop0 = [
 			"ACE_KeyCuffs", "ACE_ParachutePack",
 			"ACE_MugLite", "ACE_Rope_M50",
                         "ACE_Rope_M60", "ACE_Rope_M90",
-                        "ACE_Rope_M120"
+                        "ACE_Rope_M120", "ACE_Minedetector_US"
 ];
 
 // Pistol Shop
@@ -288,7 +289,7 @@ _copshop_response = [
 					"MP5A5", "30rnd_9x19_MP5", 
 					"30rnd_9x19_MP5SD","m1014",
 					"8Rnd_B_Beneli_74Slug","30Rnd_556x45_Stanag",
-					"SpawnObj_minibunker"
+					"SpawnObj_minibunker", "ACE_Minedetector_US"
 ];
 
 // Copshop SWAT
@@ -311,7 +312,7 @@ _copshop_swat = [
 				"Stinger", "Stinger", 
 				"HandGrenade_East", "Mine", 
 				"PipeBomb", "SpawnObj_minibunker", 
-				"SpawnObj_MgPillbox"
+				"SpawnObj_MgPillbox", "ACE_Minedetector_US"
 ];
 
 // Boarderpatrol Weapons
