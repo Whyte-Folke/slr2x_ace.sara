@@ -84,7 +84,9 @@ _weapsellshop = [
 				"x26_mag", "x26",
 				"30Rnd_762x39_AK47",
                                 "ACE_MugLite", "6Rnd_45ACP",
-				"revolver_EP1", "revolver_gold_EP1"
+				"revolver_EP1", "revolver_gold_EP1",
+                                "ACE_Rope_M50","ACE_Rope_M60",
+                                "ACE_Rope_M90","ACE_Rope_M120"
 ];
 
 // Drugshops
@@ -155,7 +157,7 @@ _vehicleshop1 = [ "Skoda", "SkodaBlue", "SkodaRed", "SkodaGreen", "Car_hatchback
 ];
 
 // Pickup Shop
-_vehicleshop2 = ["LandRover_CZ_EP1", "S1203_TK_CIV_EP1", "hilux1_civil_1_open", "hilux1_civil_2_covered", "hilux1_civil_3_open", "datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open"];
+_vehicleshop2 = ["LandRover_CZ_EP1", "S1203_TK_CIV_EP1", "hilux1_civil_1_open", "hilux1_civil_2_covered", "hilux1_civil_3_open", "datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open", "SUV_TK_CIV_EP1"];
 
 // Truck Shop
 _vehicleshop3 = [ "Ural_CDF", "Ural_TK_CIV_EP1", "V3S_Civ", "Ikarus", "UAZ_CDF"];
@@ -210,7 +212,9 @@ _gunshop0 = [
 			"HandGrenade_Stone", "ACE_Rope_TOW_M_5",
 			"lockpick", "ACE_Knicklicht_Y",
 			"ACE_KeyCuffs", "ACE_ParachutePack",
-			"ACE_MugLite"
+			"ACE_MugLite", "ACE_Rope_M50",
+                        "ACE_Rope_M60", "ACE_Rope_M90",
+                        "ACE_Rope_M120"
 ];
 
 // Pistol Shop
