@@ -49,7 +49,7 @@
  };
   if ((random 100) < 85) then
  {	
- if ((_closeVcl isKindOf "sahco") or (_closeVcl isKindOf "barcuda") or (_closeVcl isKindOf "ffs_felicia_pol") or (_closeVcl isKindOf "slr_HiluxPolice") or (_closeVcl isKindOf "slr_HiluxSwat") or (_closeVcl isKindOf "slr_HiluxPolice_covered") or (_closeVcl isKindOf "slr_landroverPolice") or (_closeVcl isKindOf "slr_datsunPolice") or (_closeVcl isKindOf "slr_policeSkoda") or (_closeVcl isKindOf "slr_landroverRescue") or (_closeVcl isKindOf "fury") or (_closeVcl isKindOf "roadrunner2") or (_closeVcl isKindOf "440cuda") or (_closeVcl isKindOf "chargerrt") or (_closeVcl isKindOf "hemicuda") or (_closeVcl isKindOf "challenger") or (_closeVcl isKindOf "challenger_b") or (_closeVcl isKindOf "challenger_c")) then 
+ if ((_closeVcl isKindOf "rpp_hilux") or (_closeVcl isKindOf "rpp_hatch") or (_closeVcl isKindOf "rpp_sedan") or (_closeVcl isKindOf "rpp_skoda") or (_closeVcl isKindOf "Ikarus") or (_closeVcl isKindOf "S1203_ambulance_EP1") or (_closeVcl isKindOf "hilux1_civil_1_open") or (_closeVcl isKindOf "hilux1_civil_2_covered") or (_closeVcl isKindOf "hilux1_civil_3_open") or (_closeVcl isKindOf "LandRover_CZ_EP1") or (_closeVcl isKindOf "Ural_TK_CIV_EP1") or (_closeVcl isKindOf "Ural_CDF") or (_closeVcl isKindOf "MTVR") or (_closeVcl isKindOf "SUV_TK_CIV_EP1") or (_closeVcl isKindOf "Car_hatchback") or (_closeVcl isKindOf "Car_sedan") or (_closeVcl isKindOf "HMMWV_M2") or (_closeVcl isKindOf "HMMWV")) then 
  {
  format ["if (!(isserver)) then {[%1, ""car_alarm"", 1.080 , 90] execVM ""soundLoop.sqf""};",_closeVcl] call ISSE_pub_execPstr;
  _b = 0;
