@@ -154,7 +154,8 @@ INV_AlleWaffenObjekte = [
 
 ["RPG7V", ["Waffe", "launcher"],["RPG7V", "RPG7"], [100000, 3500], [3, "explosive", "swat_training"], [], "RPG7V" call ISSE_Cfg_Weapons_GetName, "RPG7V" call ISSE_Cfg_Weapons_GetDesc, [["stahl", 60],["plastik", 20],["ebauteile", 5]] ],
 
-
+// Metal Detector
+["ACE_Minedetector_US", ["Waffe", "rifle"],["ACE_Minedetector_US", "Metaldetector"], [8000, 5500], [2, "", ""], [], "ACE_Minedetector_US" call ISSE_Cfg_Weapons_GetName, "ACE_Minedetector_US" call ISSE_Cfg_Weapons_GetDesc, [["stahl", 1],["ebauteile", 1]]],
 
 // PISTOLS (Fixed for A2 - Tom)
 ["Makarov",["Waffe", "pistol"],["Makarov", "Makarov 9x18mm"],[1150, 500], [1, "handgun", "patrol_training"],[], "Makarov" call ISSE_Cfg_Weapons_GetName,"Makarov" call ISSE_Cfg_Weapons_GetDesc,[["holz", 5],["stahl", 5]] ],
