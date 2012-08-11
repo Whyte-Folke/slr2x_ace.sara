@@ -330,8 +330,15 @@ INV_AlleMagazinObjekte = [
 
 ["ACE_KeyCuffs",["Magazin", "equipment"],["ACE_KeyCuffs", "Handcuffs"],[350, 290],[1, ""],[], "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, "ACE_KeyCuffs" call ISSE_Cfg_MagazineInfo, [["plastik", 2]] ],
 
-["6Rnd_45ACP",["Magazin", "pistol"],["6Rnd_45ACP", "6Rnd 45ACP Revolver"],[140, 50], [1, ""], [], "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ]
+["6Rnd_45ACP",["Magazin", "pistol"],["6Rnd_45ACP", "6Rnd 45ACP Revolver"],[140, 50], [1, ""], [], "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, "6Rnd_45ACP" call ISSE_Cfg_MagazineInfo, [["kupfer", 1],["schwarzpulver", 1]] ],
 
+["ACE_Rope_M50",["Magazin", "equipment"],["ACE_Rope_M50", "Fast Rope 15 Meters"],[1500, 600],[1, ""],[], "ACE_Rope_M50" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M50" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ],
+
+["ACE_Rope_M50",["Magazin", "equipment"],["ACE_Rope_M60", "Fast Rope 18 Meters"],[1500, 600],[1, ""],[], "ACE_Rope_M60" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M60" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ],
+
+["ACE_Rope_M90",["Magazin", "equipment"],["ACE_Rope_M90", "Fast Rope 27 Meters"],[1500, 600],[1, ""],[], "ACE_Rope_M90" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M90" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ],
+
+["ACE_Rope_M120",["Magazin", "equipment"],["ACE_Rope_M120", "Fast Rope 36 Meters"],[1500, 600],[1, ""],[], "ACE_Rope_M120" call ISSE_Cfg_MagazineInfo, "ACE_Rope_M120" call ISSE_Cfg_MagazineInfo, [["plastik", 1]] ]
 ];
 
 // Vehicle Array (Fixed for A2 - Tom)
