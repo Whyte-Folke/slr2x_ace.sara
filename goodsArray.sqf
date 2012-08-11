@@ -184,7 +184,7 @@ INV_AlleWaffenObjekte = [
 
 ["ACE_GlassesTactical", ["Waffe", "pistol"],["ACE_GlassesTactical", "Tactical Goggles"],[500, 250], [1, "", ""], [], "ACE_GlassesTactical" call ISSE_Cfg_Weapons_GetName, "ACE_GlassesTactical" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
 
-["ACE_Earplugs", ["Waffe", "pistol"],["ACE_Earplugs", "Eatplugs"],[100, 50], [1, "", ""], [], "ACE_Earplugs" call ISSE_Cfg_Weapons_GetName, "ACE_Earplugs" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
+["ACE_Earplugs", ["Waffe", "pistol"],["ACE_Earplugs", "Earplugs"],[100, 50], [1, "", ""], [], "ACE_Earplugs" call ISSE_Cfg_Weapons_GetName, "ACE_Earplugs" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
 
 ["ACE_GlassesGasMask_US", ["Waffe", "pistol"],["ACE_GlassesGasMask_US", "Gasmask"],[4500, 1250], [1, "", ""], [], "ACE_GlassesGasMask_US" call ISSE_Cfg_Weapons_GetName, "ACE_GlassesGasMask_US" call ISSE_Cfg_Weapons_GetDesc, [["kupfer", 1],["schwarzpulver", 1]] ],
 
@@ -199,6 +199,8 @@ INV_AlleWaffenObjekte = [
 ["revolver_EP1", ["Waffe", "pistol"],["revolver_EP1", "Revolver .45 Silver"],[5500, 3500], [1, "handgun", "patrol_training"],[], "revolver_EP1" call ISSE_Cfg_Weapons_GetName,"revolver_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 2] ]],
 
 ["revolver_gold_EP1", ["Waffe", "pistol"],["revolver_gold_EP1", "Revolver .45 Gold"],[8500, 4500], [1, "handgun", "patrol_training"],[], "revolver_gold_EP1" call ISSE_Cfg_Weapons_GetName,"revolver_gold_EP1" call ISSE_Cfg_Weapons_GetDesc,[["stahl", 6],["plastik", 2] ]]
+
+["ACE_bodybag", ["Waffe", "pistol"],["ACE_bodybag", "Bodybag"],[100, 50], [1, "", ""], [], "ACE_bodybag" call ISSE_Cfg_Weapons_GetName, "ACE_Bodybag" call ISSE_Cfg_Weapons_GetDesc, [["plastik", 1]] ]
 
 ];
 
