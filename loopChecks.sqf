@@ -184,7 +184,9 @@ EAST setFriend [RESISTANCE, 1];
         };
         
         _hasMask = player getVariable "ACE_Identity";
-        if (_hasMask == "ACE_GlassesBalaklava") then {
+        if (_hasMask == "ACE_GlassesBalaklava" 
+         or _hasMask == "ACE_GlassesBalaklavaGray" 
+         or _hasMask == "ACE_GlassesBalaklavaOlive") then {
             if (!(SLR_hasMask)) then {
               player setVariable["ACE_Identity", _hasMask, true];
                 SLR_hasMask = true;  
